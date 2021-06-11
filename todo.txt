@@ -9,4 +9,5 @@ home page:
 publication page:
 	put the link to download bib file from dblp
 	put the link to doanload ms word xml file (I can convert the bib file to xml by JabRef tool)
+	put a subsection for patents
 	
