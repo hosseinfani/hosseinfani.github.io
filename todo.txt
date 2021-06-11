@@ -1,0 +1,12 @@
+All external links => open in a new tab
+Rescale the whole content (like 67% zoom back by chrome for the current version)
+
+home page:
+	shorter gap between my personal image and the bussiness contact 
+	shorter bio so that the upper part of the underlying image can be seen 
+	elevate a lit more the education part so that it can be seen at the first shot
+	
+publication page:
+	put the link to download bib file from dblp
+	put the link to doanload ms word xml file (I can convert the bib file to xml by JabRef tool)
+	
