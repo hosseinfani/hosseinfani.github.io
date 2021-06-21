@@ -1,13 +1,34 @@
-All external links => open in a new tab
-Rescale the whole content (like 67% zoom back by chrome for the current version)
+== General
+- [done] All external links => open in a new tab
+- Rescale the whole content (like 67% zoom back by chrome for the current version)
 
-home page:
-	shorter gap between my personal image and the bussiness contact 
-	shorter bio so that the upper part of the underlying image can be seen 
-	elevate a lit more the education part so that it can be seen at the first shot
-	
-publication page:
-	put the link to download bib file from dblp
-	put the link to doanload ms word xml file (I can convert the bib file to xml by JabRef tool)
-	put a subsection for patents
-	
+== top logo bar
+- [done] remove instagram logo
+- add logo and link for google scholar (pls see the attached image)
+- add logo and link for twitter
+- add logo and link for dblp (pls see the attached image)
+- add logo and link for email (I know we have the email in the left but pls add an extra logo too)
+- add logo and link for slideshare (official logo)
+- add logo and link for painting (pick a logo based on your decision)
+
+== top menu bar
+- [done] pls remove the "coding", "project", "awards", "volneteering"
+- [done] pls put internal links before external links
+
+== Right menu
+- [done] left-align, center
+
+== index:
+- [later] elevate a lit more the education part so that it can be seen at the first shot
+
+== publication:
+- [done] pls all links for "pdf", "doi", etc open to new tab
+- [done] pls remove the navigation bar under the PUBLICATION
+
+- separate publications by year (pls see the attached image)
+- pls left-align the PUBLICATION
+- pls remove bold from PUBLICATION and make it slim (pls see attached image)
+
+- [later] put the link to download bib file from dblp
+- [later] put the link to download ms word xml file (I can convert the bib file to xml by JabRef tool)
+- [later] put a subsection for patents
