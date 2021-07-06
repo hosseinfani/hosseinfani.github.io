@@ -50,8 +50,10 @@ a:focus {
     border-bottom: 0;
 }
 .logo{
-	margin-top: 8px;
+	margin-top: 14px;
 	margin-left: 1.25em;
+	width: 128px;
+	height: 30px;
 }
 @media (min-width: 1200px) {
     .header .container-fluid {
@@ -78,7 +80,7 @@ a:focus {
 
 .header .topbar-col a {
     color: #fff;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 
@@ -486,7 +488,7 @@ a:focus {
 .bio-des{
 	background: #000;
 	opacity: 0.5;
-	width: 96.8%;
+	width: 94.8%;
 	position: absolute;
 	height: 162px;
 	top: 266px;
@@ -635,9 +637,8 @@ p.links a:hover{
    text-decoration: none;
 }
 .line{
-    height: 2px;
+    height: 1px;
     background: black;
-    width: 5%;
     margin-bottom: 20px;
 }
 
@@ -712,4 +713,8 @@ p.card-title {
 }
 .navbar{
     margin-bottom: 5px;
+}
+
+.h3, h3{
+    font-size: 17px;
 }
