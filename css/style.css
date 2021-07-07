@@ -58,7 +58,7 @@ a:focus {
 @media (min-width: 1200px) {
     .header .container-fluid {
         padding-left: 60px;
-        padding-right: 60px;
+        padding-right: 0;
     }
 }
 
@@ -75,7 +75,7 @@ a:focus {
     display: inline-block;
     padding: 0 15px;
     margin-bottom: 0;
-    margin: 12px 0;
+    margin: 12px 15px;
 }
 
 .header .topbar-col a {
@@ -88,7 +88,7 @@ a:focus {
 .header .topbar-social {
     position: relative;
     text-align: right;
-    padding: 6px 20px;
+    padding: 6px 28px;
 }
 
 
@@ -479,7 +479,7 @@ a:focus {
 	margin: 0;
 }
 .bio{
-	background: url("../img/bio.jpg")no-repeat;
+	background: url("../img/index/baker_beach.jpg")no-repeat;
 	background-size: cover;
 	height: 400px;
 	display: flex;
@@ -490,12 +490,13 @@ a:focus {
 	opacity: 0.5;
 	width: 94.8%;
 	position: absolute;
-	height: 162px;
-	top: 266px;
+	height: 133px;
+	top: 295px;
 	z-index: 0;
 }
 .des-p p{
 	margin: 0;
+	/* line-height: 20px; */
 	color: #fff;
 }
 .name-title{font-weight: bold;}
@@ -504,10 +505,10 @@ a:focus {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 12px;
     padding: 0;
 }
-.des-p p{font-size: 1em;}
+.des-p p{font-size: 14px !important;line-height: 27px;}
 section.main-body {
     margin: 2em 10px;
 }
@@ -697,7 +698,7 @@ p.card-title {
 }
 .h-menu ul li a {
     text-align: center;
-    color: black;
+    color: #228896;
     font-size: 1em;
 }
 .h-menu ul li:last-child {
@@ -717,4 +718,11 @@ p.card-title {
 
 .h3, h3{
     font-size: 17px;
+}
+.menu-sec{
+    padding-right: 0;
+}
+.personal-img{
+    width: 100%;
+   
 }
