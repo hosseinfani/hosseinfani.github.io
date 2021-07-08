@@ -88,7 +88,7 @@ a:focus {
 .header .topbar-social {
     position: relative;
     text-align: right;
-    padding: 6px 28px;
+    padding: 10px 28px 0;
 }
 
 
@@ -163,6 +163,7 @@ a:focus {
     section.main-body{
         margin: 1em 0 !important;
     }
+    .md{margin-top: 12em;}
     .navbar-toggle{
         float: left !important;
         margin-left: 1.25em;
@@ -491,7 +492,7 @@ a:focus {
 	width: 94.8%;
 	position: absolute;
 	height: 133px;
-	top: 295px;
+	top: 288px;
 	z-index: 0;
 }
 .des-p p{
@@ -510,7 +511,7 @@ a:focus {
 }
 .des-p p{font-size: 14px !important;line-height: 27px;}
 section.main-body {
-    margin: 2em 10px;
+    margin: 1.5em 10px;
 }
 .pic{
     width: 100%;
