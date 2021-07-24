@@ -1,17 +1,6 @@
-== General
-- google scholar icon
-- icon bar aligned with email
-
-== home:
-- [later] elevate a lit more the education part so that it can be seen at the first shot
-
 == publication:
 - put the link to download bib file from dblp
 - put the link to download ms word xml file (I can convert the bib file to xml by JabRef tool)
 
-== patent
-- add a new page for patent
-
 == career
 - add some desc and photos for uwindsor
-- add some desc and photos for ryerson
