@@ -1,0 +1,389 @@
+/*******************************/
+/********* General CSS *********/
+/*******************************/
+@import url('http://fonts.cdnfonts.com/css/microsoft-sans-serif');
+body {
+    color: #213546;
+    background: #eeeeee;
+    font-family: 'Microsoft Sans Serif', sans-serif !important;
+    margin: auto !important;
+}
+
+p{
+    line-height: 1.5;
+    font-size: 1em;
+}
+a {
+    color: #3FA3D6;
+    transition: .3s;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #5b6061;
+    outline: none;
+    text-decoration: none;
+}
+
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+.container {
+    max-width: 1050px;
+}
+
+
+/*******************************/
+/********** Header CSS *********/
+/*******************************/
+.header {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    border-bottom: 0;
+}
+.logo{
+	margin-top: 14px;
+	margin-left: 1.25em;
+	width: 128px;
+	height: 30px;
+}
+@media (min-width: 1200px) {
+    .header .container-fluid {
+        padding-left: 60px;
+        padding-right: 0;
+    }
+}
+
+
+
+
+.header .topbar {
+    position: relative;
+    background: #3FA3D6;
+    padding: 6px 0px;
+}
+
+.header .topbar .topbar-col {
+    display: inline-block;
+    padding: 0 15px;
+    margin-bottom: 0;
+    margin: 12px 15px;
+}
+
+.topbar2{
+    background: #3FA3D6;
+    position: relative;
+    padding: 6px 0px;
+}
+
+.header .topbar2 .topbar-col {
+    display: inline-block;
+    padding: 0 15px;
+    margin-bottom: 0;
+    margin: 12px 15px;
+}
+
+.header .topbar-col a {
+    color: #fff;
+    font-size: 14px;
+}
+
+
+
+.header .topbar-social {
+    position: relative;
+    text-align: right;
+    padding: 10px 28px 0;
+}
+
+
+.header .dropdown-menu a.active {
+    color: #4F84C4;
+}
+
+@media (min-width: 992px) {
+    .header .navbar {
+        background: #ffffff !important;
+    }
+
+    .header .navbar-brand {
+        display: none;
+    }
+
+    
+   
+}
+
+@media (max-width: 992px) {
+  
+
+    .header .topbar {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+
+    .header .navbar {
+        background: #ffffff !important;
+        border: 1px solid #eeeeee;
+        z-index: 1;
+    }
+
+    .header a.nav-link {
+        padding: 5px 0;
+    }
+
+    .header .dropdown-menu {
+        box-shadow: none;
+    }
+}
+
+
+
+
+@media (max-width: 992px) {
+    .header .navbar .btn {
+        margin: 15px 0 10px 0;
+    }
+}
+
+
+
+@media (max-width: 767.98px) {
+    .row{
+        margin: 0;
+    }
+ 
+    section.main-body{
+        margin: 1em 0 !important;
+    }
+    .md{margin-top: 12em;}
+    .navbar-toggle{
+        float: left !important;
+        margin-left: 1.25em;
+        border-color: #3FA3D6 !important;
+    }
+    .navbar-nav{
+        float: left !important;
+        width: 100%;
+    }
+    .header .topbar-social{
+        text-align: center !important;
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******************************/
+/********* Footer CSS **********/
+/*******************************/
+.footer {
+    position: relative;
+    padding-top: 0;
+    background: #3FA3D6;
+    text-align: center;
+}
+
+
+@media(min-width: 992px) {
+    .footer .container:first-child {
+        max-width: 960px;
+        margin-bottom: 0;
+    }
+
+    .footer .footer-about,
+    .footer .footer-link {
+        padding: 0 30px;
+    }
+}
+
+
+
+
+
+
+.footer .footer-link a:hover {
+    color: #ffffff;
+}
+
+.footer .copyright {
+    padding: 15px;
+    border-top: 0;
+}
+
+.footer .copyright p {
+    margin: 0;
+    font-size: 14px;
+    color: #fff;
+}
+
+
+.footer .copyright p a {
+    color: #fff;
+}
+
+.footer .copyright p a:hover {
+    color: #ffffff;
+}
+.menu {
+    border-bottom: solid #3FA3D6 3px;
+    padding: 0px 16px;
+}
+@media (max-width: 768px) {
+    .footer .copyright p,
+    .footer .copyright .col-md-6:last-child p {
+        margin: 5px 0;
+        text-align: center;
+    }
+}
+
+.title {
+    background: #3FA3D6;
+    padding: 0.5em;
+    border-radius: 5px 5px 0 0;
+}
+.title h3{
+	color: #FFFFFF;
+	font-size: 1.25em !important;
+	text-align: center;
+	margin: 0;
+}
+
+
+section.main-body {
+    margin: 1.5em 10px;
+}
+
+li{font-size: 1em;margin: 4px 0;}
+.navbar-inverse{
+    border: none !important;
+}
+.navbar-nav{
+    float: right;
+    margin-top: 10px !important;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+    background-color: transparent !important;
+    color:#9d9d9d !important;
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+    background-color: #3FA3D6 !important;
+    color: #fff;
+}
+.navbar-nav>li>a{
+    padding: 5px 15px !important;
+}
+a.active{
+    background: #3FA3D6;
+    color:#fff !important;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+    background-color: transparent !important;
+}
+.navbar-inverse .navbar-toggle .icon-bar{
+    background-color:#3FA3D6 !important ;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+    background-color: transparent !important;
+}
+.navbar-collapse{border-top: none !important ;}
+.navbar-inverse .navbar-nav>li>a{
+    color: #000 ;
+}
+
+ol.pul li{
+    text-align: justify !important;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.underline{
+    border-bottom: solid 1px #000;
+    margin-bottom: 20px;
+    margin-left: -25px;
+}
+.underline img{
+    width: 18px;
+}
+ol.pul li a {
+    border: solid 1px #3FA3D6;
+    color: #3FA3D6 !important;
+    padding: 2px 5px;
+    margin: 0 3px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+ol.pul li a:hover{
+    border: solid 1px #3FA3D6;
+    color: #fff !important;
+    background-color: #3FA3D6;
+   text-decoration: none;
+}
+
+
+
+.h-menu {
+    background: #F5F5F5;
+    text-align: center;
+    margin: 1.5em 0;
+}
+.h-menu ul {
+    list-style: none;
+    margin: 1em 0;
+    padding: 0;
+}
+.h-menu ul li a {
+    text-align: center;
+    color: #3FA3D6;
+    font-size: 1em;
+}
+.h-menu ul li:last-child {
+    border-bottom: none;
+}
+.h-menu ul li {
+    line-height: 2.2;
+    border-bottom: dashed 1px #C5C5C5;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 0;
+    margin-right: 20px;
+}
+.navbar{
+    margin-bottom: 5px;
+}
+
+.h3, h3{
+    font-size: 17px;
+}
+.menu-sec{
+    padding-right: 0;
+}
+.personal-img{
+    width: 100%;
+   
+}
+
+.font-weight-bold{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
