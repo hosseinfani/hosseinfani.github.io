@@ -14,7 +14,7 @@ p{
     font-size: 1em;
 }
 a {
-    color: #D63F3F;
+    color: #0066ff;
     transition: .3s;
 }
 
@@ -50,10 +50,9 @@ a:focus {
     border-bottom: 0;
 }
 .logo{
-	margin-top: 14px;
+	margin-top: 10px;
 	margin-left: 1.25em;
-	width: 128px;
-	height: 30px;
+
 }
 @media (min-width: 1200px) {
     .header .container-fluid {
@@ -67,7 +66,7 @@ a:focus {
 
 .header .topbar {
     position: relative;
-    background: #D63F3F;
+    background: #0066ff;
     padding: 6px 0px;
 }
 
@@ -79,7 +78,7 @@ a:focus {
 }
 
 .topbar2{
-    background: #D63F3F;
+    background: #0066ff;
     position: relative;
     padding: 6px 0px;
 }
@@ -169,7 +168,7 @@ a:focus {
     .navbar-toggle{
         float: left !important;
         margin-left: 1.25em;
-        border-color: #D63F3F !important;
+        border-color: #0066ff !important;
     }
     .navbar-nav{
         float: left !important;
@@ -200,7 +199,7 @@ a:focus {
 .footer {
     position: relative;
     padding-top: 0;
-    background: #D63F3F;
+    background: #0066ff;
     text-align: center;
 }
 
@@ -246,7 +245,7 @@ a:focus {
     color: #ffffff;
 }
 .menu {
-    border-bottom: solid #D63F3F 3px;
+    border-bottom: solid #0066ff 3px;
     padding: 0px 16px;
 }
 @media (max-width: 768px) {
@@ -255,10 +254,13 @@ a:focus {
         margin: 5px 0;
         text-align: center;
     }
+    .social-t{
+        margin: 20px 0;
+    }
 }
 
 .title {
-    background: #D63F3F;
+    background: #0066ff;
     padding: 0.5em;
     border-radius: 5px 5px 0 0;
 }
@@ -287,21 +289,21 @@ li{font-size: 1em;margin: 4px 0;}
     color:#9d9d9d !important;
 }
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
-    background-color: #D63F3F !important;
+    background-color: #0066ff !important;
     color: #fff;
 }
 .navbar-nav>li>a{
     padding: 5px 15px !important;
 }
 a.active{
-    background: #D63F3F;
+    background: #0066ff;
     color:#fff !important;
 }
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
     background-color: transparent !important;
 }
 .navbar-inverse .navbar-toggle .icon-bar{
-    background-color:#D63F3F !important ;
+    background-color:#0066ff !important ;
 }
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
     background-color: transparent !important;
@@ -327,8 +329,8 @@ ol.pul li{
     width: 18px;
 }
 ol.pul li a {
-    border: solid 1px #D63F3F;
-    color: #D63F3F !important;
+    border: solid 1px #0066ff;
+    color: #0066ff !important;
     padding: 2px 5px;
     margin: 0 3px;
     border-radius: 3px;
@@ -336,9 +338,9 @@ ol.pul li a {
 }
 
 ol.pul li a:hover{
-    border: solid 1px #D63F3F;
+    border: solid 1px #0066ff;
     color: #fff !important;
-    background-color: #D63F3F;
+    background-color: #0066ff;
    text-decoration: none;
 }
 
@@ -356,7 +358,7 @@ ol.pul li a:hover{
 }
 .h-menu ul li a {
     text-align: center;
-    color: #D63F3F;
+    color: #0066ff;
     font-size: 1em;
 }
 .h-menu ul li:last-child {
@@ -389,14 +391,15 @@ ol.pul li a:hover{
     font-weight: bold;
     font-size: 2.5rem;
 }
-.row {
-    margin: 0 0 5px;
-}
+
 
 .member{
-	width: 70%;
+	width: 100%;
 }
 
 .alumni{
-	width: 40%;
+	width: 100%;
+}
+.space{
+    margin-top: 15px;
 }
