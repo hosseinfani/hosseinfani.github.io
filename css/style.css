@@ -1,7 +1,7 @@
 /*******************************/
 /********* General CSS *********/
 /*******************************/
-@import url('http://fonts.cdnfonts.com/css/microsoft-sans-serif');
+@import url('https://fonts.cdnfonts.com/css/microsoft-sans-serif');
 body {
     color: #213546;
     background: #eeeeee;
@@ -725,4 +725,9 @@ p.card-title {
 .personal-img{
     width: 100%;
    
+}
+
+.navbar-inverse .navbar-nav>li>a.lab:focus, .navbar-inverse .navbar-nav>li>a.lab:hover{
+    background-color: blue !important;
+	color: white !important;
 }
