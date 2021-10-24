@@ -3,8 +3,8 @@
 /*******************************/
 @import url('https://fonts.cdnfonts.com/css/microsoft-sans-serif');
 .zoom {
-	zoom: 0.8
-    -moz-transform: scale(0.8)
+	zoom: 0.8;
+    -moz-transform: scale(0.8);
     -moz-transform-origin: center 0;
     -o-transform: scale(0.8);
     -o-transform-origin: center 0;
@@ -608,7 +608,7 @@ ol.pul li{
     line-height: 1.5;
 }
 .underline{
-    border-bottom: solid 1px #000;
+    border-bottom: solid 1px #ccc;
     margin-bottom: 20px;
     margin-left: -25px;
 }
@@ -650,7 +650,7 @@ p.links a:hover{
 }
 .line{
     height: 1px;
-    background: black;
+    background: #ccc;
     margin-bottom: 20px;
 }
 
@@ -729,6 +729,8 @@ p.card-title {
 
 .h3, h3{
     font-size: 17px;
+    font-weight: bold;
+
 }
 .menu-sec{
     padding-right: 0;
@@ -741,4 +743,8 @@ p.card-title {
 .navbar-inverse .navbar-nav>li>a.lab:focus, .navbar-inverse .navbar-nav>li>a.lab:hover{
     background-color: blue !important;
 	color: white !important;
+}
+
+.underline {
+    font-weight: bold;
 }
