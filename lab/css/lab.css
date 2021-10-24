@@ -3,8 +3,8 @@
 /*******************************/
 @import url('https://fonts.cdnfonts.com/css/microsoft-sans-serif');
 .zoom {
-	zoom: 0.8
-    -moz-transform: scale(0.8)
+	zoom: 0.8;
+    -moz-transform: scale(0.8);
     -moz-transform-origin: center 0;
     -o-transform: scale(0.8);
     -o-transform-origin: center 0;
@@ -128,12 +128,12 @@ a:focus {
         display: none;
     }
 
-
-
+    
+   
 }
 
 @media (max-width: 992px) {
-
+  
 
     .header .topbar {
         text-align: center;
@@ -171,11 +171,12 @@ a:focus {
     .row{
         margin: 0;
     }
-
+ 
     section.main-body{
         margin: 1em 0 !important;
     }
     .md{margin-top: 12em;}
+    .md2{margin-top: 1em;}
     .navbar-toggle{
         float: left !important;
         margin-left: 1.25em;
@@ -188,7 +189,7 @@ a:focus {
     .header .topbar-social{
         text-align: center !important;
     }
-
+   
 }
 
 
@@ -330,7 +331,7 @@ ol.pul li{
     line-height: 1.5;
 }
 .underline{
-    border-bottom: solid 1px #ccc;
+    border-bottom: solid 1px #000;
     margin-bottom: 20px;
     margin-left: 0;
     font-weight: bold;
@@ -413,4 +414,94 @@ ol.pul li a:hover{
 }
 .space{
     margin-top: 15px;
+}
+.img1{
+    margin-bottom: 7rem;
+}
+.section-one{
+    position: relative;
+}
+.section-two{
+    position: relative;
+    margin-top: 5rem;
+}
+.text-back{
+    background: #f5f2f29c;
+    padding: 5rem 5rem;
+}
+.text-one{
+    width: 70%;
+    margin-left: 3rem;
+}
+.icon{
+    width: 130px;
+    position: absolute;
+    top: -54px;
+}
+.img2{
+    width: 45%;
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+.text-one p{
+    width: 397px;
+    text-align: justify;
+}
+.text-two p{
+    text-align: justify;
+}
+.img3{
+    width: 33%;
+    position: absolute;
+    top: -99px;
+}
+
+.text-back.text-two {
+    width: 630px;
+    margin-left: 26rem;
+    z-index: 200;
+    position: relative;
+}
+.lab-body{
+    height: 100%;
+    position: relative;
+    min-height: 1054px;
+}
+@media (max-width:700px){
+    .text-one {
+        width: 100%;
+        margin-left: 0;
+    }
+    .text-one p {
+        width: auto;
+        text-align: justify;
+    }
+    .img2 {
+        width: 100%;
+        position: relative;
+        right: 0;
+        top: 8px;
+    }
+    .text-back.text-two {
+        width: auto !important;
+        margin-top: 15px;
+        margin-left: 0 !important;
+        z-index: 200;
+    }
+    .text-back {
+        background: #f7e09a;
+        padding: 2rem 3rem;
+    }
+    .icon {
+        width: 88px;
+        position: absolute;
+        top: -54px;
+    }
+    .img3 {
+        width: 100%;
+        position: relative;
+        top: 0;
+    }
+   
 }
