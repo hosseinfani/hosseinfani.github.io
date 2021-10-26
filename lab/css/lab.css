@@ -3,14 +3,14 @@
 /*******************************/
 @import url('https://fonts.cdnfonts.com/css/microsoft-sans-serif');
 .zoom {
-	zoom: 0.8;
-    -moz-transform: scale(0.8);
+	zoom: 0.9;
+    -moz-transform: scale(0.9);
     -moz-transform-origin: center 0;
-    -o-transform: scale(0.8);
+    -o-transform: scale(0.9);
     -o-transform-origin: center 0;
-    -webkit-transform: scale(0.8);
+    -webkit-transform: scale(0.9);
     -webkit-transform-origin: center 0;
-    transform: scale(0.8); /* Standard Property */
+    transform: scale(0.9); /* Standard Property */
     transform-origin: center 0;  /* Standard Property */
 }
 body {
