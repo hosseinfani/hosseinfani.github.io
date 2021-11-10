@@ -530,7 +530,7 @@ section.main-body {
     margin: 20em 0 0;
 }
 .about{
-    background-color: #f7f7f7;
+    background-color: #f7f7f7e8;
     position: absolute;
     left: -33em;
     width: 598px;
@@ -548,7 +548,7 @@ section.main-body {
 
 
 .edu{
-    background-color: #f7f7f7;
+    background-color: #f7f7f7d4;
     position: absolute;
     left: 23em;
     width: 642px;
