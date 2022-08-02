@@ -408,6 +408,18 @@ ol.pul li a:hover{
 
 .member{
 	width: 120%;
+	display: inline-block;
+}
+.doodle .back {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	width: 110%;
+}
+.doodle:hover .back {
+	display: inline;
 }
 
 .alumni{
