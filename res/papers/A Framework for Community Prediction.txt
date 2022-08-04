@@ -1,0 +1,118 @@
+Date: Tue, 2 Aug 2022 04:32:37 +0200
+From: "CIKM 2022 Short Paper Track" <cikm2022-short@easychair.org>
+To: Hossein Fani <hosseinfani@gmail.com>
+Subject: CIKM2022 Short Paper Track notification for paper 3878
+Sender: cikm2022-short@easychair.org
+
+Dear Hossein Fani
+
+I am very pleased to inform you that your paper
+
+	Resource: A Framework for Community Prediction
+
+has been accepted for presentation at CIKM’22 Short Paper track. 
+
+Attached below are the reviewer's comments, which we hope you will find helpful for your preparation of the camera-ready version. Instructions for producing the camera-ready copy will be sent to you soon. 
+
+The camera-ready deadline is *** August 15, 2022 ***. 
+
+If you have any question please let us know.
+
+Thank you for submitting to CIKM’22, and please accept our congratulations on your paper's acceptance.
+
+Sincerely,
+Wendy Wang and Latifur Khan
+
+SUBMISSION: 3878
+TITLE: Resource: A Framework for Community Prediction
+
+-------------------------  METAREVIEW  ------------------------
+I would like recommend the acceptance of the paper. The authors should follow the suggestions of reviewers to revise the paper.
+
+
+
+----------------------- REVIEW 1 ---------------------
+SUBMISSION: 3878
+TITLE: Resource: A Framework for Community Prediction
+AUTHORS: Soroush Ziaeinejad, Saeed Samet and Hossein Fani
+
+----------- Overall evaluation -----------
+SCORE: 1 (weak accept)
+----- TEXT:
+The community prediction framework (SEERa) described by the authors is quite interesting and modular. It permits future integrations of new methods in each of the 5+1 pipelines. 
+More extensive experiments would be useful to point out the strengths of this framework.
+----------- Strengths and reasons to accept -----------
+- the modularity of the framework (data access, topic modeling, user modeling, graph embedding, community prediction, news article recommendation);
+- identifying future communities based on streaming text data;
+----------- Weaknesses and limitations -----------
+- it is not very clear how new topics are predicted. I suppose that the framework works well when there is a small drift from the existent topics, but what happens when there is an unpredictable topic? Detected communities will still have similar reactions to these completely new topics?  
+- it is not clear what happens when there is a new user. Does every user need to be present in the dataset since the beginning?
+
+
+
+----------------------- REVIEW 2 ---------------------
+SUBMISSION: 3878
+TITLE: Resource: A Framework for Community Prediction
+AUTHORS: Soroush Ziaeinejad, Saeed Samet and Hossein Fani
+
+----------- Overall evaluation -----------
+SCORE: -2 (reject)
+----- TEXT:
+# Overall Evaluation and Issues
+
+The paper presents SEERa, an open-source community prediction framework to identify future user communities written in Python.
+
+In my opinion, the main problem of this paper is that it is a bit too technical. Further, with the figures 3 to 9, there are 7 figures which are way too technical for a paper. Maybe these figures can be shown on the website, but I would remove them from the paper. In general, the figures take up too much space. It would be possible to gain a lot of space for other things by removing them.
+Of course, technical things should not be completely removed. However, finding a good balance is the key. As banal as it sounds, an example would breathe some life into the whole picture. I recommend taking one example that can be used consistently. Currently, there is not even an example on the website.
+
+The motivation for the necessity of SEERa is not revealed in the paper. Obviously, the temporal component plays the most important role here (compared to other works) for community prediction. However, related work (e.g., [3] and [13]) is not discussed further. The reader might wonder how this work differs from similar ones also in terms of methodology. So a Related Work section would be good for the paper as well.
+At the same time, readers might want to know why existing work does not (can not) take this problem into account and why the pipeline (from Figure 1) is the best solution for it.
+
+The authors write that the time intervals can be set arbitrarily (daily, weekly, biweekly, or monthly), but in the evaluation in Table 2 only one (60 days) is taken. I think the evaluation should take multiple time intervals, investigate them, and compare them.
+They also say that SEERa can be configured for "any online social platform". This statement implies using more than just Twitter data (Table 2) for this (in other words, different data sets from different domains), since other social platforms allow longer documents and performance might change because of this.
+
+The authors write "SEERa is designed with extensibility in mind. While already hosts a wide variety of methods in each layer of its pipeline..."
+I do not doubt this at all. We can see the single exchangeable modules in the code. The only, but crucial problem is that the results are rather poor so far. At first glance, the pipeline in Figure 1 looks reasonable, but the low values (see Table 2) suggest a different story.
+I think the authors should work a little more on the performance here. Also, I wonder what nDCG@1 results in?
+
+I think the paper is not ready for publication. Unfortunately, I have to recommend a reject.
+
+---
+
+# Minor Comments to the Authors
+
+- Does the name SEERa have any meaning? Is it an abbreviation for something? It is not essential, but would be nice to know.
+- Louvain is used for clustering, but the paper does not explain how that roughly works. I think this clustering process is not known by that many people.
+- References should not be used as nouns, e.g. in "networks like [9, 26, 28]"
+- "as shown Figure 6." -> "as shown in Figure 6."
+----------- Strengths and reasons to accept -----------
+- the code is available
+- the pipeline looks reasonable
+----------- Weaknesses and limitations -----------
+- too technical. Examples would help.
+- figures take too much place.
+- motivation is missing
+- no related work section
+- too little evaluation and the results are rather poor
+
+
+
+----------------------- REVIEW 3 ---------------------
+SUBMISSION: 3878
+TITLE: Resource: A Framework for Community Prediction
+AUTHORS: Soroush Ziaeinejad, Saeed Samet and Hossein Fani
+
+----------- Overall evaluation -----------
+SCORE: 1 (weak accept)
+----- TEXT:
+The paper presents an open-source end-to-end community prediction framework to identify future user communities in a text-streaming social network. The framework hosts a wide variety of methods in each layer of its pipeline, it facilitates the addition of new topic modelling methods, temporal graph embeddings, graph clustering methods, and application-level use cases.
+----------- Strengths and reasons to accept -----------
+-The Paper is well written
+-The framework is open-source.
+-The framework leverages layered architecture to add modularity, ease of extensibility, and stability against customization.
+-The code is available and can be obtained by "git clone https://github.com/fani-lab/seera.git"
+- The need for such a framework is highlighted in a recent book "https://www.taylorfrancis.com/books/mono/10.1201/9781003260141/"
+----------- Weaknesses and limitations -----------
+The paper is very technical, and authors are encouraged to provide technical documentation and make it available on the Git page to support technical documentation, a User Guide (including some motivating scenarios and best practices), and Requirements.
+
+
