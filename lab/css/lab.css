@@ -383,7 +383,7 @@ h3 {
 .doodle .back {
   display: none;
   position: absolute;
-  top: 0;
+  top: -2px;
   left: 0;
   z-index: 99;
   width: 110%;
