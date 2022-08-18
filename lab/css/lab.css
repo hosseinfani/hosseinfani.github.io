@@ -406,7 +406,9 @@ h3 {
   position: absolute;
   top: 5px;
   right: 12px;
-  width: 150px;
+  width: 160px;
+  text-align: right;
+  font-weight: bold;
 }
 .section-one {
   position: relative;
