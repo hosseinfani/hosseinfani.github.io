@@ -383,7 +383,7 @@ h3 {
 .doodle .back {
   display: none;
   position: absolute;
-  top: 0;
+  top: -2px;
   left: 0;
   z-index: 99;
   width: 110%;
@@ -406,7 +406,9 @@ h3 {
   position: absolute;
   top: 5px;
   right: 12px;
-  width: 150px;
+  width: 250px;
+  text-align: right;
+  font-weight: bold;
 }
 .section-one {
   position: relative;
