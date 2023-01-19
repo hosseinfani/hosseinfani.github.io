@@ -51,7 +51,7 @@ a:focus {
 
 .media {
   background-color: white;
-  padding: 8px;
+  /*padding: 8px;
   /* border: 1px solid rgb(40, 40, 40); */
 }
 #photos {
