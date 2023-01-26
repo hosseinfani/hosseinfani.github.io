@@ -115,12 +115,12 @@ a:focus {
         display: none;
     }
 
-    
-   
+
+
 }
 
 @media (max-width: 992px) {
-  
+
 
     .header .topbar {
         text-align: center;
@@ -186,7 +186,7 @@ a:focus {
     .header .topbar-social{
         text-align: center !important;
     }
-   
+
     .bio-des{
         background: none !important;
     }
@@ -519,7 +519,7 @@ a:focus {
     margin-top: 12px;
     padding: 0;
 }
-.des-p p{font-size: 14px !important;line-height: 23px;}
+.des-p p{font-size: 14px !important;line-height: 20px;}
 section.main-body {
     margin: 1.5em 10px;
 }
@@ -669,11 +669,11 @@ p.card-title {
     border-radius: 3px;
 }
 .more:hover {
-   
+
     color: #fff;
     background-color:#228896 ;
-  
-  
+
+
 }
 .btn-primary-border{
     border:solid 1px #337ab7 !important;
@@ -737,7 +737,7 @@ p.card-title {
 }
 .personal-img{
     width: 100%;
-   
+
 }
 
 .navbar-inverse .navbar-nav>li>a.lab:focus, .navbar-inverse .navbar-nav>li>a.lab:hover{
