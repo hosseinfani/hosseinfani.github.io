@@ -57,7 +57,10 @@ a:focus {
 #photos {
   /* Prevent vertical gaps */
   display: grid;
-  grid-template-columns: auto auto;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-rows: auto; /* 1 explicit row */
+  grid-auto-rows: auto;
 }
 
 #photos img {
@@ -67,7 +70,7 @@ a:focus {
   padding-bottom: 8px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1150px) {
   #photos {
     grid-template-columns: auto auto auto;
   }
