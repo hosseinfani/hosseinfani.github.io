@@ -49,40 +49,36 @@ a:focus {
   max-width: 1050px;
 }
 
-.media {
-  background-color: white;
-  /*padding: 8px;
-  /* border: 1px solid rgb(40, 40, 40); */
-}
 #photos {
   /* Prevent vertical gaps */
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  grid-template-rows: auto; /* 1 explicit row */
-  grid-auto-rows: auto;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 #photos img {
   /* Just in case there are inline attributes */
   width: 100% !important;
-  height: auto !important;
-  padding-bottom: 8px;
+  height: auto;
+  padding: 8 0px;
+}
+.photo-tall {
+  display: grid;
+  grid-row: span 2 / auto;
+}
+.photo-wide {
+  display: grid;
+  grid-column: span 2 / auto;
 }
 
-@media (max-width: 1150px) {
-  #photos {
-    grid-template-columns: auto auto auto;
-  }
-}
-@media (max-width: 800px) {
-  #photos {
-    grid-template-columns: auto auto;
-  }
-}
 @media (max-width: 600px) {
-  #photos {
-    grid-template-columns: auto;
+  .photo-tall {
+    display: grid;
+    grid-row: span 2 / auto;
+  }
+  .photo-wide {
+    display: grid;
+    grid-column: span 1;
   }
 }
 /*******************************/
