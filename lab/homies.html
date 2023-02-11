@@ -1,335 +1,431 @@
 <!DOCTYPE html>
 <html lang="en" class="zoom">
+  <head>
+    <meta charset="utf-8" />
+    <title>Fani's Lab! - Homies</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Bootstrap Agency Template" name="keywords" />
+    <meta content="Bootstrap Agency Template" name="description" />
+    <link rel="icon" type="image/png" href="img/fani.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/microsoft-sans-serif"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link href="css/lab.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <title>Fani's Lab! - Homies</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <meta content="Bootstrap Agency Template" name="keywords" />
-  <meta content="Bootstrap Agency Template" name="description" />
-  <link rel="icon" type="image/png" href="img/fani.png" />
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet" />
-  <link href="https://fonts.cdnfonts.com/css/microsoft-sans-serif" rel="stylesheet" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
-  <link href="css/lab.css" rel="stylesheet" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-</head>
-
-<body>
-  <div class="wrapper">
-    <!-- Header Start -->
-    <div class="header">
-      <div class="topbar">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="topbar-col">
-              <a href="mailto:hfani@uwindsor.ca"><i class="fa fa-envelope"></i>hfani@uwindsor.ca</a>
+  <body>
+    <div class="wrapper">
+      <!-- Header Start -->
+      <div class="header">
+        <div class="topbar">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="topbar-col">
+                <a href="mailto:hfani@uwindsor.ca"
+                  ><i class="fa fa-envelope"></i>hfani@uwindsor.ca</a
+                >
+              </div>
             </div>
-          </div>
-          <div class="col-md-6">
-            <div class="topbar-social">
-              <a href="https://github.com/fani-lab" target="_blank"><img src="../img/github.svg" data-toggle="tooltip"
-                  title="github" /></a>
-              <!--<a href="" target="_blank" style="pointer-events: none;"><img src="../img/twitter.svg" alt="" data-toggle="tooltip" title="twitter"></a>-->
-              <a href="mailto:hfani@uwindsor.ca"><img src="../img/email.svg" alt="" data-toggle="tooltip"
-                  title="email" /></a>
+            <div class="col-md-6">
+              <div class="topbar-social">
+                <a href="https://github.com/fani-lab" target="_blank"
+                  ><img
+                    src="../img/github.svg"
+                    data-toggle="tooltip"
+                    title="github"
+                /></a>
+                <!--<a href="" target="_blank" style="pointer-events: none;"><img src="../img/twitter.svg" alt="" data-toggle="tooltip" title="twitter"></a>-->
+                <a href="mailto:hfani@uwindsor.ca"
+                  ><img
+                    src="../img/email.svg"
+                    alt=""
+                    data-toggle="tooltip"
+                    title="email"
+                /></a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="menu">
-        <div class="row">
-          <div class="col-md-3 col-xs-12">
-            <a href="index.html">
-              <img src="img/logo_fani.png" class="logo" />
-            </a>
-          </div>
-          <div class="col-md-9 col-xs-12 menu-sec">
-            <nav class="navbar navbar-inverse">
-              <div class="container-fluid">
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
+        <div class="menu">
+          <div class="row">
+            <div class="col-md-3 col-xs-12">
+              <a href="index.html">
+                <img src="img/logo_fani.png" class="logo" />
+              </a>
+            </div>
+            <div class="col-md-9 col-xs-12 menu-sec">
+              <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <button
+                      type="button"
+                      class="navbar-toggle"
+                      data-toggle="collapse"
+                      data-target="#myNavbar"
+                    >
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                  </div>
+                  <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                      <li>
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                      </li>
+                      <li>
+                        <a href="member.html" class="nav-item nav-link"
+                          >Member</a
+                        >
+                      </li>
+                      <li>
+                        <a href="project.html" class="nav-item nav-link"
+                          >Project</a
+                        >
+                      </li>
+                      <li>
+                        <a href="industry.html" class="nav-item nav-link"
+                          >Industry</a
+                        >
+                      </li>
+                      <li>
+                        <a href="publication.html" class="nav-item nav-link"
+                          >Publication</a
+                        >
+                      </li>
+                      <!-- <li><a href="opening.html" class="nav-item nav-link">Opening</a></li> -->
+                      <li>
+                        <a href="homies.html" class="nav-item nav-link"
+                          >Homies<i>!</i></a
+                        >
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                  <ul class="nav navbar-nav">
-                    <li>
-                      <a href="index.html" class="nav-item nav-link">Home</a>
-                    </li>
-                    <li>
-                      <a href="member.html" class="nav-item nav-link">Member</a>
-                    </li>
-                    <li>
-                      <a href="project.html" class="nav-item nav-link">Project</a>
-                    </li>
-                    <li>
-                      <a href="industry.html" class="nav-item nav-link">Industry</a>
-                    </li>
-                    <li>
-                      <a href="publication.html" class="nav-item nav-link">Publication</a>
-                    </li>
-                    <!-- <li><a href="opening.html" class="nav-item nav-link">Opening</a></li> -->
-                    <li>
-                      <a href="homies.html" class="nav-item nav-link">Homies<i>!</i></a>
-                    </li>
-                  </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Header End -->
+      <!----Main-->
+      <div class="container-fluid md2">
+        <div class="row">
+          <div class="col-md-9">
+            <section class="main-body">
+              <div id="photos">
+                <div class="photo-tall">
+                  <img src="./img/homies/2023-Jan13-ArmanMSc-b.jpeg" alt="" />
+                  <p>
+                    Arman MSc. Thesis Defence, 122 Essex Hall, January 13, 2023
+                  </p>
+                </div>
+                <div class="">
+                  <img src="./img/homies/2023-Jan13-ArmanMSc-a.jpeg" alt="" />
+                  <p>
+                    Arman MSc. Thesis Defence, 122 Essex Hall, January 13, 2023
+                  </p>
+                </div>
+                <div class="">
+                  <img src="./img/homies/2023-Jan13-ArmanMSc-c.jpeg" alt="" />
+                  <p>
+                    Arman MSc. Thesis Defence, 122 Essex Hall, January 13, 2023.
+                    <br />From Left: Hossein, Arman
+                  </p>
+                </div>
+                <div class="photo-wide">
+                  <img src="./img/homies/2023-Jan13-ArmanMSc-d.jpeg" alt="" />
+                  <p>
+                    Arman MSc. Thesis Defence, 122 Essex Hall, January 13, 2023.
+                    <br />From Left: Hossein, Hamed, Soroush, Arman, Mahshad,
+                    Roonak, Atefeh, Zahra, Farinam, Farbod, Karan, Mohammad,
+                    Ehsan, Saeideh
+                  </p>
+                </div>
+                <div class="">
+                  <img src="./img/homies/2022-Dec27-YogesBD.jpeg" alt="" />
+                  <p>Yoges Birthday, 118 Essex Hall, December 27, 2022</p>
+                </div>
+                <div class="">
+                  <img src="./img/homies/2022-Dec18-Fifa2022-b.jpg" alt="" />
+                  <p>World Cup Final, Erie Hall 3123, December 18, 2022</p>
+                </div>
+                <div class="photo-wide">
+                  <img src="./img/homies/2022-Dec18-Fifa2022-a.jpg" alt="" />
+                  <p>World Cup Final, Erie Hall 3123, December 18, 2022</p>
+                </div>
+                <div class="photo-tall">
+                  <img src="./img/homies/2022-Dec13-ArmanBD-b.jpeg" alt="" />
+                  <p>Arman Birthday, 118 Essex Hall, December 13, 2022</p>
+                </div>
+                <div class="">
+                  <img src="./img/homies/2022-Dec13-ArmanBD-a.jpeg" alt="" />
+                  <p>
+                    Arman Birthday, 118 Essex Hall, December 13, 2022.
+                    <br />From Left-Front: Soroush, Sara, Arman, Mahshad
+                    <br />From Left-Back: Hamed, Hossein, Ehsan, Roonak, Karan,
+                    Farinam, Dhwani, Zahra
+                  </p>
+                </div>
+                <div class="">
+                  <img src="./img/homies/2022-Nov22-HamedBD.jpeg" alt="" />
+                  <p>
+                    Hamed Birthday, Dinner at Vittorio's Trattoria, November 22,
+                    2022
+                  </p>
+                </div>
+                <div class="">
+                  <img src="./img/homies/2022-Nov04-RoonakBD.jpeg" alt="" />
+                  <p>
+                    Roonak Birthday, Dinner at Fionn MacCool's, November 4, 2022
+                  </p>
+                </div>
+                <div class="">
+                  <img src="./img/homies/2022-Sep22-SaraBD.jpeg" alt="" />
+                  <p>
+                    Sara Birthday, Lunch at Windsor Kabob House, September 22,
+                    2022
+                  </p>
+                </div>
+                <div class="photo-wide">
+                  <img
+                    src="./img/homies/2022-Sep9-ChuckRoadhouse-HosseinBD-b.jpeg"
+                    alt=""
+                  />
+                  <p>
+                    Hossein Birthday, Chuck Roadhouse, September 10, 2022.
+                    <br />From Left: Alice, Sara, Dhwani, Roonak, Karan,
+                    Yogeswar, Hamed, Soroush, Mahshad, Farinam, Mohammad,
+                    Hossein, Shaghayegh (Shay)
+                  </p>
+                </div>
+                <div class="">
+                  <img
+                    src="./img/homies/2022-Sep9-ZapZone-HosseinBD.jpeg"
+                    alt=""
+                  />
+                  <p>
+                    Hossein Birthday, Zap Zone, September 10, 2022. <br />From
+                    Left: Dhwani, Sara, Soroush, Karan, Mohammad, Farinam,
+                    Roonak, Shaghayegh (Shay), Mahshad, Alice, Yogeswar, Hamed,
+                    Hossein
+                  </p>
+                </div>
+                <div class="">
+                  <img
+                    src="./img/homies/2022-Sep9-Lab-HosseinBD-b.jpeg"
+                    alt=""
+                  />
+                  <p>Hossein Birthday, 215 Essex Hall, September 9, 2022</p>
+                </div>
+                <div class="">
+                  <img
+                    src="./img/homies/2022-Sep9-Lab-HosseinBD-a.jpeg"
+                    alt=""
+                  />
+                  <p>
+                    Hossein Birthday, 215 Essex Hall, September 9, 2022.
+                    <br />From Left-Front: Ali, Zahra, Dhwani, Yogeswar, Karan,
+                    Hossein, Farinam, Puneet, Roonak <br />From Left-Back:
+                    Soroush, Hamed, Mohammad
+                  </p>
+                </div>
+                <div class="">
+                  <img src="./img/homies/2022-Sep9-HosseinBD.jpeg" alt="" />
+                  <p>Hossein Birthday, Book Lover (Gift), September 9, 2022</p>
+                </div>
+                <div class="">
+                  <img src="./img/homies/Sept3-2022-ZahraBD-a.jpeg" alt="" />
+                  <p>Zahra Birthday, Brunch at TOAST, September 3, 2022</p>
+                </div>
+                <div class="">
+                  <img src="./img/homies/Sept3-2022-ZahraBD-b.jpeg" alt="" />
+                  <p>
+                    Zahra Birthday, Brunch at TOAST, September 3, 2022
+                    <br />From Left-Front: Alice, Mahshad, Shaghayegh (Shay),
+                    Soroush <br />From Left-Middle: Hamed, Karan, Farinam, Sara,
+                    Zahra, Ali <br />From Left-Back: Hossein, Mohammad
+                  </p>
+                </div>
+                <div class="">
+                  <img src="./img/homies/August14-2022-KaranBD-a.jpg" alt="" />
+                  <p>Karan Birthday, Dinner at Mandarin, August 14, 2022</p>
+                </div>
+                <div class="">
+                  <img src="./img/homies/August14-2022-KaranBD-c.jpg" alt="" />
+                  <p>
+                    Karan Birthday, Dinner at Mandarin, August 14, 2022
+                    <br />From Left: Hossein, Soroush, Yoges, Hamed, Karan,
+                    Esmat, Alice, Farinam, Dhwani, Mohammad, Roonak, Zahra
+                  </p>
+                </div>
+                <div class="">
+                  <img src="./img/homies/July12-2022-SoroushBD-b.jpg" alt="" />
+                  <p>
+                    Soroush Birthday, Drink at Sandwich Brewing Company, July
+                    12, 2022 <br />From Left: Soroush, Arman, Karan, Yoges,
+                    Roonak, Dhwani
+                  </p>
+                </div>
+                <div class="photo-tall">
+                  <img src="./img/homies/July12-2022-SoroushBD-a.jpg" alt="" />
+                  <p>
+                    Soroush Birthday, Drink at Sandwich Brewing Company, July
+                    12, 2022
+                  </p>
+                </div>
+                <div class="">
+                  <img
+                    src="./img/homies/April8-2022-Dhwani-UWillDiscover-a.jpg"
+                    alt=""
+                  />
+                  <p>
+                    <a
+                      href="https://scholar.uwindsor.ca/uwilldiscover/2022/2022Day3/30/"
+                      target="_blank"
+                      >Dhwani Nileshkumar Patel, Best Poster Presentation, UWill
+                      Discover, University of Windsor, April 8, 2022.</a
+                    >
+                  </p>
+                </div>
+                <div class="photo-wide">
+                  <img
+                    src="./img/homies/April8-2022-Dhwani-UWillDiscover-b.jpg"
+                    alt=""
+                  />
+                  <p>
+                    <a
+                      href="https://scholar.uwindsor.ca/uwilldiscover/2022/2022Day3/30/"
+                      target="_blank"
+                      >Dhwani Nileshkumar Patel, Best Poster Presentation, UWill
+                      Discover, University of Windsor, April 8, 2022.</a
+                    >
+                    <br />From Left: Karan, Dhwani, Tim Brunet, Hossein
+                  </p>
+                </div>
+                <div class="photo-wide">
+                  <img src="./img/homies/March12-2022-Beethoven-a.jpg" alt="" />
+                  <p>
+                    <a
+                      href="https://www.uwindsor.ca/dailynews/2022-03-08/classical-concert-boasts-campus-connections"
+                      target="_blank"
+                      >A Hero's Symphony, Ludwig van Beethoven, Symphony No. 3,
+                      by Giacomo Puccini, March 12, 2022.</a
+                    >
+                  </p>
+                </div>
+                <div class="">
+                  <img src="./img/homies/March12-2022-Beethoven-b.jpg" alt="" />
+                  <p>
+                    <a
+                      href="https://www.uwindsor.ca/dailynews/2022-03-08/classical-concert-boasts-campus-connections"
+                      target="_blank"
+                      >A Hero's Symphony, Ludwig van Beethoven, Symphony No. 3,
+                      by Giacomo Puccini, March 12, 2022.</a
+                    >
+                    <br />From Left: Roonak, Soroush
+                  </p>
+                </div>
+                <div class="">
+                  <img src="./img/homies/Dec18-2021-ArmanBD.jpg" alt="" />
+                  <p>
+                    Arman's Birthday, New Year 2022, December 18, 2021.
+                    <br />From Left: Lincoln, Karan, Roonak, Zahra, Ala,
+                    Hossein, Soroush, Arman, Dhwani, Jalal, An
+                  </p>
+                </div>
+                <div class="">
+                  <img src="./img/homies/Oct30-2021-RoonakBD.jpg" alt="" />
+                  <p>
+                    Roonak's Birthday, October 30, 2021. <br />From Left:
+                    Soroush, Zahra, Roonak, Karan, Arman, Yogeswar
+                  </p>
+                </div>
+                <div class="">
+                  <img src="./img/homies/Sep04-2021-ZahraBD.jpg" alt="" />
+                  <p>
+                    Zahra's Birthday, October 30, 2021. <br />From Left: Front:
+                    Zahra, Roonak, Back: Arman, Hossein, Soroush
+                  </p>
                 </div>
               </div>
-            </nav>
+            </section>
           </div>
-        </div>
-      </div>
-    </div>
-    <!-- Header End -->
-    <!----Main-->
-    <div class="container-fluid md2">
-      <div class="row">
-        <div class="col-md-9">
-          <section class="main-body">
-            <div id="photos">
-              <div class="media">
-                <img src="./img/homies/2023-Jan13-ArmanMSc-b.jpeg" alt="" />
-                <p>Arman MSc. Thesis Defence, 122 Essex Hall, January 13, 2023</p>
+          <!-- Right Panel -->
+          <div class="col-md-3">
+            <div class="h-menu">
+              <div class="title">
+                <h3>Recent News</h3>
               </div>
-              <div class="media">
-                <img src="./img/homies/2023-Jan13-ArmanMSc-a.jpeg" alt="" />
-                <p>Arman MSc. Thesis Defence, 122 Essex Hall, January 13, 2023</p>
-              </div>
-              <div class="media">
-                <img src="./img/homies/2023-Jan13-ArmanMSc-c.jpeg" alt="" />
-                <p>Arman MSc. Thesis Defence, 122 Essex Hall, January 13, 2023.
-                  <br />From Left: Hossein, Arman
-                </p>
-              </div>
-              <div class="media">
-                <img src="./img/homies/2023-Jan13-ArmanMSc-d.jpeg" alt="" />
-                <p>Arman MSc. Thesis Defence, 122 Essex Hall, January 13, 2023.
-                  <br />From Left: Hossein, Hamed, Soroush, Arman,
-                  Mahshad, Roonak, Atefeh, Zahra, Farinam,
-                  Farbod, Karan, Mohammad, Ehsan, Saeideh
-                </p>
-              </div>
-              <div class="media">
-                <img src="./img/homies/2022-Dec27-YogesBD.jpeg" alt="" />
-                <p>Yoges Birthday, 118 Essex Hall, December 27, 2022</p>
-              </div>
-			  <div class="media">
-                <img src="./img/homies/2022-Dec18-Fifa2022-b.jpg" alt="" />
-                <p>World Cup Final, Erie Hall 3123, December 18, 2022</p>
-              </div>
-			  <div class="media">
-                <img src="./img/homies/2022-Dec18-Fifa2022-a.jpg" alt="" />
-                <p>World Cup Final, Erie Hall 3123, December 18, 2022</p>
-              </div>
-              <div class="media">
-                <img src="./img/homies/2022-Dec13-ArmanBD-b.jpeg" alt="" />
-                <p>Arman Birthday, 118 Essex Hall, December 13, 2022</p>
-              </div>
-              <div class="media">
-                <img src="./img/homies/2022-Dec13-ArmanBD-a.jpeg" alt="" />
-                <p>Arman Birthday, 118 Essex Hall, December 13, 2022.
-                  <br />From Left-Front: Soroush, Sara, Arman, Mahshad
-                  <br />From Left-Back: Hamed, Hossein, Ehsan, Roonak, Karan,
-                  Farinam, Dhwani, Zahra
-                </p>
-              </div>
-              <div class="media">
-                <img src="./img/homies/2022-Nov22-HamedBD.jpeg" alt="" />
-                <p>Hamed Birthday, Dinner at Vittorio's Trattoria, November 22, 2022</p>
-              </div>
-              <div class="media">
-                <img src="./img/homies/2022-Nov04-RoonakBD.jpeg" alt="" />
-                <p>Roonak Birthday, Dinner at Fionn MacCool's, November 4, 2022</p>
-              </div>
-              <div class="media">
-                <img src="./img/homies/2022-Sep22-SaraBD.jpeg" alt="" />
-                <p>Sara Birthday, Lunch at Windsor Kabob House, September 22, 2022</p>
-              </div>
-              <div class="media">
-                <img src="./img/homies/2022-Sep9-ChuckRoadhouse-HosseinBD-b.jpeg" alt="" />
-                <p>Hossein Birthday, Chuck Roadhouse, September 10, 2022.
-                  <br />From Left: Alice, Sara, Dhwani, Roonak, Karan, Yogeswar,
-                  Hamed, Soroush, Mahshad, Farinam, Mohammad, Hossein,
-                  Shaghayegh (Shay)
-                </p>
-              </div>
-              <div class="media">
-                <img src="./img/homies/2022-Sep9-ZapZone-HosseinBD.jpeg" alt="" />
-                <p>Hossein Birthday, Zap Zone, September 10, 2022.
-                  <br />From Left: Dhwani, Sara, Soroush, Karan, Mohammad, Farinam,
-                  Roonak, Shaghayegh (Shay), Mahshad, Alice, Yogeswar, Hamed, Hossein
-                </p>
-              </div>
-              <div class="media">
-                <img src="./img/homies/2022-Sep9-Lab-HosseinBD-b.jpeg" alt="" />
-                <p>Hossein Birthday, 215 Essex Hall, September 9, 2022</p>
-              </div>
-              <div class="media">
-                <img src="./img/homies/2022-Sep9-Lab-HosseinBD-a.jpeg" alt="" />
-                <p>Hossein Birthday, 215 Essex Hall, September 9, 2022.
-                  <br />From Left-Front: Ali, Zahra, Dhwani, Yogeswar, Karan, Hossein,
-                  Farinam, Puneet, Roonak
-                  <br />From Left-Back: Soroush, Hamed, Mohammad
-                </p>
-              </div>
-              <div class="media">
-                <img src="./img/homies/2022-Sep9-HosseinBD.jpeg" alt="" />
-                <p>Hossein Birthday, Book Lover (Gift), September 9, 2022</p>
-              </div>
-              <div class="media">
-                <img src="./img/homies/Sept3-2022-ZahraBD-a.jpeg" alt="" />
-                <p>Zahra Birthday, Brunch at TOAST, September 3, 2022</p>
-              </div>
-              <div class="media">
-                <img src="./img/homies/Sept3-2022-ZahraBD-b.jpeg" alt="" />
-                <p>
-                  Zahra Birthday, Brunch at TOAST, September 3, 2022 <br />From
-                  Left-Front: Alice, Mahshad, Shaghayegh (Shay), Soroush
-                  <br />From Left-Middle: Hamed, Karan, Farinam, Sara, Zahra,
-                  Ali <br />From Left-Back: Hossein, Mohammad
-                </p>
-              </div>
-              <div class="media">
-                <img src="./img/homies/August14-2022-KaranBD-a.jpg" alt="" />
-                <p>Karan Birthday, Dinner at Mandarin, August 14, 2022</p>
-              </div>
-              <div class="media">
-                <img src="./img/homies/August14-2022-KaranBD-c.jpg" alt="" />
-                <p>
-                  Karan Birthday, Dinner at Mandarin, August 14, 2022
-                  <br />From Left: Hossein, Soroush, Yoges, Hamed, Karan,
-                  Esmat, Alice, Farinam, Dhwani, Mohammad, Roonak, Zahra
-                </p>
-              </div>
-              <div class="media">
-                <img src="./img/homies/July12-2022-SoroushBD-b.jpg" alt="" />
-                <p>
-                  Soroush Birthday, Drink at Sandwich Brewing Company, July
-                  12, 2022 <br />From Left: Soroush, Arman, Karan, Yoges,
-                  Roonak, Dhwani
-                </p>
-              </div>
-              <div class="media">
-                <img src="./img/homies/July12-2022-SoroushBD-a.jpg" alt="" />
-                <p>
-                  Soroush Birthday, Drink at Sandwich Brewing Company, July
-                  12, 2022
-                </p>
-              </div>
-              <div class="media">
-                <img src="./img/homies/April8-2022-Dhwani-UWillDiscover-a.jpg" alt="" />
-                <p>
-                  <a href="https://scholar.uwindsor.ca/uwilldiscover/2022/2022Day3/30/" target="_blank">Dhwani
-                    Nileshkumar Patel, Best Poster Presentation, UWill
-                    Discover, University of Windsor, April 8, 2022.</a>
-                </p>
-              </div>
-              <div class="media">
-                <img src="./img/homies/April8-2022-Dhwani-UWillDiscover-b.jpg" alt="" />
-                <p>
-                  <a href="https://scholar.uwindsor.ca/uwilldiscover/2022/2022Day3/30/" target="_blank">Dhwani
-                    Nileshkumar Patel, Best Poster Presentation, UWill
-                    Discover, University of Windsor, April 8, 2022.</a>
-                  <br />From Left: Karan, Dhwani, Tim Brunet, Hossein
-                </p>
-              </div>
-              <div class="media">
-                <img src="./img/homies/March12-2022-Beethoven-a.jpg" alt="" />
-                <p>
-                  <a href="https://www.uwindsor.ca/dailynews/2022-03-08/classical-concert-boasts-campus-connections"
-                    target="_blank">A Hero's Symphony, Ludwig van Beethoven, Symphony No. 3,
-                    by Giacomo Puccini, March 12, 2022.</a>
-                </p>
-              </div>
-              <div class="media">
-                <img src="./img/homies/March12-2022-Beethoven-b.jpg" alt="" />
-                <p>
-                  <a href="https://www.uwindsor.ca/dailynews/2022-03-08/classical-concert-boasts-campus-connections"
-                    target="_blank">A Hero's Symphony, Ludwig van Beethoven, Symphony No. 3,
-                    by Giacomo Puccini, March 12, 2022.</a>
-                  <br />From Left: Roonak, Soroush
-                </p>
-              </div>
-              <div class="media">
-                <img src="./img/homies/Dec18-2021-ArmanBD.jpg" alt="" />
-                <p>
-                  Arman's Birthday, New Year 2022, December 18, 2021.
-                  <br />From Left: Lincoln, Karan, Roonak, Zahra, Ala,
-                  Hossein, Soroush, Arman, Dhwani, Jalal, An
-                </p>
-              </div>
-              <div class="media">
-                <img src="./img/homies/Oct30-2021-RoonakBD.jpg" alt="" />
-                <p>
-                  Roonak's Birthday, October 30, 2021. <br />From Left:
-                  Soroush, Zahra, Roonak, Karan, Arman, Yogeswar
-                </p>
-              </div>
-              <div class="media">
-                <img src="./img/homies/Sep04-2021-ZahraBD.jpg" alt="" />
-                <p>
-                  Zahra's Birthday, October 30, 2021. <br />From Left: Front:
-                  Zahra, Roonak, Back: Arman, Hossein, Soroush
-                </p>
-              </div>
+              <ul>
+                <li>
+                  <a href="https://github.com/fani-lab/seera" target="_blank"
+                    >SEERa at CIKM2022</a
+                  >
+                </li>
+                <li>
+                  <a href="https://github.com/fani-lab/opentf" target="_blank"
+                    >OpeNTF at CIKM2022</a
+                  >
+                </li>
+                <!--<li><a href="./opening.html" target="_blank">Open Positions</a></li>-->
+                <li>
+                  Gold Medalist:
+                  <a href="https://github.com/fani-lab/opentf" target="_blank"
+                    >OpeNTF</a
+                  >
+                  at
+                  <a
+                    href="https://scholar.uwindsor.ca/uwilldiscover/2022/2022Day3/30/"
+                    target="_blank"
+                    >UWill Discover 2022</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/radinhamidi/Team_Formation_Library"
+                    target="_blank"
+                    >PyTFL Demo at CIKM2021</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://whova.com/embedded/session/ecire_202010/1536124/"
+                    target="_blank"
+                    >ReQue Demo at ECIR2021</a
+                  >
+                </li>
+              </ul>
             </div>
-          </section>
+          </div>
         </div>
-        <!-- Right Panel -->
-        <div class="col-md-3">
-          <div class="h-menu">
-            <div class="title">
-              <h3>Recent News</h3>
+      </div>
+      <!----End Main-->
+      <!-- Footer Start -->
+      <div class="footer">
+        <div class="container copyright">
+          <div class="row">
+            <div class="col-md-12">
+              <p>&copy; 2021, All Right Reserved.</p>
             </div>
-            <ul>
-              <li>
-                <a href="https://github.com/fani-lab/seera" target="_blank">SEERa at CIKM2022</a>
-              </li>
-              <li>
-                <a href="https://github.com/fani-lab/opentf" target="_blank">OpeNTF at CIKM2022</a>
-              </li>
-              <!--<li><a href="./opening.html" target="_blank">Open Positions</a></li>-->
-              <li>
-                Gold Medalist:
-                <a href="https://github.com/fani-lab/opentf" target="_blank">OpeNTF</a>
-                at
-                <a href="https://scholar.uwindsor.ca/uwilldiscover/2022/2022Day3/30/" target="_blank">UWill Discover
-                  2022</a>
-              </li>
-              <li>
-                <a href="https://github.com/radinhamidi/Team_Formation_Library" target="_blank">PyTFL Demo at
-                  CIKM2021</a>
-              </li>
-              <li>
-                <a href="https://whova.com/embedded/session/ecire_202010/1536124/" target="_blank">ReQue Demo at
-                  ECIR2021</a>
-              </li>
-            </ul>
           </div>
         </div>
       </div>
+      <!-- Footer End -->
     </div>
-    <!----End Main-->
-    <!-- Footer Start -->
-    <div class="footer">
-      <div class="container copyright">
-        <div class="row">
-          <div class="col-md-12">
-            <p>&copy; 2021, All Right Reserved.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Footer End -->
-  </div>
-  <!-- JavaScript Libraries -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-</body>
-
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
