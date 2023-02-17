@@ -1,0 +1,111 @@
+Date: Fri, 17 Feb 2023 19:15:21 +0100
+From: BIAS 2023 <bias2023@easychair.org>
+To: Hossein Fani <hfani@uwindsor.ca>
+Subject: Bias @ ECIR 2023 – Notification about the paper decision 8558.
+Sender: bias2023@easychair.org
+Return-Path: bias2023@easychair.org
+
+Dear Hamed Loghmani, Hossein Fani,
+ 
+We are pleased to inform you that your paper entitled Bootless Application of Greedy Re-ranking Algorithms in Fair Neural Team Formation has been accepted at the Fourth International Workshop on Algorithmic Bias in Search and Recommendation (Bias 2023).
+
+In what follows, you will find some steps to be completed in order to participate in the workshop. 
+ 
+** REGISTRATION - to be completed on the ECIR system by March 2, 2023 AoE **
+Please be aware that at least one author should be registered for the workshop and present the work. A missing registration for the paper will lead to excluding the paper from the proceedings and the workshop programme. The registration for authors with a paper in our workshop should be completed by March 2, 2023 at http://ecir2023.org/registration.html?v=1.33.
+
+** CAMERA READY - to be sent through Google Form by March 2, 2023 AoE **
+Reviews for your paper are included at the bottom of this email. Your paper must be revised following all reviewers' comments. Please, take reviewers' comments into very careful consideration in making your final revisions and mandatorily add between ** at least 1 and up to 3 additional pages ** to address reviewers' comments and improve the paper. 
+
+Workshop organizers will check whether the authors have properly addressed the points mentioned in the reviews, especially those that reviewers have explicitly mentioned as important for making the paper better in its camera-ready version. Hence, please carefully consider this revision.   
+
+Please upload a single zip file containing the source files, the PDF camera-ready version, and copyright form at https://forms.gle/.
+
+The files you need to send through the form to us must be prepared in a unique zipped file including:
+
+* Source Files *
+A zipped file containing either all your LaTeX sources or a Word or an RTF format file. For LaTeX submissions, you should include the references in .bbl format, style files, and images, in addition to your .tex file(s). Please, be sure that you consult and adhere to: 
+
+- Springer’s authors’ instructions 
+https://resource-cms.springernature.com/springer-cms/rest/v1/content/19242230/data/v10 
+
+- Latex proceedings template
+https://resource-cms.springernature.com/springer-cms/rest/v1/content/19238648/data/v6
+
+- Word  proceedings template
+https://resource-cms.springernature.com/springer-cms/rest/v1/content/19238706/data/v1
+
+* Camera-Ready PDF *
+The PDF version of your camera-ready paper.
+
+* Copyright Form *
+The PDF version of the filled and signed Consent-to-Publish form available at https://bit.ly/. Please read the form carefully and fill it in. Then, you can sign the form by pen on paper and scan it into PDF. It is sufficient for one of the authors to sign it. The corresponding author signing the copyright form should match the corresponding author marked on the paper. Once the files have been sent to Springer, changes relating to the authorship of the papers cannot be made.
+  
+Please make sure that the author information on the camera-ready paper and on EasyChair is consistent. Bias 2023 strictly forbids any modification to the author list, which should be the same as the one declared at the time of submission (permutations of the authors' order are accepted, though). 
+
+Papers not submitted on time or not following these rules may be dropped from the proceedings.  
+ 
+** PARTICIPATION - on April 2 full day ** 
+The information about the participation modalities will be sent to you in due time. Please make sure to indicate the expected participation mode for you in the camera-ready submission form. Each speaker will be introduced by a session chair, and each speaker will present the paper by sharing the slides, using PowerPoint or any other software, according to the timing indicated in the program.
+
+Please, monitor the workshop website at https://biasinrecsys.github.io/ecir2023/ for the program and other details on participation. If you still have doubts, do not hesitate to contact us. 
+
+Thanks,
+Ludovico Boratto, Stefano Faralli, Mirko Marras, and Giovanni Stilo
+
+SUBMISSION: 8558
+TITLE: Bootless Application of Greedy Re-ranking Algorithms in Fair Neural Team Formation
+
+
+----------------------- REVIEW 1 ---------------------
+SUBMISSION: 8558
+TITLE: Bootless Application of Greedy Re-ranking Algorithms in Fair Neural Team Formation
+AUTHORS: Hamed Loghmani and Hossein Fani
+
+----------- Overall evaluation -----------
+SCORE: 1 (weak accept)
+----- TEXT:
+This paper explores possible popularity bias in neural team formation techniques. The argument of the paper is that there are experts who receive disproportionate involvement in teams and hence this places other at a disadvantage. The other side of this can be true as well often known as Equity tax: Members of underrepresented groups are often asked to perform too many service activities which again places them in too many service jobs (teams) and hence impacts their performance.
+
+While I like the idea in this paper and think that the issue of fairness in team formation is a nice one, I believe the way the paper approaches this problem could have some down sides:
+
+The main argument of the paper is the tradeoff between fairness and team formation effectiveness. The experiments also show that fairness comes at the cost of effectiveness and the other way around. However, I think there is a fundamental problem with this assumption which comes from how we view the gold standard teams.
+
+As the paper shows, there is significant fairness issues in the gold standard teams already where the long-tail diagram is a quite indication. Therefore, the gold standard that we are using as a basis for evaluating the team formation algorithm already encodes unfairness and captures orthogonality between fairness and effectiveness. Therefore, it is not conceivable, theoretically speaking, that one could develop a team formation method that would maintain effectiveness while at the same time increase fairness. This would not be possible given the way the gold standard is currently set up.
+
+Some minor comments:
+
+- defining popular as those being above the average is not an accurate measure - as average on long-tail distributions is not a reliable measure
+- NDKL is mentioned yet not formally defined in the paper. It is important to include it for the sake of readability of the paper
+- Similarly Greedy, Relaxed, etc are mentioned but not explained or defined - only a citation to 32 is provided.
+
+
+
+----------------------- REVIEW 2 ---------------------
+SUBMISSION: 8558
+TITLE: Bootless Application of Greedy Re-ranking Algorithms in Fair Neural Team Formation
+AUTHORS: Hamed Loghmani and Hossein Fani
+
+----------- Overall evaluation -----------
+SCORE: 1 (weak accept)
+----- TEXT:
+This paper presents a clear argument demonstrating the challenges of team suggestion using traditional ranking models, and even neural models. It is clear that the underlying datasets present problems for fairly ranking those who might form a successful team. The paper further presents some tweaks to neural algorithms that suggest pathways to successful ranking with less bias toward popularity. All of this is clearly agrued, and well described.
+
+Alongside this is a social argument, that is touched on but not fully explored. This is the challenge of biased social popularity: popular people tend to be from certain race/gender/class groups, and tend to stay popular. What is lacking from this discussion is any discussion of the definitions of success, which are also socially mediated. Take the case of women actors--they are part of the success-popularity loop for a certain time in their lives, but after about age 40 this tends to drop off. Is what is successful necessarily a good metric for what is actually *good* in some way? I don't think this question is readily answered, and creating an algorithm to feed less popular people into the machine won't help bring the social change we need. While this algorithmic tweak is a step in the right direction, it would be nice to see considerably deeper reflection on how it interacts with underlying social biases, rather than merely claiming it is less biased.
+
+
+
+----------------------- REVIEW 3 ---------------------
+SUBMISSION: 8558
+TITLE: Bootless Application of Greedy Re-ranking Algorithms in Fair Neural Team Formation
+AUTHORS: Hamed Loghmani and Hossein Fani
+
+----------- Overall evaluation -----------
+SCORE: 1 (weak accept)
+----- TEXT:
+This paper presented an analysis of neural team formation models. Considering the issues associated with popularity bias, the authors applied re-ranking methods to mitigate these issues.
+
+This work deals with a very interesting and timely topic and provides very interesting insights, both when uncovering the existing biases and when applying the mitigation approaches.
+
+Given the existing issues in terms of accuracy when unbiasing the results, I invite the authors to integrate an analysis and/or a discussion to explore what could be a good trade-off between accuracy and an unbiased team formation, given the results they obtained.
+
