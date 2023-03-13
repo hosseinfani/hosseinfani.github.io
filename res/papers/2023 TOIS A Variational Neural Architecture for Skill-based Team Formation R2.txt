@@ -1,0 +1,50 @@
+Date: Sun, 12 Mar 2023 07:21:44 +0000
+From: Transactions on Information Systems <onbehalfof@manuscriptcentral.com>
+Reply-To: z-m@tsinghua.edu.cn
+To: radin.h@gmail.com
+Cc: angelique.ly@kwglobal.com, z-m@tsinghua.edu.cn, radin.h@gmail.com, hfani@uwindsor.ca, ebrahim.bagheri@gmail.com, kargar@ryerson.ca, divesh@research.att.com, jarek@ontariotechu.ca
+Message-ID: <01010186d4b25c2c-f613a127-cd27-4f0e-8487-ed8de52b5a48-000000@us-west-2.amazonses.com>
+Subject: Transactions on Information Systems - Decision on Manuscript ID TOIS-2022-0089.R1
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+12-Mar-2023
+
+Dear Mr. Radin Hamidi Rad:
+
+Congratulations!  I am pleased to inform you that your manuscript, "A Variational Neural Architecture for Skill-based Team Formation," has been accepted for publication in Transactions on Information Systems. The comments of the reviewer(s) who reviewed your manuscript are included at the foot of this letter.
+
+Your paper will be returned to your Author Center.  Instructions for uploading your final files will be sent in a subsequent communication.
+*** Please be sure to modify your paper when preparing the camera-ready version according to reviewer 1's comments. ***
+
+Thank you for your contribution to our journal.  On behalf of the Editors of Transactions on Information Systems, we look forward to your continued contributions to the Journal.
+
+Sincerely,
+Professor Min Zhang
+Editor-in-Chief, Transactions on Information Systems
+z-m@tsinghua.edu.cn
+
+Associate Editor Comments to Author:
+
+Associate Editor: Piwowarski, Benjamin
+Comments to the Author:
+Dear authors,
+
+I am pleased to report that your manuscript can be accepted in its present form by ACM TOIS.
+
+congratulations
+Benjamin Piwowarski
+
+Reviewer(s)' Comments to Author:
+
+Reviewer: 1
+
+Comments to the Author
+I think this version of manuscript has addressed most of the concerns I had. However, these still exists some minor issues.
+1. How to get the pre-trained dense vector representation?
+2. The metric skill coverage seems not useful. Maybe it is not necessary.
+
+Reviewer: 2
+
+Comments to the Author
+This is a revised version of the paper that I reviewed some time ago. It accommodates my suggestions in the the paper, and gives detailed answers for each comment. I am satisfied with the modification.

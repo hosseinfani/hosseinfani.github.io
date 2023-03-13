@@ -1,0 +1,121 @@
+Date: Fri, 26 Aug 2022 16:38:21 +0000
+From: Transactions on Information Systems <onbehalfof@manuscriptcentral.com>
+Reply-To: z-m@tsinghua.edu.cn
+To: radin.h@gmail.com
+Cc: shayla.poling@kwglobal.com, z-m@tsinghua.edu.cn, radin.h@gmail.com, hfani@uwindsor.ca, ebrahim.bagheri@gmail.com, kargar@ryerson.ca, divesh@research.att.com, jarek@ontariotechu.ca
+Message-ID: <01010182db04cd1b-9e1dc8c4-0ce9-4065-b741-e9e363fcfe0c-000000@us-west-2.amazonses.com>
+Subject: Transactions on Information Systems -
+  TOIS-2022-0089
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+Dear Radin:
+
+I have received the reviews and recommendation of the Associate Editor for your paper and conclude that the paper cannot be accepted in its present form but rather requires major revision and re-review. Three reviews are included below as well as substantial recommendations from the Associate Editor=
+ who handled this paper.
+
+If you decide that you would like to make major revisions, please send your revision within **3 months** using the revised manuscript feature of the ACM submission system at https://mc.manuscriptcentral.com/tois and include a cover letter detailing how you have responded to the reviews. The cover letter will be provided along with the revision to the reviewers.  The due date is 24-Nov-2022 EST.
+
+Sincerely,
+
+Professor Min Zhang
+Editor in Chief, Transactions on Information Systems
+z-m@tsinghua.edu.cn
+
+
+Associate Editor comments:
+Associate Editor: Piwowarski, Benjamin
+Comments to the Author:
+Dear authors,
+
+First, thanks for your submission to ACM TOIS, and sorry for the delay in the answer.
+
+After having read the three reviews and your paper, it appears that there are some remaining issues that should be fixed in the paper, in terms of clarification (esp. relating to the past collaborations between the xperts, see R3), and by performing some further experiments on crowdsourcing environm=
+ents / MOOCs datasets (see R1). Please take the time to answer all the reviewers comments before submitting your new revision.
+
+Best regards,
+Benjamin Piwowarski
+
+Reviewer Comments:
+Reviewer: 1
+
+Comments to the Author
+1. The Experiments section (Section 4-pages 11 to 15) has inconsistencies in terms of formatting and language. For example, on page 13, "The first work is by Sapienza et al.", or "The other work is by Nikzad-Khasmakhi et al. ".
+2. The formulation of Fig. 2. for the loss function does not immediately correspond to Formula (14) or (15) in the text.
+
+3. The experiment section is hard to follow. For example, modeling the IMDB dataset to be in the format of this problem is far-fetched. My suggestion is that the authors redo parts of the experiment section and use a better dataset, e.g. from crowdsourcing environments or MOOCs. Kargar et. al. used the Dota2 dataset which makes more sense to use.
+
+4. The authors need to add a discussion section about the ranking metrics they have chosen. I think including average precision @k or F1@K are also important metrics that need exploring.
+
+5. Fig 11 and Fig 12 need more explanation. The second and third figures of=
+ Fig11 and 12 does not have any explanation.
+
+Reviewer: 2
+
+Comments to the Author
+This paper proposes a method to form collaboration teams using a neural network algorithm. The problem is interesting, and the results seem to be good.
+
+My first impression is that it is a variation of the set covering problem--given an input of a set of skills, each expert is a subset of some skills, and the goal is to select some subsets(experts) to cover the input skills. I am not sure why the analogy is not mentioned in the paper, nor the relate=
+d work. The authors do mention some linear programming approaches, but I am not sure whether they can be translated into the set covering problem.
+
+It is good that the authors try to formalize the problem in section 3.1. The formalization could be improved by clarifying the goal, in particular the meaning of "optimal team". "optimal" has a special meaning in several areas. Here you can elaborate the exact meaning of  'optimal', maybe by objecti=
+ve functions.
+
+It is good to describe the statistics of the data used in your experiment. Fig 3 can be improved by adding some explanations in figure caption. For instance, it is not clear what is the meaning of the first plot of Fig 3.   There are only around 30 skills? or you intend to plot something else?=20
+
+For the critics of the shortest path approach: you claimed that that approach is not feasible due to the time complexity of the algorithm. You can expand that a little, e.g., citing the time complexity in big-O notation. Note that in an un-weighted graph, which is the graph in your context, the time=
+ complexity is linear to the number of edges in the graph.
+
+For the evaluation part. I am not sure why both coverage and recall are not high. Especially recall is very low (only a few percentages). Maybe that is not the recall I think. Adding some explanations would help.
+
+Qualitative metrics: It is hard to understand the difference between "skill coverage" and "team formation success".  Maybe the latter is related to ground truth in test cases. Better to use some concrete examples to explain it.
+
+Some minor issues in writing: be consistent in the fonts used. e.g., P(E) sometimes uses a normal font, sometimes uses \matcal.
+
+Reviewer: 3
+
+Comments to the Author
+Summary:
+In this paper, the authors study how to design robust and efficient neural architectures to address the skill-based team formation task. The authors argued that it is quite important that the mined teams should not only collectively cover the requested desirable set of skills, but also have past col=
+laborations. Because the success of a group project does not only depend on each individual's performance, but also on how effectively all members communicate and collaborate with each other. To this end, the authors proposed a comprehensive set of variations of the neural architecture and examine h=
+ow these variations impact the outcome of the team formation task. Besides, in the experimental section, the authors added more information retrieval-based metrics for more in-depth evaluation.
+
+I think the method is relatively simple, if only from the perspective of the method, for researchers in the field of artificial intelligence, there may not be much worth learning. What I am more curious about is whether the method proposed by the author can well address the challenge in skill-based =
+team formation, that is, how to take into account the past collaborations between experts when matching the skills and experts. I think this is the crux of this research, but unfortunately, the author does not emphasize and analyze it too much. I think the author introduces more about how their prop=
+osed model address the such challenge.
+
+
+Strengths:
+1. The studied task is quite useful, and the problems inside the task are not trivial. As the authors claimed, the success of a group project does not only depend on each individual's performance, but also on how effectively all members communicate and collaborate with each other. In my opinion, it =
+is really difficult to select such a group that not only satisfies the full coverage of skills but also satisfies the situation that individuals have past collaborations.
+2. It is quite interesting that the authors' proposed model can incorporate uncertainty in the parameters so that it is robust to overfitting and can therefore effectively learn from sparse and highly skewed training samples. And the experimental results also verify the robustness of the authors' pr=
+oposed model.
+3. The choice of comparison method is more reasonable, and the coverage is more comprehensive. The authors use a wealth of evaluation indicators to evaluate the proposed model from many angles. The experimental results are also more convincing.=20
+4. This paper is well-written, well-organized, and easy to read and understand.
+
+Weaknesses:
+1. The motivation of this paper is not clear. Though the authors argued that the team formation task is far from trivial, they should claim more about the challenges in solving such issues. According to the authors' analysis of the skill-based team formation task, considering past collaborations is =
+quite important in forming a successful skill-based team, that may guarantee the success of the project. I agree with the authors. And in my opinion, I think it is also more challenging about considering past collaborations when forming a skill-based team. I think the authors can emphasize such chal=
+lenges in multiple sections. Because first, it is very difficult to solve. And it is the key to the solution. If the authors only simply introduce the bayesian neural architectures, they can not provide the researchers in other areas any insights, as these methods are very common in the artificial i=
+ntelligence area. It is better to introduce the main challenge in the task the authors aim to solve and how their proposed model can better address the issue they met.
+2. In the third section of the introduction section, the authors argued that the skill-based team formation task can be treated as the Group Steiner Tree problem. I wonder to know whether the proposed neural architecture methods can address such a problem. It is better to explain why the proposed mo=
+dels can address such a problem it could.
+3. It is not clear why the bayesian neural architecture methods can address the collaboration network sparsity problem and overfitting issue.
+4. It is better to discuss the neural architecture methods in the related work section. Although such content has been introduced in the introduction section.
+5. The definition of the problem is not clear. The authors have claimed that past collaborations between the experts are important in mining the teams, but they don't clearly introduce them when defining the problems. I think the mapping function =F0=9D=91=93 : P(S) =C3=97 P(E) =E2=86=92 P(E) may be=
+ associated with such opinion, but they don't explicitly state the relationship between the mapping function and the past collaborations.
+6. It is better to analyze why the proposed model can address the high computation cost in the graph-based methods. And why the performance of the neural architectures can be guaranteed.
+
+Questions:
+1. Why map the skill subset v_s and expert subset v_e to the occurrence vector representation of expert set E? What does the occurrence vector representation of expert set E mean? What does the occurrence vector representation mean? What is the difference between occurrence vector representation and=
+ pre-trained dense vector representation?
+2. How to implement the team members' supervision through the mapping function =F0=9D=91=93 : P(S) =C3=97 P(E) =E2=86=92 P(E), which is introduced in the first paragraph in section 3.2.
+3. Is it reasonable that the training model and the prediction model are not the same? In section 3.2 Model Architecture, the authors argued that during the prediction, the dense expert vector v_e will be replaced with zeros vector as it is unknown. And why select the team (s,e) which has not been s=
+een before in the prediction stage?
+4. I wonder to know whether bringing uncertainty in the model parameters can make the proposed model more robust.
+5. When constructing the datasets, it is quite interesting how to identify the same skill, as different papers may represent the same skill with different keywords.
+6. According to the experimental results in Figure 5, the results of some settings are quite similar, does the authors conduct the significant test?7. In the ablation study section, the authors observed that considering E_p in the output performs consistently worse than the variation that uses the=
+ occurrence expert vector representation at the output E_o. The authors argued that it may be because using a pre-trained dense representation format turn the task from a multi-class classification problem to a repression task. My question is why regression task is more difficult to be trained?
+8. Is the notation S_pE_p->E_o in the third observation of the ablation study wrong? I don't find any S_pE_p->E_o in the experimental results figures.
+9. If you know which experts have which skills, and then know which tasks require which skills, wouldn=E2=80=99t it be better to match them directly?
+10. Does there exist any neural architecture methods to address the Group Steiner tree problem? If these methods exist, they should be considered comparative methods.
