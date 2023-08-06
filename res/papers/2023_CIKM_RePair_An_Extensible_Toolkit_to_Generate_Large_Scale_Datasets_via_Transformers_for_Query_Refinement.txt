@@ -1,0 +1,145 @@
+Date: Sun, 6 Aug 2023 04:56:29 +0200
+From: "CIKM'23 Resource Papers" <cikm2023-resource@easychair.org>
+To: Hossein Fani <hosseinfani@gmail.com>
+Subject: CIKM'23 Resource track notification for paper 2314
+Sender: cikm2023-resource@easychair.org
+
+Dear Hossein Fani,
+
+We are pleased to inform you that your Resource Paper submission RePair: An Extensible Toolkit to Generate Large-Scale Datasets via Transformers for Query Refinement has been accepted for publication and presentation at the 32nd ACM International Conference on Information and Knowledge Management (CIKM 2023). Congratulations!
+
+
+Reviewing
+We received 81 submissions. Every submission was reviewed and discussed by upto five members of the Program Committee. The track chairs then met online to make final decisions. Reviews for your paper are included at the bottom of this email. Ultimately, 22 papers were accepted.
+
+
+Camera-Ready submission
+Final Submission Deadline: August 18th
+ACM rights review and prep instructions: www.scomminc.com/pp/acmsig/cikm2023.htm
+A subsequent email will be sent to the first contact/corresponding author only for the ACM rights review form. Attend to the camera ready deadline and rights review forms promptly and be sure your final versions are uploaded/submitted to Sheridan on or before the August 18th deadline or risk being dropped from the conference program.
+
+Possible Online Delivery (for full/short/applied/resource/demo papers)
+Please note that, in addition to an in-person presentation of your work, we might also ask you to present your work to an online audience, possibly in a separate event. More information will be shared in due course.
+
+Registration and authorship fees:
+CIKM 2023 requires one author per paper to register for the conference. If you are the author of multiple papers, you only have to register once (either as a student or non-student, depending on your status). Furthermore, this year, there will potentially be a publication fee instituted per paper. For instance, if you are an author of 2 papers, it is OK if you register once but you have to pay the paper fee for both papers. Further instructions will be found on the registration page. We will also contact authors with information regarding registration and publication fees later.
+
+SIGIR Travel Awards (for ACM student authors with accepted long, short, demo, resource, applied track or doctoral consortium papers)
+SIGIR is pleased to offer Student Travel Grants for students presenting their accepted contributions at CIKM 2023.
+To be eligible, the student must: (1) be an ACM or SIGIR member, (2) be an author of an accepted contribution (long, short, demo, resource, applied track or doctoral consortium) and (3) be the one presenting the accepted contribution.
+These awards are competitive (i.e., not every applicant will receive a grant).  We will particularly support students from underrepresented countries; and students who have not received a grant in the past.
+To be considered for a grant, the student must submit an application and their academic advisor must complete a statement of support (links below).
+Awards will cover the cost of registration.  Moreover, for awardees attending in person, the grant will include a stipend towards travel and accommodation costs.
+The application period is set from August 5 to August 17, 2023 (AoE).  The application and statement of support must be submitted before the end of the application period.
+You will receive an email approximately 10 days after the application period has closed, letting you know whether you were granted (or not) a SIGIR Student Travel Award. Please keep in mind that there are many factors influencing the decision process, and decisions are final. Please refrain from registering before you receive a notification either way, as there would be no refund of previously paid registration fees in the case of an award.
+
+
+Student Application:  https://tudelft.fra1.qualtrics.com/jfe/form/SV_bE1BmLyJQeUqQRM?conference=CIKM2023
+
+
+Once again, remember that the deadline for submitting the camera-ready version is Aug 18.
+Final Submission Deadline: August 18th
+ACM rightsreview and prep instructions: www.scomminc.com/pp/acmsig/cikm2023.htm
+
+
+Thank you for your contribution to CIKM 2023 and we look forward to seeing you at the conference!
+
+Sincerely,
+Track Chairs
+Kokil Jaidka & Hamed Alhoori
+
+SUBMISSION: 2314
+TITLE: RePair: An Extensible Toolkit to Generate Large-Scale Datasets via Transformers for Query Refinement
+
+-------------------------  METAREVIEW  ------------------------
+This paper presents a well-documented codebase including datasets that demonstrate query refinement gold standard generation. The reviewers' discussions can be summarized as follows: the strengths of this paper include the dataset's scale and completeness. However, the weaknesses mainly consist of: 1) an insufficient discussion of dataset details, implications, and relevance. The authors can do more to address these issues, such as by offering a walk through of 1-2 potential use cases where the tool would be useful. Overall, this paper is insightful and helpful to the community, and we congratulate the authors on building a useful resource.
+
+
+
+----------------------- REVIEW 1 ---------------------
+SUBMISSION: 2314
+TITLE: RePair: An Extensible Toolkit to Generate Large-Scale Datasets via Transformers for Query Refinement
+AUTHORS: Yogeswar Lakshmi Narayanan and Hossein Fani
+
+----------- Strengths -----------
+The topic is interesting and relevant. Many people struggle with query formulation, and it is interesting to continue developing methods to support users in this process.
+
+Figures and tables are relevant and mostly easy to follow.
+
+It is interesting that the authors have focused on topic drift as one type of search behaviour that is very relevant in this context.
+----------- Weaknesses -----------
+Sometimes, the explanations in the running text can be a bit challenging to follow if you are not very familiar with the topic.
+
+The manuscript says little about the implications of this work and for whom such technology may be especially purposeful. For instance, for non-native speakers, people with writing challenges, people lacking the proper vocabulary etc. may find this technology especially useful.
+
+There are many tables and illustrations in the manuscript. Although they are relevant and useful, the placement could sometimes be improved. For example, the placement of figure 1 is a bit odd. If the authors have the opportunity to move the illustration, it would be more purposeful on page 2, since it is not referred to until there.
+----------- Overall evaluation -----------
+SCORE: 1 (weak accept)
+----- TEXT:
+Overall, the manuscript addresses an interesting and relevant issue. I would have liked to see a paragraph or two about the benefits of developing this technology further, as it may be purposeful for many types of users, especially people who have challenges with word finding, terminology or spelling, to name a few.
+
+
+A minor comment: The first section of the introduction should include some references to the claims about problems relating to formulating queries. There are many empirical and theoretical papers on this topic.
+----------- Best paper -----------
+SELECTION: no
+
+
+
+----------------------- REVIEW 2 ---------------------
+SUBMISSION: 2314
+TITLE: RePair: An Extensible Toolkit to Generate Large-Scale Datasets via Transformers for Query Refinement
+AUTHORS: Yogeswar Lakshmi Narayanan and Hossein Fani
+
+----------- Strengths -----------
+- query refinment is a cornerstone problem in IR, generating training/benchmarking dataset is thus a very relevant problem
+
+- the presented method and toolset is opensource, well documented, and employs state-of-the-art techniques
+
+- the framework is demonstrated to produce valuable benchmark datasets
+----------- Weaknesses -----------
+- the paper claims the toolset to be scalable. the paper does not support this claim in any concrete way.
+
+- the argument on why this method is better than reque is weak, why not extending reque directly? why there is no concrete experimental comparison to reque?
+
+- some parts are not sufficiently explained
+----------- Overall evaluation -----------
+SCORE: 1 (weak accept)
+----- TEXT:
+- The resource provides a well documented and opensource library to generate benchmark datasets for generating dataset to train and test query refinement methods.  The paper claims this to be extensible, this is not really well argumented or demonstrated, documentation in this regard is also lacking in sufficient details and examples.
+
+- table 1 claims this method to be scalable but there are no experiments supporting this claim, there is no complexity analysis, nor other form of technical analysis. The claim should be removed or substantiated with experiments and analysis
+
+- the paper does put a lot of effort in motivating the need for transformers, which is convincing, but why not extending directly reque then?
+
+- in the introduction the case is made for cases where query logs are missing, but there is no explanation of how repair should help in this case.
+
+
+- In the introduction and initial system overview I am surprised that the corpus of documents is not really mentioned and what is the data model for that is not considered. What about controlled vocabularies (e.g., block list of keywords that should be ignored in the process?)
+
+- Section 2.1 mentions fine tuning of transformers but this is very confusing. why is this needed, what is the practical use of this, what about hyperparameter tuning of this step?
+
+- sec 2.2 mentions that top-k random selection is non deterministic, but this is confusing since is sufficient to set a fixed random seed
+----------- Best paper -----------
+SELECTION: no
+
+
+
+----------------------- REVIEW 3 ---------------------
+SUBMISSION: 2314
+TITLE: RePair: An Extensible Toolkit to Generate Large-Scale Datasets via Transformers for Query Refinement
+AUTHORS: Yogeswar Lakshmi Narayanan and Hossein Fani
+
+----------- Strengths -----------
+1. The paper introduces RePair, an open-source toolkit designed to handle large-scale datasets. This makes it a valuable resource for researchers who are dealing with massive amounts of data, which is common in real-world settings.
+
+2. RePair is designed with reproducibility in mind, enabling other researchers to easily replicate and verify results, a key requirement in scientific research.
+
+3. RePair introduces a principled, domain-agnostic pipeline for query refinement.
+----------- Weaknesses -----------
+Like many other machine learning methods, the quality of the output from RePair is dependent on the quality of the input (i.e., the original queries and their relevance judgments). The paper does not seem to address how issues with the input data could impact the performance of the toolkit.
+----------- Overall evaluation -----------
+SCORE: 1 (weak accept)
+----- TEXT:
+Like many other machine learning methods, the quality of the output from RePair is dependent on the quality of the input (i.e., the original queries and their relevance judgments). The paper does not seem to address how issues with the input data could impact the performance of the toolkit.
+----------- Best paper -----------
+SELECTION: no

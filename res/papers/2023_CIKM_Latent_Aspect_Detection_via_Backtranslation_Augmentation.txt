@@ -1,0 +1,144 @@
+Date: Sat, 5 Aug 2023 14:39:57 +0200
+From: "CIKM'23 Short Papers" <cikm2023-short@easychair.org>
+To: Hossein Fani <hosseinfani@gmail.com>
+Subject: CIKM'23 notification for paper 2684
+Sender: cikm2023-short@easychair.org
+
+Dear Hossein,
+
+We are pleased to inform you that your submission titled:
+
+ Latent Aspect Detection via Backtranslation Augmentation
+
+has been accepted for a poster presentation at the CIKM 2023 conference.
+
+We received 554 valid submissions and accepted only 152 (27.4%).
+
+PROCESS: Three referees reviewed your paper. A member of the Senior Program Committee  (SPC) then led an online discussion, following which they wrote a summary meta-review.  In the information below you should be able to identify distinct reviews matching these different roles. In general, where reviewers had a difference of opinion after the online discussion, a final decision was reached via a discussion among the PC co-chairs.
+
+REVIEWS: Reviews and meta-reviews for your paper are included at the bottom of this email. Please read them carefully, and to the best of your ability, revise your paper to address the concerns and suggestions that may have been raised.
+
+NEXT STEPS: You will receive further emails regarding the camera-ready copy, copyright form, registration, fees, presentation instructions, and any other updates. Here is what we have so far.
+
+CAMERA-READY:
+
+Please note that camera-ready submission for papers is due on Aug. 18, which is the hard deadline.
+
+
+ACM rightsreview and prep instructions: www.scomminc.com/pp/acmsig/cikm2023.htm
+
+
+Please expect two emails related to your final version: first to all authors with the deadline and above instructions, and another to the first contact/corresponding author only for the ACM rightsreview form. Attend these items promptly and be sure your final versions are uploaded/submitted to Sheridan on or before the August 18th deadline or risk being dropped from the conference program.
+
+REGISTRATION:
+
+CIKM 2023 requires one author per paper to register for the conference and present the paper in person. The registration fee will be dynamic based on the number of papers each presenter presents. Further instructions on the presentation format, registration, and fees will be communicated later in a separate email.
+
+SIGIR TRAVEL AWARDS:
+
+SIGIR is pleased to offer Student Travel Grants for students presenting their accepted contributions at CIKM 2023. To be eligible, the student must:
+(1) be an ACM or SIGIR member,
+(2) be an author of an accepted contribution (long, short, demo, resource, applied track or doctoral consortium) and
+(3) be the one presenting the accepted contribution.
+
+These awards are competitive (i.e., not every applicant will receive a grant).  We will particularly support students from underrepresented countries; and students who have not received a grant in the past.
+
+To be considered for a grant, the student must submit an application and their academic advisor must complete a statement of support (links below). Awards will cover the cost of registration. Moreover, for awardees attending in person, the grant will include a stipend towards travel and accommodation costs. The application period is set from August 5 to August 17, 2023 (AoE). The application and statement of support must be submitted before the end of the application period.
+
+You will receive an email approximately 10 days after the application period has closed, letting you know whether you were granted (or not) a SIGIR Student Travel Award. Please keep in mind that there are many factors influencing the decision process, and decisions are final. Please refrain from registering before you receive a notification either way, as there would be no refund of previously paid registration fees in the case of an award.
+
+Student Application:  https://tudelft.fra1.qualtrics.com/jfe/form/SV_bE1BmLyJQeUqQRM?conference=CIKM2023
+
+-----------
+Thank you for your submission to CIKM 2023. We are looking forward to seeing your work presented in October! Further information about the conference (including registration and accommodation information) will be available at: https://uobevents.eventsair.com/cikm2023/
+
+Best regards,
+
+Emine Yilmaz, Hideo Joho, Wei Ding
+CIKM 2023 Short Paper Co-chairs
+
+SUBMISSION: 2684
+TITLE: Latent Aspect Detection via Backtranslation Augmentation
+
+-------------------------  METAREVIEW  ------------------------
+This paper tackles the problem of aspect detection in review analytics, focusing on features that customers target in their opinions. They propose using natural language backtranslation for data augmentation to extract latent aspects. The method improves baseline performance in detecting latent aspects across various datasets, supported by their benchmark library, LADy1. The reviewers agreed that the proposed new task of is novel, the proposed method is generally valid, and the experimental results validate the model's effectiveness. However, they also raised several concerns in the following aspects:
+
+1. The novelty of the proposed method is weak.
+2. Certain technical details need more clarification.
+3. Table 3 needs to be improved.
+
+We ask the authors to carefully address the concerns from the reviewers in the camera ready version. In particular, we expect the authors to perform statistical significance tests to verify that the observed differences were not by accident.
+
+
+
+----------------------- REVIEW 1 ---------------------
+SUBMISSION: 2684
+TITLE: Latent Aspect Detection via Backtranslation Augmentation
+AUTHORS: Farinam Hemmatizadeh, Christine Wong, Alice Yu and Hossein Fani
+
+----------- Strengths -----------
+S1. Aspect detection is important to understand customer’s reviews. This paper is trying to solve an interesting problem of extracting latent aspects from reviews.
+
+S2. The writing and presentation are well executed, ensuring a smooth flow for users as they navigate from one section to another.
+
+S3. The provided source code is clear and well organized with Readme files and toy datasets.
+----------- Weaknesses -----------
+W1. In the “Backtranslation” section where nllb by Meta was used, I found that translations from English to another language may differ if using another dictionary such as Google Translate. This means that it is important to understand the effect of different translators, which I found missing in this paper. For example, using Google Translate to translate “through cheap behavior” to Spanish “a través de un comportamiento barato” and backtranslating to English “through cheap behavior” will give the same exact words.
+
+W2. In “Semantic Alignment”, in addition to the pairwise term alignment, semantic similarity is also applied, but it is not clear why authors need to apply both. Also, they filtered reviews less than a threshold (e.g., 0.5), however, more elaboration is needed on why a specific threshold and the percentage of filtered reviews.
+
+W3. Table 3 has some issues. For example, what are the numbers with underline, and if it is the second-best value, then why sometimes it is highlighted in green and sometimes it doesn’t? Also in the “semeval-14-laptop” section, btm column, the pr1 value for farsi is 0.1438 which is higher than the best value 0.1339. In addition to that, the difference between the best value and other values is very small in some cases which questions the effectiveness of the suggested methods.
+----------- Overall evaluation -----------
+SCORE: 1 (weak accept)
+----- TEXT:
+The problem is interesting and important to detect latent aspects in customer's reviews. I think the used methods are clear and simple, yet effective in some cases.
+
+
+
+----------------------- REVIEW 2 ---------------------
+SUBMISSION: 2684
+TITLE: Latent Aspect Detection via Backtranslation Augmentation
+AUTHORS: Farinam Hemmatizadeh, Christine Wong, Alice Yu and Hossein Fani
+
+----------- Strengths -----------
+1. The task of aspect detection is significant. And the issues, such as disambiguate, out-of-vocabulary, and hidden aspects, are major challenges regarding aspect detection tasks.
+
+2. This work proposes to use back translation as a data augmentation method to improve the performance of latent aspect detection.
+
+3. The experimental results on different aspect detection models demonstrate the effectiveness of back translation.
+----------- Weaknesses -----------
+1. The novelty is weak, as it combines the existing translation and alignment models. Moreover, the idea of back translation as a data augmentation method is not new and has been proved effective for many other tasks.
+
+2. Although showing general improvement, the proposed method performs differently given the language chosen for back translation. In some cases, using all languages is not the optimal setting.
+
+3. Another concern is the setting of experiments. The back translation will provide a longer input sequence to aspect detection models. A fair comparison should employ another data augmentation method, e.g., a knowledge base approach, as the baseline.
+----------- Overall evaluation -----------
+SCORE: 1 (weak accept)
+----- TEXT:
+This study addresses the task of aspect detection, focusing on significant challenges such as disambiguation, out-of-vocabulary terms, and hidden aspects. The authors propose back translation as a data augmentation method to improve latent aspect detection performance, an approach that has proven effective across various aspect detection models. Despite these strengths, the novelty of the work is arguably limited, merging existing translation and alignment models and deploying back translation, a method not new to the field. Performance variation is also noted depending on the language chosen for back translation, with using all languages not always providing the optimal setting. Finally, concerns arise regarding the fairness of the experimental setup. Since back translation generates longer input sequences for aspect detection models, a fair comparison would ideally involve a baseline that uses another data augmentation method, possibly one leveraging a knowledge base.
+
+
+
+----------------------- REVIEW 3 ---------------------
+SUBMISSION: 2684
+TITLE: Latent Aspect Detection via Backtranslation Augmentation
+AUTHORS: Farinam Hemmatizadeh, Christine Wong, Alice Yu and Hossein Fani
+
+----------- Strengths -----------
+* The description of the task is clear and engaging, making it interesting.
+* Provided a public benchmark library.
+----------- Weaknesses -----------
+* There is room for improvement in the writing of the paper.
+* No Significant test.
+----------- Overall evaluation -----------
+SCORE: -1 (weak reject)
+----- TEXT:
+This paper provided an augmentation method for aspect detection via backtranslation.
+Experiments on six natural languages showed that the proposed method can be effective for finding aspects in different domains, including restaurants and laptops.
+
+
+I think the task is very interesting and well-described.
+However, there is room for improvement in the paper.
+Also, it is important that the authors justify that the proposed approach (backtranslation) always can find some latent aspects.
+Please add significant tests to the paper.
+Please make table 3 more clear and remove some of the results to help the reader understand.
