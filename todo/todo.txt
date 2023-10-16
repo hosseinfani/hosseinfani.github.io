@@ -1,0 +1,8 @@
+== 
+- Add location/contact us >> my photoshoot of the tree in spring in the folder
+- Add "if Fani's Lab! would be a fruit: Kiwi clip" >> clip  is in the folder
+
+== publication:
+- put the link to download bib file from dblp
+- put the link to download ms word xml file (I can convert the bib file to xml by JabRef tool)
+
