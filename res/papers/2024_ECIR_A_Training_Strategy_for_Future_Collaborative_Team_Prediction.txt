@@ -1,0 +1,159 @@
+Date: Thu, 14 Dec 2023 17:17:54 +0100
+From: "Full papers" <ecir24-pc-chairs@easychair.org>
+To: Hossein Fani <hosseinfani@gmail.com>
+Subject: ECIR 2024 notification for paper 100
+Sender: ecir24-pc-chairs@easychair.org
+
+Dear Hossein,
+
+We are delighted to inform you that your submission
+
+100  A Training Strategy for Future Collaborative Team Prediction
+
+has been accepted for presentation at the ECIR 2024 conference as a *full* paper.
+
+This year we received 249 full paper submissions and accepted 57 (~23%) of them as *full* papers (and a further 18 of them as *findings* papers). For all papers, we assigned at least three PC members and one SPC member to provide first-level reviews. The SPC then made a preliminary recommendation. The final acceptance decisions were made at the PC meetings held online 4-6th December.  We tried to reach a fair outcome for all papers and tried to avoid being over-cautious and not reject papers with minor issues that could be addressed in the camera-ready version of the paper.
+
+The reviewers and the meta-reviewer have provided detailed suggestions for improvement in the attached reviews. The reviews are to help you in improving your  submitted work. What we expect from you in return is to incorporate their feedback to improve your final paper. As an encouragement, we are giving you one extra page for the camera-ready version to address the main points raised in the reviews. Hence, your camera ready will be a total of 13 pages + unlimited references. We trust you to try to address all suggestions to the best of your ability, by adding details and extra analysis, and improve the value and impact of your paper for all readers and conference attendees.
+
+ECIR 2024 will be in Glasgow, Scotland, UK on 24th-28th March 2024. At least one author is required to register for the conference and attend in-person to present the paper. The camera-ready version will be due by 10th January, and at least one author must register by 19th January. You will receive detailed instructions on what and how to submit your camera-ready version, and how to register, in a separate message from the Proceedings Chairs shortly.
+
+Thanks to the SIGIR Friends program and the Scottish Informatics & Computer Science Alliance (SICSA), we have a number of student grants available to cover the registration costs for ECIR 2024. Further information is available in the Call: https://www.ecir2024.org/2023/11/17/call-for-student-support-grants-and-student-volunteers/
+
+Finally, if you decide to tweet about your paper acceptance, please use the hashtag #ecir2024.
+
+Congratulations — we look forward to your presentation in Glasgow at ECIR 2024!
+
+Sincerely,
+Nazli Goharian, Nicola Tonellotto
+Full Papers PC Chairs
+
+SUBMISSION: 100
+TITLE: A Training Strategy for Future Collaborative Team Prediction
+
+-------------------------  METAREVIEW  ------------------------
+This paper looked into the problem of team building using neural models, with a focus on the temporal aspects of this problem.   They proposed a streaming training strategy that followed the evolution of expert skills and their collabrative ties.  They tested their ideas using four very different datasets.
+
+The reviewers found it well-written and interesting.  The results were “encouraging”, with reviewers noting that it will likely lead to future research.  There were some suggestions about possible improvements to the paper.  Please see the individual reviews.
+
+
+
+----------------------- REVIEW 1 ---------------------
+SUBMISSION: 100
+TITLE: A Training Strategy for Future Collaborative Team Prediction
+AUTHORS: Hossein Fani, Reza Barzegar, Arman Dashti and Mahdis Saeedi
+
+----------- Relevance to ECIR -----------
+SCORE: 1 (not core-IR but still a good fit)
+----------- Main contribution -----------
+paper proposes an approach for prediction of team formation capturing the evaluation of skills of experts
+----------- Strengths -----------
+- interesting topic
+- nice solution and encouraging results
+- well written paper
+----------- Limitations -----------
+- no major drawbacks
+----------- Detailed comments -----------
+This aper proposes an approach for time aware team formation exploiting moving embeddings to represent the evolution fo skills and team collaboration. The approach s evaluated on 3 publicly available datasets and show promising results.
+----------- Impact of Contributions -----------
+SCORE: 3 (Interesting but not too influential: the work will be cited but mainly as a comparison or minor contribution)
+----------- Originality of the work -----------
+SCORE: 3 (Incremental: minor improvement in results as compared to existing work.)
+----------- Technical Soundness -----------
+SCORE: 4 (The technical facts are appropriately described but there are some minor errors or omissions)
+----------- Quality of Presentation -----------
+SCORE: 4 (The essential content is complete and the paper is understandable to most readers)
+----------- Adequacy of Citations -----------
+SCORE: 4 (The relevant publications are cited appropriately but the discussion could be more comprehensive or insightful)
+----------- Reproducibility -----------
+SCORE: 5 (Fully replicable: the experimental setup is fully transparent, described in detail, and the data is publicly available)
+----------- Expertise -----------
+SCORE: 2 (I have a good general understanding of the area)
+----------- Recommendation -----------
+SCORE: 1 (weak accept)
+
+
+
+----------------------- REVIEW 2 ---------------------
+SUBMISSION: 100
+TITLE: A Training Strategy for Future Collaborative Team Prediction
+AUTHORS: Hossein Fani, Reza Barzegar, Arman Dashti and Mahdis Saeedi
+
+----------- Relevance to ECIR -----------
+SCORE: 1 (not core-IR but still a good fit)
+----------- Main contribution -----------
+This paper proposes a streaming-based training method to capture the temporal effect on expert skill and collaboration ties, which leads to increased performance on team recommender systems.
+----------- Strengths -----------
+1. Interesting ideas on training instead of modeling
+2. Potential contribution to expert formulation problem
+3. Good results of the model
+----------- Limitations -----------
+1. Not well justified on the proposed method
+2. Overall contribution is hard to assess
+3. Miss baselines that are introduced in the related works
+----------- Detailed comments -----------
+Strength:
+The paper proposes a training strategy for machine learning models in team formation that takes into account the temporal nature of the data. By considering the evolution of experts' skills and collaboration ties over time, the proposed method captures the dynamic nature of team formation. The idea is quite interesting compared to most modeling-based work. The method is benchmarked against SOTA neural team formations and temporal recommender systems on datasets from varying domains.
+
+Limitations:
+The proposed method, for me, is not well-written, described, and evaluated. The idea is easy but hard to fully understand. I recommend the author put more focus on improving Fig.1 with a more self-explained caption. The justification and more in-depth have not been investigated yet. It is not clear why the proposed streaming-based training can effectively capture the evolving nature of skills and ties. What's the consideration of time constraints such as predefined start and due dates of projects or experts' availabilities? How efficient on training given the pairwise computation at each time interval? Again, the idea is interesting but lacks more depth discussion and justification, which limits the contribution. Par experiments, there are missing baselines that are discussed in the related work, e.g., search-based and other time-based methods. It is not clear if the performance, compared to classic or others, is incremental.
+----------- Impact of Contributions -----------
+SCORE: 2 (Marginally interesting but may or may not be cited)
+----------- Originality of the work -----------
+SCORE: 3 (Incremental: minor improvement in results as compared to existing work.)
+----------- Technical Soundness -----------
+SCORE: 3 (There are some technical shortcomings but the main idea is generally solid)
+----------- Quality of Presentation -----------
+SCORE: 3 (The paper misses a few important details but the major points were clear)
+----------- Adequacy of Citations -----------
+SCORE: 4 (The relevant publications are cited appropriately but the discussion could be more comprehensive or insightful)
+----------- Reproducibility -----------
+SCORE: 3 (Some of the experiments could be reproduced, but details of the data and experimental setup could be more explicit; the data would not be replicable even inside of the authors' organization)
+----------- Expertise -----------
+SCORE: 2 (I have a good general understanding of the area)
+----------- Recommendation -----------
+SCORE: -1 (weak reject)
+
+
+
+----------------------- REVIEW 3 ---------------------
+SUBMISSION: 100
+TITLE: A Training Strategy for Future Collaborative Team Prediction
+AUTHORS: Hossein Fani, Reza Barzegar, Arman Dashti and Mahdis Saeedi
+
+----------- Relevance to ECIR -----------
+SCORE: 2 (an IR conference is the natural place for this paper)
+----------- Main contribution -----------
+The paper proposes a training strategy to encode temporal aspects in models for the formation of expert teams.
+----------- Strengths -----------
+- clearly presented
+- could be useful for future research
+- evaluated on four benchmark collections using four baseline approaches
+----------- Limitations -----------
+- Description of reported metrics is a bit unclear
+- Figure 1 doesn't add much and looks a bit strange
+- investigated problem might be a bit niche
+----------- Detailed comments -----------
+The paper proposes a training strategy to encode temporal aspects in models for the formation of expert teams.
+
+The paper has clearly defined research questions that are evaluated on four benchmark collections using four baseline approaches. The Related Works section is informative and positions the work reasonably well.
+
+The proposed approach is clearly presented (although I’m not convinced Figure 1 adds much clarity and looks a bit strange). Experimental setup details are well presented, although the description of the % metrics is somewhat unclear.
+
+Overall, the paper is clearly written and is interesting work that might benefit future research.
+----------- Impact of Contributions -----------
+SCORE: 3 (Interesting but not too influential: the work will be cited but mainly as a comparison or minor contribution)
+----------- Originality of the work -----------
+SCORE: 3 (Incremental: minor improvement in results as compared to existing work.)
+----------- Technical Soundness -----------
+SCORE: 4 (The technical facts are appropriately described but there are some minor errors or omissions)
+----------- Quality of Presentation -----------
+SCORE: 4 (The essential content is complete and the paper is understandable to most readers)
+----------- Adequacy of Citations -----------
+SCORE: 4 (The relevant publications are cited appropriately but the discussion could be more comprehensive or insightful)
+----------- Reproducibility -----------
+SCORE: 4 (The experiments could be reproduced: the experimental setup is clear, the data is described in detail, but is not available outside of the authors' organization)
+----------- Expertise -----------
+SCORE: 1 (I read very few publications on this topic)
+----------- Recommendation -----------
+SCORE: 1 (weak accept)
