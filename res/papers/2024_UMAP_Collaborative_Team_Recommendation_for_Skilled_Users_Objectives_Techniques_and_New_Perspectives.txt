@@ -1,0 +1,30 @@
+Date: Mon, 29 Jan 2024 14:56:17 +0100
+From: UMAP24 Workshop and Tutorial Proposals Track <umap2024-wt@easychair.org>
+To: Hossein Fani <hosseinfani@gmail.com>
+Subject: UMAP'24 notification for tutorial 0275
+Sender: umap2024-wt@easychair.org
+
+Dear Tutorial Organizers,
+
+Congratulations, we are happy to inform you that your proposal for the tutorial:
+
+Collaborative Team Recommendation for Skilled Users: Objectives, Techniques, and New Perspectives
+  
+has been accepted as a 90-minute tutorial in the ACM UMAP 2024 tutorial program.  Moreover, we suggest that the organizers focus more on the topics related to UMAP.
+
+The next steps are preparing a call to be advertised and setting up a website for the tutorial (to be linked to from the conference site).
+
+*** Please send us (umap2024-wt@um.org) the tutorial description of 100-150 words and the website URL by February 24, 2024***. 
+The publicity chairs of the conference will advertise the tutorial through different channels.
+
+*** Please, remember that each accepted tutorial summary must be accompanied by a distinct full author registration, completed by the early registration date cut-off. All tutorial presenters need to be registered as well. ***
+
+We remind you that there will be conference adjunct proceedings published by ACM where the tutorial summaries will be published. Hence, the tutorial organizers will need to adhere to the adjunct proceedings publication timeline which is May 16, 2024. The proceedings chairs of the conference will contact you regarding the detailed procedures.
+
+If you have any questions, please feel free to let us know.
+
+Best Regards,
+
+Amra Delić, University of Sarajevo, Bosnia and Herzegovina
+Eelco Herder, University of Utrecht, The Netherlands
+Noemi Mauro, University of Turin, Italy
