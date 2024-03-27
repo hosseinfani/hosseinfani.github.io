@@ -1,0 +1,210 @@
+Date: Tue, 26 Mar 2024 00:30:44 +0100
+From: "Resource paper & Repro" <sigir24-ResourceRepro@easychair.org>
+To: Hossein Fani <hosseinfani@gmail.com>
+Subject: SIGIR'24 notification for paper 9419
+Sender: sigir24-ResourceRepro@easychair.org
+
+Dear Hossein,
+
+We are delighted to inform you that your submission “LADy: A Benchmark Toolkit for Latent Aspect Detection Enriched with Backtranslation Augmentation” (paper ID 9419) has been accepted for presentation at the SIGIR2024 conference in the Resource paper & Repro track. Congratulations!
+
+The reviews your submission has received can be found at the end of this email. Please read them carefully and revise your paper accordingly. Information regarding the camera-ready formatting instructions and mode of presentation will be sent out soon.
+
+A reminder that the conference will be in-person. For more details, see the SIGIR 2024 in-person policy web page: https://sigir-2024.github.io/policy_inperson.html. More information about registration and visa letters will also be sent in the coming days.
+
+SUBMISSION AND ACCEPTANCE STATISTICS
+===
+This year, we received a total of 134 submissions for the Resource paper & Repro  track. After the first round of desk rejections, we included 113 submissions in the review process. We implemented a thorough desk rejection process to ensure that the review effort was concentrated on submissions that met a minimum standard of relevance to the field.
+
+46 submissions were accepted in the Resource paper & Repro track (40.7% acceptance rate).
+
+
+INFORMATION ABOUT THE REVIEW PROCESS
+===
+Each paper has received at least 3 reviews and was handled by one of the PC chairs who checked the reviews and moderated the discussion.
+
+The PC Chairs together made the final decisions on the acceptance of papers. In cases where the decision was not a clear accept or reject, the responsible PC chair wrote a metareview to summarize the main factors that contributed to the final outcome.
+
+All submissions were considered for their relevance to the field, novelty, impact, and availability of resources. The latter was considered a necessary requirement for resource papers.
+
+CAMERA READY INSTRUCTIONS
+===
+The following are important steps you must follow in order to prepare your camera ready and meet publication requirements:
+
+A. The ACM SIG formatting and preparation instructions for your submission to be included in the proceedings can be found at: https://www.scomminc.com/pp/acmsig/sigir2024.htm. The page limit for resource and reproducibility papers is 9 pages with additional pages for references *only*. Please familiarize yourselves with the formatting and review in general for the helpful formatting hints included.
+
+B. The submission deadline for the camera-ready version is **May 1, 2024 (AoE)**.  Papers not submitted on time will be dropped from the proceedings.
+
+C. We will use the paper title and author information (name, affiliation, email etc.) that you entered in EasyChair "as is" for publication purposes. Please make sure that the information on the camera-ready paper and in EasyChair are consistent. After the camera-ready deadline, we cannot accommodate corrections of paper titles. If you believe that the information in EasyChair is not correct, please submit a request to SIGIR24-proceedings@acm.org to revise it **no later than April 11 (AoE)**. We remind you that according to this year's policy that authors cannot be added after paper submission.
+
+D. You should expect two emails:
+
+D1. One email from ACM Rights Review (rightsreview@acm.org) with a link to the electronic ACM copyright-permission form(s) to be completed. Upon completing the electronic form, you will receive a confirmation email containing the ACM copyright block, conference data, etc. specific for your submission and mandatory to appear on the first page. See www.scomminc.com/pp/acmsig/sigir2024.htm for further details.
+
+D2. One email from submissions@scomminc.com. This email will contain the unique-supplied direct link to submit your final version. If you are unable to find your direct submission information, please use the following link: Sheridan-ACM Submission System (https://www.scomminc.com/acm/submissions/submission.cfm?grid=sigir) to request your unique and individual submission link.
+
+
+
+STUDENT GRANTS
+===
+SIGIR is pleased to offer Student Travel Grants for students presenting their accepted contributions at SIGIR 2024.
+
+To be eligible, the student must be (1) the author of an accepted contribution, (2) the one presenting the accepted contribution, and (3) a SIGIR member as SIGIR student travel grants are only open to SIGIR members.
+
+These awards are competitive, i.e., not every applicant will receive a grant. We will prioritize students presenting the accepted contributions in the main conference track; students from underrepresented countries; and students who have not received a grant in the past.
+
+To be considered for a grant, the student must apply and their academic advisor must complete a statement of support (a link to the advisor will be sent directly as soon as the student provides all the information requested in their application).
+
+For awardees, the grant will cover the cost of in-person registration and U$D 1,200 towards travel and accommodation costs.
+
+The application period is from March 25, 2024 to April 5, 2024 (AoE). The application and statement of support must be submitted before the end of the application period.
+
+Notifications will be sent by April 10. Please do not register for the conference ahead of this date as SIGIR Awards cannot reimburse you for the registration. If awarded a grant, you will receive a code for a registration fee waiver.
+
+Application form:  https://tudelft.fra1.qualtrics.com/jfe/form/SV_d5aqDGfkvloSxsq?conference=SIGIR2024
+
+We look forward to meeting you in D.C.!
+
+Sincerely,
+
+Krisztian Balog, Bevan Koopman, Bhaskar Mitra
+SIGIR 2024 Resource & Reproducibility Co-chairs
+
+SUBMISSION: 9419
+TITLE: LADy: A Benchmark Toolkit for Latent Aspect Detection Enriched with Backtranslation Augmentation
+
+
+----------------------- REVIEW 1 ---------------------
+SUBMISSION: 9419
+TITLE: LADy: A Benchmark Toolkit for Latent Aspect Detection Enriched with Backtranslation Augmentation
+AUTHORS: Farinam Hemmatizadeh, Christine Wong, Alice Yu and Hossein Fani
+
+----------- Relevance to SIGIR -----------
+SCORE: 5 (excellent)
+----------- Novelty -----------
+SCORE: 4 (good)
+----- TEXT:
+The novelty is the implementation of a benchmarking toolkit for Latent Aspect Detection that allows researchers and practitioners to compare different models on different datasets and metrics in a standardized way. This is an open-source toolkit. It also integrates Backtranslation Augmentation to enhance the quality of the tested models. Finally, it gives the possibility to mask datasets to mimic latent ones and be able to compare models also in this critical scenario.
+----------- Relevance to the Track -----------
+SCORE: 5 (excellent)
+----------- Quality of presentation -----------
+SCORE: 5 (excellent)
+----------- Soundness -----------
+SCORE: 4 (to a great extent)
+----- TEXT:
+This paper starts by clearly describing the reasons behind the implementation of the toolkit, highlighting its potential. It follows with a clear and detailed description of the Python implementation.
+----------- Availability and Utility -----------
+SCORE: 3 (available and well-documented)
+----------- Potential Impact -----------
+SCORE: 5 (excellent)
+----------- Related work -----------
+SCORE: 5 (excellent)
+----------- Overall recommendation -----------
+SCORE: 3 (strong accept)
+----------- Detailed comments to authors -----------
+This paper makes a valuable contribution to the world of research by providing a tool for evaluating and comparing different models for Latent Aspect Detection. The contribution made in the following paper can be of value, allowing researchers and practitioners to compare different models on different datasets and metrics in a standardized way.
+
+The paper is well written. It starts by presenting state-of-the-art Latent Aspect Detection with its aims and weaknesses, motivating the necessity of the proposed toolkit. It gives a detailed description of which aspects LaDy assesses before moving to the implementation description. System design and architecture are clearly and in-depth described with the addition of class diagrams and GitHub repository references. A good description of the Backtranslation Augmentation approach is also given. An Evaluation section follows highlighting the potential of the toolkit to mimic latent datasets thanks to the implementation of a masking method.
+
+Pros:
+- Well motivated choice
+- Clear description of the technical component used
+- Clear description of the implemented classes
+- Provided GitHub material with related well-written documentation
+
+Cons:
+-
+
+I think the paper is ready for publication and that it would be a good addition to the conference.
+
+
+
+----------------------- REVIEW 2 ---------------------
+SUBMISSION: 9419
+TITLE: LADy: A Benchmark Toolkit for Latent Aspect Detection Enriched with Backtranslation Augmentation
+AUTHORS: Farinam Hemmatizadeh, Christine Wong, Alice Yu and Hossein Fani
+
+----------- Relevance to SIGIR -----------
+SCORE: 4 (good)
+----------- Novelty -----------
+SCORE: 3 (fair)
+----- TEXT:
+fair
+----------- Relevance to the Track -----------
+SCORE: 4 (good)
+----------- Quality of presentation -----------
+SCORE: 3 (fair)
+----- TEXT:
+not good
+----------- Soundness -----------
+SCORE: 2 (to a moderate extent)
+----- TEXT:
+to a moderate extent
+----------- Availability and Utility -----------
+SCORE: -1 (have not checked)
+----------- Potential Impact -----------
+SCORE: 3 (fair)
+----------- Related work -----------
+SCORE: 3 (fair)
+----------- Overall recommendation -----------
+SCORE: 1 (weak accept)
+----------- Detailed comments to authors -----------
+The paper aims to advance aspect-based sentiment analysis by focusing on detecting latent aspects in unsolicited online reviews. The paper seeks to address the challenges of reproducibility, extensibility, and the standardization of experimental setups in aspect extraction research. They propose LADy, an open-source platform that leverages back-translation augmentation to improve latent aspect detection. This work is relevant for understanding and improving customer sentiment analysis, especially with the rising significance of unsolicited reviews on platforms such as Google Reviews and Twitter. However, I have the following concerns:
+
+Strengths:
+•	The research topic is interesting and easy to read offering LADy as an open-source platform with a web application.
+•	The paper presents an innovative approach (back-translation augmentation) to latent aspect detection in unsolicited online reviews.
+•	The LADy toolkit offers a standard implementation, benchmark datasets, and adaptability to new metrics and datasets.
+•	The paper presents a detailed system design and architecture for LADy, making it a valuable resource for reproducibility and flexibility in aspect-based sentiment analysis research.
+
+Weaknesses:
+•	There is a limited discussion on dataset diversity and the specific contribution of back-translation augmentation to performance improvement.
+•	The paper lacks a detailed discussion on ethical considerations and user privacy, particularly concerning unsolicited reviews and sensitive information handling.
+•	While backtranslation augmentation is highlighted, a detailed comparative analysis showcasing its specific contribution to performance improvement could be further expanded.
+
+Detailed comment:
+•	The paper effectively situates LADy within the existing landscape of aspect-based sentiment analysis tools, though it could benefit from a more detailed discussion on how it surpasses these in terms of functionality and usefulness.
+•	The base datasets used for comparison are justified; however, expanding the scope of datasets for testing could strengthen the toolkit's validation further.
+•	The paper could further elaborate on the specific challenges faced by researchers when dealing with unsolicited reviews, particularly those that contain latent aspects not explicitly mentioned in the paper. A deeper dive into the limitations of current methods in identifying these latent aspects would strengthen the paper's foundation.
+•	The discussion on related work could be expanded to include a more detailed critique of how LADy's approach to data augmentation, particularly back-translation, offers advantages over the techniques employed by other tools. Additionally, incorporating a discussion on the potential limitations or challenges of these existing tools could provide a clearer context for LADy's development.
+•	The methodology section could benefit from a more detailed explanation of the decision-making process behind choosing specific models and languages for back-translation. In addition, the impact of back-translation on the quality and diversity of aspect detection deserves deeper analysis, particularly in terms of how it affects the detection of latent aspects compared to explicit ones.
+•	The paper does not sufficiently address how back-translation augmentation influences the detection of latent aspects (pre- and post-back-translation augmentation). A comparative analysis highlighting the improvements or drawbacks of using backtranslation, along with examples of detected latent aspects before and after augmentation, would provide more insight into the method's efficacy.
+•	The paper briefly mentions ethical considerations but does not delve into the specifics of how LADy addresses potential ethical issues associated with using unsolicited reviews. Given the sensitivity of user-generated content, a more detailed discussion on measures taken to ensure privacy, consent, and the anonymization of data would reinforce the paper's ethical credibility.
+
+
+
+----------------------- REVIEW 3 ---------------------
+SUBMISSION: 9419
+TITLE: LADy: A Benchmark Toolkit for Latent Aspect Detection Enriched with Backtranslation Augmentation
+AUTHORS: Farinam Hemmatizadeh, Christine Wong, Alice Yu and Hossein Fani
+
+----------- Relevance to SIGIR -----------
+SCORE: 4 (good)
+----------- Novelty -----------
+SCORE: 3 (fair)
+----- TEXT:
+The authors did not release a new dataset. They used existing datasets in their proposed toolkit. The novelty lies in the evaluation approach. There is not much insight provided over the work that has been reproduced.
+----------- Relevance to the Track -----------
+SCORE: 4 (good)
+----------- Quality of presentation -----------
+SCORE: 3 (fair)
+----------- Soundness -----------
+SCORE: 3 (to a good extent)
+----- TEXT:
+The paper has novel contribution in terms of evaluation.
+----------- Availability and Utility -----------
+SCORE: 3 (available and well-documented)
+----------- Potential Impact -----------
+SCORE: 4 (good)
+----------- Related work -----------
+SCORE: 4 (good)
+----------- Overall recommendation -----------
+SCORE: 1 (weak accept)
+----------- Detailed comments to authors -----------
+This work focused on reproducing aspect based review analysis approaches across various domains and languages. My comments are as follows.
+
+1. This paper lacks substantial insight into the reproduced methods. It could benefit from a more detailed analysis of existing approaches.
+
+2. The evaluation approach based on masking is a novel contribution in this paper.
+
+3. This paper does not release any new dataset. Therefore, its sole contribution in terms of resources is consolidating a repository that houses a compilation of existing datasets in one location.
