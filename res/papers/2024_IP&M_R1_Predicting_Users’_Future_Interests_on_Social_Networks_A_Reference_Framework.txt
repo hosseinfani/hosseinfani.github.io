@@ -1,0 +1,87 @@
+From: em.ipm.0.884ae3.9d43b625@editorialmanager.com <em.ipm.0.884ae3.9d43b625@editorialmanager.com> on behalf of Information Processing and Management <em@editorialmanager.com>
+Sent: Tuesday, December 26, 2023 5:17:07 AM
+To: Fattane Zarrinkalam <fzarrink@uoguelph.ca>
+Subject: Decision on submission to Information Processing and Management
+ 
+CAUTION: This email originated from outside of the University of Guelph. Do not click links or open attachments unless you recognize the sender and know the content is safe. If in doubt, forward suspicious emails to IThelp@uoguelph.ca.
+
+CC: prosso@dsic.upv.es
+
+Manuscript Number: IPM-D-23-02374   
+
+Predicting Users’ Future Interests on Social Networks: A Reference Framework
+
+Dear Dr. Zarrinkalam,
+
+Thank you for submitting your manuscript to Information Processing and Management.
+
+I have completed my evaluation of your manuscript. The reviewers recommend reconsideration of your manuscript following major revision. I invite you to resubmit your manuscript after addressing the comments below. Please resubmit your revised manuscript by Jan 25, 2024.
+
+When revising your manuscript, please carefully consider all issues mentioned in the reviewers' comments: please outline every change made in response to their comments and provide suitable rebuttals for any comments not addressed. Please note that your revised submission may need to be re-reviewed. 
+
+To submit your revised manuscript, please log in as an author at https://www.editorialmanager.com/ipm/, and navigate to the "Submissions Needing Revision" folder.  
+
+Information Processing and Management values your contribution and I look forward to receiving your revised manuscript.
+
+Kind regards,   
+Jim Jansen   
+Editor-in-Chief  
+
+Information Processing and Management
+
+
+Editor and Reviewer comments:
+
+
+
+Meta-Review
+
+Dear authors,
+
+Thank you for submitting your paper to IPM. We have two reviews on your paper. The reviewers are supportive of your work but also believe the paper would benefit from additional explanation and clarification of the main contributions. For instance, it is not clear how the use of features affect popularity and what is the connection between user influence and prestige.
+Moreover, the justification for selecting the learning-to-rank method and the t-test need to be adequately addressed.
+
+I hope you can complete the recommendation changes in a revision of your article.
+
+Best
+
+Paolo Rosso
+IPM Associate Editor
+
+
+
+Reviewer #1: Research summary: The manuscript presents various user-based and item-based features to predict the next topic the user will interact with in social media (Twitter). Their proposed model is based on learning-to-rank using the features proposed in the work. The features consider user preference and their interaction with the topics and content.
+
+The experiments done on a Twitter dataset and shows significant improvements. The authors present several studies and analyses on the features and provide insight into how they can impact the user preference and item characteristics.
+
+While the work provides useful and interesting insights into this problem and various aspects of it, I have some concerns regarding the experimental setup and some of the features that need to be addressed.
+
+First concern is about the features that are based on item popularity. As we know, social media platforms all suffer from popularity bias. The popularity-based features all amplify this bias that's already hurting the performance and fairness on these platforms. What is the authors' take on this matter and how the use of these features affect popularity?
+
+What is the connection between user influence and prestige? Their definitions are very similar and related but the differences are not clear. Please elaborate.
+
+Regarding evaluation, the work reports the performance of NDCG and MAP. I'm interested in seeing the performance on the top of the list (NDCG@k and MRR). Also, more baselines beyond learning to rank are required to have a bigger picture regarding the performance of the model compared to competitive baselines.
+
+
+Reviewer #2: The study evaluates different metrics to measure the users' future interest topics. Through an ablation study, the authors assess the significance of various features in predicting social media user topic interests, drawing on an extensive literature review. A distinctive aspect of the research involves the examination of temporal features as cross-cutting elements to understand their impact on the prediction. Furthermore, the authors incorporate an additional approach by considering previously unobserved topics in their ablation study. The paper presents promising results depicting the influential features in predicting future user interests across diverse scenarios, including user activity levels in social media and cold topics.
+
+Positive aspects:
+- The exhaustive review of features that may impact the prediction of users' future interests.
+- The inclusion of temporal dimension into features adds depth to the analysis.
+- The segmentation of users based on their activity level enhances the quality of the results.
+- The cold topics inclusion in the study adds value to the research.
+
+Some concerns:
+
+- The manuscript lacks a detailed description of the statistical experimental design, including previous variable distribution study and test results. A more comprehensive explanation of why a t-test was chosen and the significance of the test results is essential for the reader to understand the robustness of the findings. I recommend the inclusion of the complete statistical experiment in the manuscript, providing a clear rationale for choosing a t-test and presenting the significance results.
+- The justification for selecting the learning-to-rank method is not adequately addressed. The authors should examine the existing literature on learning-to-rank models to provide a more solid justification for their election and then select the most accurate model.
+
+Below are some other suggestions and improvements to enhance the overall quality of the manuscript:
+
+- The claim that the Big-Five was proposed by Rothman and Coetzer in 2003 is inaccurate, as it was introduced by Tupes, E.C. and Christal, R. E. in 1961 in the technical report "Recurrent personality factors based on trait ratings".
+- Some grammar mistakes are present in the manuscript, particularly the inadequate use of pronouns.
+- The reference formatting in Table 1 requires attention.
+- The manuscript should be thoroughly reviewed to correct minor grammar errors, such as the use of commas instead of periods.
+
+In conclusion, the authors present a comprehensive study on the features influencing the prediction of users' topic interests across various scenarios. However, based on the issues highlighted, I recommend a major revision to incorporate these suggested improvements.
+
