@@ -1,0 +1,131 @@
+Date: Sat, 8 Jun 2024 16:25:32 +0200
+From: bias2024 <bias2024@easychair.org>
+To: Hossein Fani <hosseinfani@gmail.com>
+Subject: BIAS @ SIGIR 2024 Notification about the paper decision 1687
+Sender: bias2024@easychair.org
+
+Dear Roonak Moasses, Delaram Rajaei, Hamed Loghmani, Mahdis Saeedi, Hossein Fani,
+
+We are pleased to inform you that your paper entitled vivaFemme: Mitigating Gender Bias in Neural Team Recommendation via Female-Advocate Loss Regularization has been accepted at BIAS 2024.
+
+In what follows, you will find some steps to be completed in order to participate in the workshop.
+
+** REGISTRATION - to be completed on the SIGIR system by June 15, 2024 **
+Please be aware that at least one author should be registered for the workshop and present the work. A missing registration to cover the paper will lead to excluding the paper from the proceedings and the workshop programme. The registration for authors with a paper in our workshop should be completed by June 15, 2024 at https://sigir-2024.github.io/attend_registration.html.
+
+** CAMERA READY - to be sent through Google Form by June 20, 2024 AoE **
+Reviews for your paper are included at the bottom of this email. Your paper must be revised following all reviewers' comments. Please, take reviewers' comments into very careful consideration in making your final revisions and mandatorily add between ** at least 1 and up to 3 additional pages ** to address reviewers' comments and improve the paper.
+
+Workshop organizers will check whether the authors have properly addressed the points mentioned in the reviews, especially those that reviewers have explicitly mentioned as important for making the paper better in its camera-ready version. Hence, please carefully consider this revision.
+
+Please upload a single zip file containing the source files, the PDF camera-ready version, and copyright form at https://forms.gle/puGUux6Xxhvg37S78.
+
+The files you need to send through the form to us must be prepared in a unique zipped file including:
+
+* Source Files *
+A zipped file containing either all your LaTeX sources or a Word or an RTF format file. For LaTeX submissions, you should include the references in .bbl format, style files, and images, in addition to your .tex file(s). Please, be sure that you consult and adhere to:
+
+- Springer’s authors’ instructions
+https://resource-cms.springernature.com/springer-cms/rest/v1/content/19242230/data/v13
+
+- Latex proceedings template
+https://resource-cms.springernature.com/springer-cms/rest/v1/content/19238648/data/v8
+
+- Word  proceedings template
+https://resource-cms.springernature.com/springer-cms/rest/v1/content/19238706/data/v3
+
+* Camera-Ready PDF *
+The PDF version of your camera-ready paper.
+
+* Copyright Form *
+The PDF version of the filled and signed Consent-to-Publish form available at https://drive.google.com/uc?export=download&id=1bOfJVKWaW-BzOYPjAtPU1GMvm0XENpHk. Please read the form carefully and fill it in. Then, you can sign the form by pen on paper and scan it into PDF. It is sufficient for one of the authors to sign it. The corresponding author signing the copyright form should match the corresponding author marked on the paper. Once the files have been sent to Springer, changes relating to the authorship of the papers cannot be made.
+
+Please make sure that the author information on the camera-ready paper and on EasyChair is consistent. Bias strictly forbids any modification to the author list, which should be the same as the one declared at the time of submission (permutations of the authors' order are accepted, though).
+
+Papers not submitted on time or not following these rules may be dropped from the proceedings.
+
+** PARTICIPATION - on July 18, 2024 full day **
+The information about the participation modalities will be sent to you in due time. Please make sure to indicate the expected participation mode for you in the camera-ready submission form. Each speaker will be introduced by a session chair, and each speaker will present the paper by sharing the slides, using PowerPoint or any other software, according to the timing indicated in the program.
+
+Please, monitor the workshop website at https://biasinrecsys.github.io/sigir2024/ for the program and other details on participation. If you still have doubts, do not hesitate to contact us.
+
+Thanks,
+Alejandro, Ludovico, Styliani, Elisabeth, Francesca, Mirko
+
+SUBMISSION: 1687
+TITLE: vivaFemme: Mitigating Gender Bias in Neural Team Recommendation via Female-Advocate Loss Regularization
+
+
+----------------------- REVIEW 1 ---------------------
+SUBMISSION: 1687
+TITLE: vivaFemme: Mitigating Gender Bias in Neural Team Recommendation via Female-Advocate Loss Regularization
+AUTHORS: Roonak Moasses, Delaram Rajaei, Hamed Loghmani, Mahdis Saeedi and Hossein Fani
+
+----------- Overall evaluation -----------
+SCORE: 2 (accept)
+----- TEXT:
+This paper is about a method called vivaFemme, which is an "in-process debiasing method". The main goal is to provide a method for team (building) recommendation that is independent of the team members' genders and as accurate as typically biased team recommenders. vivaFemme is actively altering the loss function in favor of female team members.
+
+The authors first motivate their approach, give an overview an relevant literature, describe their method, and evaluate it on an IMDB corpus. For readers who are unaware of the IMDB dataset, how skills and genres can be used in this training scenario should be explained.
+
+The overall flow of the paper is straightforward, and the results seem promising, although the authors already mention some points for future work and further investigations.
+
+Some minor remarks:
+
+- In Fig. 1. the "base" loss of -log0.2 for female and male experts is different, but it should be the same in my understanding. The differences in the loss should be accounted to the parameter \lambda, right?
+- Check for typos please: "power set" vs. "powerset"
+- Placement of figures should be optimized. Figure 3 is mentioned first on page 10 (bottom), but it is placed on page 8 (top). This forces the reader to scroll a lot.
+-
+
+
+
+----------------------- REVIEW 2 ---------------------
+SUBMISSION: 1687
+TITLE: vivaFemme: Mitigating Gender Bias in Neural Team Recommendation via Female-Advocate Loss Regularization
+AUTHORS: Roonak Moasses, Delaram Rajaei, Hamed Loghmani, Mahdis Saeedi and Hossein Fani
+
+----------- Overall evaluation -----------
+SCORE: 1 (weak accept)
+----- TEXT:
+In the paper, the authors propose an in-process method for debiasing gender in neural team recommendations. They do this by applying a modification to the model’s cross-entropy loss function. The results show that the method is able to mitigate bias by debiasing the gender imbalance in neural models while maintaining accuracy.
+Major strengths: The major strengths of the research are:
+(i) The paper tackles a relevant and valid problem. I found the paper interesting and I enjoyed reading it.
+(ii) The paper explores the application of an in-process approach and its impact on neural team recommendations.
+(iii) The paper is very well written and structured.
+(iv) The paper provides a link to the code.
+
+
+-1-Generalizability of the approach to more than one minority group at a time:
+I wonder how the method works for non-binary protected groups or more than two groups. Another possible direction could be optimizing for multiple attributes, such as gender and skills simultaneously.
+
+-2-In Figure 3, how would the fairness look for male experts?
+My point here is to check that while trying to ensure fair exposure or inclusion of more females, we do not become unfair to the other group. If this is the case, what would be the “correct/right” threshold?
+
+
+-3-The paper discusses diversity in the team, but it would be beneficial to include a measure of diversity.
+Would your approach work well for other deep-learning methods?
+We see that the method falls short of maintaining the accuracy of the variational Bayesian neural models. It would be great to find out how it applies to other deep learning models.
+
+Possible typos:
+Page 8: “[...]encounter during a model training, we drastically penalize the model by amplifying the loss values via a punitive coefficient λ1 should it miss the correct recommendations for such scarce and invaluable opportunities.”
+It looks like something is missing in the sentence.
+
+
+
+----------------------- REVIEW 3 ---------------------
+SUBMISSION: 1687
+TITLE: vivaFemme: Mitigating Gender Bias in Neural Team Recommendation via Female-Advocate Loss Regularization
+AUTHORS: Roonak Moasses, Delaram Rajaei, Hamed Loghmani, Mahdis Saeedi and Hossein Fani
+
+----------- Overall evaluation -----------
+SCORE: 0 (borderline paper)
+----- TEXT:
+The paper presents an in-processing fairness method to minimize gender bias in team recommendations. The key idea is to revise the loss function, (a) adding a term that penalizes false positives for females more than for males, (b) adding a term that promotes false negatives for females.
+
+The contribution of this work is rather narrow as it is framed in the context of team formation/recommendation. However, it seems that this in-processing idea applies more generally in other classification tasks. It is not clear what is unique in this setting. Therefore, the authors should discuss the peculiarities of this setting, and highlight similarities/differences with plain classification. Moreover, the discussion should also involve in processing methods for fair classifiers.
+
+It is also not clear why in-processing is more preferable that post-processing, where the latter has the advantage that it can explicitly set any male-female representation ratio in the team. Moreover, I would like to see an experimental evaluation.
+
+The method requires two hyperparameters/coefficients lambdas. Is there an advice on how to set them in practice?
+
+In the context of Fig. 1, it is not clear why there is no loss term for true negatives. This is explained later, but some discussion is needed upfront. Or you can say that in practice only a few true negatives are sampled.
