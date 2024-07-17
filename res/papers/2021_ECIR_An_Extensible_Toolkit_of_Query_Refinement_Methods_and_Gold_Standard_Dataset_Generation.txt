@@ -1,0 +1,87 @@
+Date: Tue, 15 Dec 2020 19:59:12 +0100
+From: ECIR 2021 <ecir2021@easychair.org>
+To: Hossein Fani <hosseinfani@gmail.com>
+Subject: ECIR 2021 demo track - notification for paper 295
+Sender: ecir2021@easychair.org
+
+Dear Hossein Fani, 
+
+We are pleased to inform you that your paper "An Extensible Toolkit of Query Refinement Methods and Gold Standard Dataset Generation" has been accepted to the demo track of ECIR 2021.
+
+Congratulations!!!
+
+We received a total of 31 submissions and we have accepted 15 of them (48% acceptance rate), based on the reviews of demo track PC members. Each paper has been reviewed by at least three PC members. Detailed information of reviews and comments to your paper is appended to this email.
+
+Further instructions concerning the camera-ready copy, copyright transfer form, conference registration, and presentation of demos will be sent to you later in a separate email.
+
+Please make sure to carefully read and share with all your co-authors this and future emails.
+
+Congratulations again. We look forward to seeing you online at ECIR 2021. 
+
+Kind regards, 
+
+Nattiya Kanhabua & Franco Maria Nardini 
+ECIR 2021 Demos co-Chairs
+=======================================
+
+SUBMISSION: 295
+TITLE: An Extensible Toolkit of Query Refinement Methods and Gold Standard Dataset Generation
+
+
+----------------------- REVIEW 1 ---------------------
+SUBMISSION: 295
+TITLE: An Extensible Toolkit of Query Refinement Methods and Gold Standard Dataset Generation
+AUTHORS: Hossein Fani, Mahtab Tamannaee, Fattane Zarrinkalam, Jamil Samouh, Samad Paydar and Ebrahim Bagheri
+
+----------- Overall evaluation -----------
+SCORE: 1 (weak accept)
+----- TEXT:
+The authors present an open-source Python toolkit for textual query expansion. The proposed toolkit's main capabilities include 1- a set of built-in unsupervised extensible query expansion techniques, and 2- an ability to build gold standard datasets for supervised query refinement methods.
+
+In general, the paper is well organized, and it is easy to read and follow. The ReQue toolkit also offers a valuable contribution to the community of textual information retrieval and its related sub-topics.
+
+The advantage of the proposed toolkit is that it is easy to understand, and its class hierarchy is intuitive. However, it has two main shortcomings:
+* It is unclear how easy-to-use it is. Especially for building the gold standard datasets, it is unclear how much effort is needed for data preparation. For example, in which format the toolkit accepts the input corpus? Is there a capacity to do any text preprocessing within the toolkit? Etc.
+* I am not sure if the toolkit generates gold standard datasets or it still generates silver ones. The demo paper misses experiments using the generated gold standard datasets with real-world supervised query refinement methods. It is not sufficient to say that the generated datasets give better retrieval performance in an ad-hoc retrieval setting. The datasets are actually built in a way that the authors replace each query with the best-performance candidate query. So the new set of queries will forcibly perform better.
+
+
+
+----------------------- REVIEW 2 ---------------------
+SUBMISSION: 295
+TITLE: An Extensible Toolkit of Query Refinement Methods and Gold Standard Dataset Generation
+AUTHORS: Hossein Fani, Mahtab Tamannaee, Fattane Zarrinkalam, Jamil Samouh, Samad Paydar and Ebrahim Bagheri
+
+----------- Overall evaluation -----------
+SCORE: 1 (weak accept)
+----- TEXT:
+This paper describes a Python tool for generating expanded queries and measuring their effectiveness. A range of expansion methods are supported, though common PRF-based methods like RM1 are missing. In general this is an interesting tool that should be useful, but it could benefit from a "quick start" section and overview of the supported QE methods. For example, it is not clear how to run only a subset of the expansion methods and view the query terms they add.
+
+Comments:
+- The documentation would benefit from an overview of what the various support methods are (with references). "Termluster" and "Conceptluster" in particular were unclear to me before checking the CIKM resource paper.
+- GloVe and word2vec seem to be implemented separately. A tool like gensim's downloader or pymagnitude could be used to more easily handle multiple embedding types. Note that magnitude stores embeddings in a sqlite file, which is slower than necessary when the goal is to load all embeddings.
+- Do all query expanders assume a bag-of-words? Recent neural methods like BERT can benefit from syntax.
+- From the documentation, common pseudo-relevance feedback methods like RM1 do not seem to be supported.
+- It seems odd to consider stemming part of query generation rather than preprocessing. Isn't this a step that should be performed immediately before query processing and needs to match the document stemmer used to create the index?
+- In principle, simply maximizing a query's effectiveness (as measured by e.g. AP) may add unrelated/incoherent terms and will not necessarily yield gold standard queries. This may currently be mitigated by the query expanders used, but even strong PRF methods like RM3 can introduce terms like this (e.g., dates, document identifiers, typos, uncommon but unimportant terms, etc).
+
+
+
+----------------------- REVIEW 3 ---------------------
+SUBMISSION: 295
+TITLE: An Extensible Toolkit of Query Refinement Methods and Gold Standard Dataset Generation
+AUTHORS: Hossein Fani, Mahtab Tamannaee, Fattane Zarrinkalam, Jamil Samouh, Samad Paydar and Ebrahim Bagheri
+
+----------- Overall evaluation -----------
+SCORE: 2 (accept)
+----- TEXT:
+Authors propose an open-source toolkit that implements several query expansion methods and that provides a pipeline for the generation of benchmark datasets for query expansion.
+
+The proposed tool implements several state-of-the-art query expansion algorithms,
+which may help the community in comparing with existing algorithms and in developing new approaches within the proposed modular framework.
+
+The tool also provides support for the building of benchmark dataset. 
+
+Finally, authors discuss what the demo will encompass if accepted.
+
+I think this is a valuable work that could be adopted by several researchers in the area.
+

@@ -1,0 +1,44 @@
+Date: Mon, 9 Aug 2021 01:14:50 +0200
+From: CIKM 2021 Demo <cikm2021-demo@easychair.org>
+To: Hossein Fani <hosseinfani@gmail.com>
+Subject: CIKM 2021 demo track notifications
+Sender: cikm2021-demo@easychair.org
+
+Dear Hossein,
+ 
+We are pleased to inform you that your submission to the CIKM 2021 Demo Track
+ 
+3134: PyTFL: A Python-based Neural Team Formation Toolkit
+
+has been accepted for presentation at the conference and inclusion in the conference proceedings. Congratulations!
+
+CIKM is a highly selective conference. This year, accepted 34 of the 81 papers submitted to the Demo Track (which corresponds to an acceptance rate of 42%). 
+
+Please read the reviews of your submission and follow the reviewers' recommendations for revising it and preparing the camera-ready version.
+
+The deadline for submitting the camera-ready version of your paper is
+***** August 22nd, 2021 *****
+
+The camera-ready version of your paper should be formatted according to the required ACM sigconf 2 column templates; please follow the preparation instructions for CIKM '21 Final submissions which are available at: http://www.scomminc.com/pp/acmsig/cikm.htm.
+
+Please note that the specified contact author should expect an email from ACM rights review with the electronic copyright-permission form to be completed. Upon completion, the contact author will receive a confirmation email with the Copyright block, Event Info, ISBN, and DOI assigned to your submission. Please incorporate this into the templates provided at the above link.
+
+All authors will receive the final submission link from Sheridan Communications to upload/submit their final version on or before the final submission deadline. Note that late submissions may potentially be removed from the event.
+
+As a courtesy to chairs and authors, ACM & Sheridan are collecting and including up to 20 minutes of recorded presentation videos in the ACM to complement your final version in the DL. See the above link for additional information.
+ 
+At least one author must register for the conference.
+
+For CIKM 2021, SIGIR is pleased to cover the registration costs for *all* student authors who are presenting at the conference. To be eligible, the student must:
+- be a SIGIR member (the cost is US$15 per year);
+- be an author of the main conference paper (i.e., full, applied, resource, short, and demo are all included); and
+- be the one presenting at the conference.
+ 
+The grant does not cover registration for student authors presenting at a workshop.
+ 
+To receive the grant, students need to apply here: https://unc.az1.qualtrics.com/jfe/form/SV_eJt5lVcDsoN9M46?conference=CIKM2021
+
+Thank you for your valuable contribution to the CIKM 2021 Demo Track. We are looking forward to virtually meeting you at the conference.
+
+Best regards,
+Demo Track Chairs

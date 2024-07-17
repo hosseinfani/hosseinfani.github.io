@@ -1,0 +1,180 @@
+Date: Mon, 27 Jul 2020 15:04:32 +0200
+From: CIKM 2020 Resource Track <cikm2020resource@easychair.org>
+To: Hossein Fani <hossein.fani@gmail.com>
+Subject: CIKM 2020 notification for paper 2328
+Sender: cikm2020resource@easychair.org
+
+dear authors,
+
+we are glad to inform you that your paper submitted to the Resource track of CIKM 2020 has been accepted.
+As you know, this is the first year that CIKM has introduced a Resource track, and we thank you for your contribution.
+
+Ian and Paolo
+
+SUBMISSION: 2328
+TITLE: ReQue: A Configurable Workflow and Dataset Collection for Query Refinement
+
+
+----------------------- REVIEW 1 ---------------------
+SUBMISSION: 2328
+TITLE: ReQue: A Configurable Workflow and Dataset Collection for Query Refinement
+AUTHORS: Mahtab Tamannaee, Hossein Fani, Fattane Zarrinkalam, Jamil Samouh, Samad Paydar and Ebrahim Bagheri
+
+----------- Overall evaluation -----------
+SCORE: 2 (accept)
+----- TEXT:
+Summary 
+
+The authors provide software for the generation of gold standard datasets that can be used for the training and evaluation of query refinement techniques. With the help of this software, an extensive set of unsupervised query refinement techniques is used to derive query refinement datasets from ad-hoc retrieval test collections. Based on four established ad-hoc retrieval test collections, corresponding datasets - titled ReQue - are generated. Finally, the authors use these new datasets with state-of-the-art techniques for query refinements and thus provide baselines for future research.
+
+
+Novelty
+
+- What is new about this resource?
+    The underlying core idea of query refinements contrasts with more traditional assumptions about how queries evolve over a session. The software can be used to generate new datasets from ad-hoc collections. The ReQue datasets and the results for three state-of-the-art query suggestion techniques can be used for future research.
+
+- Does the resource represent an incremental advance or	something more dramatic?
+    The software and data provide new methodologies of how query refinements can be generated.
+
+The authors provide a software tool that can be used to generate new gold standard datasets for query refinements. The underlying assumption of their approach constrasts with traditional assumptions about query refinements. Instead of assuming that queries are gradually refined in the course of a session, the authors consider revised queries that improve retrieval performance in relation to the initial query. In this sense, they exploit this criterion to find query candidates from different unsupervised query generation techniques that are applied to standard ad-hoc test collections. In short, the software provides a novel approach of how (gold standard) query refinement datasets can be derived from existing test collections. The produced datasets result as artifacts that can be used as training data for e.g neural-based models.
+
+
+Availability
+
+- Is the resource available to the reviewer at the time review?
+    Yes, the resources are shared via 'Anonymous GitHub'.
+
+- Are there discrepancies between what is described and what is available?
+    The repository is self-contained and complements what is described in the paper.
+
+- Are the licensing/terms of use sufficiently open as to allow most academic and industry researchers access to the resource?
+    Unfortunately, there is no information about a specific license given. 
+
+- If the resource is data collected from people, do appropriate human subjects control board procedures appear to have been followed?
+    -
+
+The resources are made available via 'Anonymous GitHub'. The provided repository is self-contained. Besides the software, the ReQue datasets are also included. I think it would be possible to reproduce the results presented in the paper with reasonable effort. Especially for Robust04 the experiments can be easily repeated since we can make use of the pre-indexed version of Robust04 that is provided by the Anserini framework. In this sense, building up on Anserini is an adequate choice. The 'readme' provides detailed instructions on how to use the software and conduct the experiments, and it complements the descriptions given in the paper. Likewise, the data format of the ReQue datasets is explained in detail. However, there is no information about the license given (the heading in the readme file suggests, it might be added).
+    
+
+Utility
+
+- Is the resource well documented? What level of expertise do you expect is required to make use of the resource?
+    The repository is self-contained. Even specific details are included, such that the results in the paper can be reproduced with reasonable effort.
+
+- Are there tutorials or examples? Do they resemble actual uses or are they toy examples?
+    The generated datasets are based on four established ad-hoc test collections (Rob04, Clue09, Clue12, Gov2). Toy data is not required in this case.
+
+- If the resource is data, are appropriate tools provided for loading that data?
+    The software builds up on existing open-source software/tools for information retrieval, e.g. Anserini for indexing the data. The data format of the generated datasets is well documented.
+
+- If the resource is data, are the provenance (source, preprocessing, cleaning, aggregation) stages clearly	documented?
+    See below.
+
+The paper is clearly written. In their introduction, the authors thoroughly outline the necessity for datasets that can be used to train supervised query refinement techniques. The included examples illustrate the shortcomings of existing assumptions about query refinements and offer the reader a nice introduction to the topic. 
+
+The idea of their approach is creative and extensive. I appreciate the straightforward illustration of Figure 1 that perfectly sums up the entire idea of the approach. The overview and classification of unsupervised refinement techniques provide the reader with a solid understanding of how query candidates are determined. The succeeding analysis of the resulting ReQue datasets is done thoroughly and provides insights at different levels.
+    
+The ReQue datasets are based on Rob04, Clue09, Clue12, and Gov2. In order to use the software, it may be beneficial to be familiar with Anserini and Python. Especially, IR researchers are familiar with these datasets and tools. However, the repository provides documentation on command line calls such that it would be possible to conduct the required steps without having any special prior knowledge about the underlying platforms (Anserini and Cair).
+
+The repository provides details on the data format, how data is loaded, and where to find the resulting outputs.
+
+    
+
+Predicted Impact
+
+- What CIKM research activity is enabled by the availability of this resource?
+    The provided resources may foster research in the area of query refinement techniques.
+
+- Does the resource advance a well-established research area or a brand new one?
+    The underlying core idea of query generation complements existing assumptions about query refinement techniques.
+
+- Do you expect that this resource will be useful for a long time, or will it need to be curated or updated? If the latter, is that planned?
+    Since the software and overall workflow builds up on community-wide shared tools, the software should be curatable with reasonable effort.
+
+- How large is the (anticipated) research user community? Will that grow or shrink in the next few years?
+    -
+
+The provided resources foster research of techniques based on query refinements. Especially, methodologies that require training data based on query refinements will benefit from the ReQue datasets. In this sense, the software's underlying idea adds a new and interesting perspective on how queries can be refined - not by incremental changes, but rather by revisions that lead to improvements of retrieval performance. Even though this idea has a strong system-oriented focus, the resulting datasets can offer helpful baselines when evaluating new query refinement techniques. With this in mind, it complements existing datasets that are usually used for query refinements.
+    
+It would have been nice if the following aspects would have been made more explicit:
+
+- How much effort does it take to derive a new dataset for another ad-hoc test collection?
+- How much effort does it take to include new unsupervised query refinement techniques, e.g., it seems like there is an "AbstractQExpander" class. Can this be used for adding custom techniques of unsupervised query expansion? A short description or documentation on this would have been a nice bonus.
+
+
+In sum
+    
+The authors present an interesting idea for generating query refinements datasets from ad-hoc test collections. The underlying core idea for generating these datasets has a strong system-oriented focus. The approach is well documented and the evaluation of the datasets is done thoroughly and provides interesting insights. The paper is clearly written; the repository is self-contained and emphasizes reproducibility.
+
+
+
+----------------------- REVIEW 2 ---------------------
+SUBMISSION: 2328
+TITLE: ReQue: A Configurable Workflow and Dataset Collection for Query Refinement
+AUTHORS: Mahtab Tamannaee, Hossein Fani, Fattane Zarrinkalam, Jamil Samouh, Samad Paydar and Ebrahim Bagheri
+
+----------- Overall evaluation -----------
+SCORE: 2 (accept)
+----- TEXT:
+The paper has three main contributions, all of which are of great benefit to facilitate research on the important topic of query refinement: a software (open source) to generate gold standard datasets, a collection of such datasets, and baselines for the task.
+
+The paper provides much insight into the contributed resources, which are well-motivated and can serve to foster research on query refinement. The resources themselves are well described in the linked repository. The software allows to create more datasets from future relevance judgments, which means that an extension of the provided datasets can be done relatively quickly. My only fear with regard to future impact is that researchers have so much choice for the evaluation of query refinement methods: Table 10 lists 60 (!) performance values for each method. However, this is not a problem of the paper at hand, but rather of the query refinement community in general.
+
+I am missing a discussion of the fact that some query refinement methods are used in the gold standard creation for query refinement evaluation. The selection of methods naturally introduces some bias in the created ground-truth. I think this bias is acceptable, but I think a discussion of it would be appropriate. I'm also wondering what effect it would have on the results if the employed methods were not refinement methods, but methods that just create a query from the relevant documents--without considering the initial query (see the paper by Gollub et al. below, and other publications that extended on it). Such a discussion of the workflow would be helpful to contextualize the contributions.
+
+However, I am aware that such a discussion is beyond what is listed in the review criteria, so I recommend to accept the paper.
+
+Minor problems:
+  - The numbers in the table columns could be right-aligned for improved readability
+
+
+
+Related Work:
+  - Tim Gollub, Matthias Hagen, Maximilian Michel, and Benno Stein. From Keywords to Keyqueries: Content Descriptors for the Web. In Cathal Gurrin et al, editors, 36th International ACM Conference on Research and Development in Information Retrieval (SIGIR 2013), pages 981-984, July 2013. ACM.
+
+
+
+----------------------- REVIEW 3 ---------------------
+SUBMISSION: 2328
+TITLE: ReQue: A Configurable Workflow and Dataset Collection for Query Refinement
+AUTHORS: Mahtab Tamannaee, Hossein Fani, Fattane Zarrinkalam, Jamil Samouh, Samad Paydar and Ebrahim Bagheri
+
+----------- Overall evaluation -----------
+SCORE: 1 (weak accept)
+----- TEXT:
+Novelty
+========
+In terms of academic knowledge, there is nothing too novel about the work done here. in fact, the authors build on top of existing approaches for the query generation task. However, it seems to be a useful resource for the community since there is not such data available. 
+Furthermore the authors promise to make available their implementations of three state-of-the-art supervised query refinement methods.
+
+Availability
+============
+The source code is available in an anonymized Github repository.
+There is a blank license paragraph, so it is unclear how open it will be.   
+
+Utility
+=======
+It seems to be well documented, although it could be improved with an end-to-end example. 
+There are snippets to run each stage of the pipeline though.
+
+Predicted Impact
+================
+This dataset is useful as it enables research on query refinement. This area of research is well-established and this resource will probably be useful for a long time. 
+Having the source code will enable researchers to update the resource with new corpora and query logs.
+
+
+
+----------------------- REVIEW 4 ---------------------
+SUBMISSION: 2328
+TITLE: ReQue: A Configurable Workflow and Dataset Collection for Query Refinement
+AUTHORS: Mahtab Tamannaee, Hossein Fani, Fattane Zarrinkalam, Jamil Samouh, Samad Paydar and Ebrahim Bagheri
+
+----------- Overall evaluation -----------
+SCORE: 2 (accept)
+----- TEXT:
+This is a meta-review; the three main reviewers have made comments that I hope you can address in the revision.  For my own part, I would like to make two points:
+
+First, the AOL log is most emphatically not publicly available.  The dataset was withdrawn, several employees at AOL were dismissed, and there were lawsuits resulting from that log.  Many people consider it unethical to use the AOL log.  Please consider adding a note to this effect in your table.  Perhaps other researchers will look to resources like yours instead.
+
+Second, while I recognize that supervised query reformulation is a research area, I think we should remember that it is people who submit queries, not systems, and it would be good to consider how supervised query reformulation supports real people during information seeking.  There is a large body of research in interactive IR on query refinement.
+
