@@ -1,0 +1,171 @@
+Date: Tue, 16 Jul 2024 17:53:40 +0200
+From: Short Papers Chairs at CIKM 2024 <cikm2024-short@easychair.org>
+To: Hossein Fani <hosseinfani@gmail.com>
+Subject: [CIKM 2024 Short] notification for paper 2664
+Sender: cikm2024-short@easychair.org
+
+Dear Hossein,
+
+We are happy to inform you that your paper 2664 entitled “Osprey: A Reference Framework for Online Grooming Detection via Neural Models and Conversation Features” has been accepted at the 33rd ACM International Conference on Information and Knowledge Management (CIKM 2024) for the Short Research Paper track. Congratulations!
+
+For the Short Research Paper track, we received 558 complete submissions. After a thorough vetting process, 527 contributions were reviewed. Based on a thorough and rigorous review process, we have accepted 141 papers. This yields an overall acceptance rate of 27%.
+
+This year, the Short Research Paper track has been very competitive, with very high-quality submissions. Each paper received at least three reviews and was assigned one Senior PC member, who led discussions on the merits and weaknesses of each submission and gave a final recommendation. Based on the reviews, the SPC recommendations, and our own analysis of the contributions, we curated a set of accepted papers showcasing the state-of-the-art in the different areas of interest for the CIKM community.
+
+We include below the reviews for your submission. Please take into consideration the reviewers’ comments, and try to adequately address them in the camera-ready version of your work.
+
+**Next Steps**
+Please carefully consider the information given below on the next steps as you prepare for the conference.
+
+*Camera-ready version of your contribution*
+The camera-ready version of your accepted contribution is due on or before August 8th, 2024. **This is a hard deadline**.
+
+Instructions on how to prepare the  camera-ready version of your contribution can be found here: http://www.scomminc.com/pp/acmsig/cikm2024.htm
+
+Over the next few days, you will receive two emails: one from submissions@scomminc.com with the submission id# and a link to upload the final version. A second email from ACM Rightsreview will provide the ACM eform to be completed by the lead author only.
+
+As you prepare your camera-ready, keep in mind that there is a **4 Page Limit** + unlimited pages for references only. No presentation video.
+
+*Student support*
+There are several travel awards available (e.g., SIGWEB, NSF, and SIGIR) that will facilitate your participation at the conference. Please visit the conference website for all the information: https://cikm2024.org/cikm-2024-student-travel-awards-faq/
+Carefully consider the requirements to apply to the respective awards. The application deadline is July 31st, 2024.
+
+*Presentation*
+Later this month, we will email you details about your presentation at the main conference, e.g., presentation length, format, program, etc.
+
+*Registrations & Paper Fees*
+Remember that ACM CIKM 2024 is planned as an in-person conference (https://cikm2024.org/attendance-policy/ )
+
+At least one author must be registered for the conference by August 15, 2024, for your contribution to be included in the conference proceedings. Further, each accepted contribution has a paper presentation fee associated with it.
+For authors with multiple accepted papers (regardless of the track), only one registration is required, but multiple paper presentation fees are required, i.e., one per accepted paper.
+
+For more information about the paper presentation and registration fee, please visit:
+https://cikm2024.org/registrations/
+
+Congratulations again!
+
+We look forward to seeing you in Boise, Idaho, USA in October
+
+CIKM 2024 Short Paper Co-chairs
+Arijit, Barbara, Wen
+cikm2024-short@easychair.org
+
+SUBMISSION: 2664
+TITLE: Osprey: A Reference Framework for Online Grooming Detection via Neural Models and Conversation Features
+
+-------------------------  METAREVIEW  ------------------------
+This paper introduces an open-source framework for identifying online grooming attempts. By integrating neural models with conversational features like temporal signals and participant numbers, the framework aims to enhance detection accuracy. While it presents a valuable tool for addressing a significant societal issue and is flexible for future extensions, it relies on older datasets and has some unclear feature contributions. Despite these limitations, the framework's potential impact and the importance of the research justify a recommendation of weak accept.
+
+
+
+----------------------- REVIEW 1 ---------------------
+SUBMISSION: 2664
+TITLE: Osprey: A Reference Framework for Online Grooming Detection via Neural Models and Conversation Features
+AUTHORS: Hamed Waezi, Reza Barzegartorghabeh and Hossein Fani
+
+----------- Overall recommendation -----------
+SCORE: -1 (weak reject)
+----------- Relevance to CIKM -----------
+SCORE: 4 (good)
+----------- Originality of the Work -----------
+SCORE: 3 (fair)
+----------- Technical Soundness -----------
+SCORE: 3 (fair)
+----------- Quality of Presentation -----------
+SCORE: 3 (fair)
+----------- Impact of Ideas or Results -----------
+SCORE: 3 (fair)
+----------- Paper Summary -----------
+The focus of this paper is on online grooming detection. In particular, the authors propose an open-source benchmark library that provides a set of machine learning and deep learning solutions to facilitate easier experimentation by the research community and beyond.
+----------- Main Strengths (at least 3) -----------
+1. The focus of this paper is on a very important topic, namely online grooming detection, which could have a significant impact on society.
+2. The paper would be of interest to CIKM readers.
+3. The proposed solution seems interesting.
+----------- Main Weaknesses (at least 3) -----------
+1. In Figure 1, some example conversations are presented. It would be helpful for the authors to mention if these are real conversations and from which platform they were extracted. If they indeed constitute real conversations, the authors should clearly state whether it is legally acceptable to present them as they are or if anonymisation should take place.
+
+2. Table 1: (i) How were the filtered data derived? (ii) What do you mean by “non-binary predatory conversations”?
+
+3. The authors use a well-established but quite old dataset (dating back to 2012). Therefore, a question about the validity of the observations is raised. Since 2012, the way of communication in online platforms has drastically changed, and this may also apply to the way that online grooming takes place, potentially limiting the validity/effectiveness of the proposed solutions.
+
+4. The authors mention that conversational features are incorporated into the proposed models to improve overall performance. Specifically, two features are considered: temporal signals and the number of participants in a conversation. As mentioned in the paper, and as is quite expected, in conversations such as those studied here, the number of participants is usually two. Therefore, it is unclear how this feature actually contributes to improved performance. To better understand the contribution of both features, the authors can experiment by considering them separately in addition to using both in the models examined here. This way, the contribution of the “number of participants” feature will become clearer.
+
+5. It is not clear why, in the case of “conversation as a sequence of message embeddings,” the authors report results for RNN-, LSTM-, and GRU-based models, while in the case of “conversation as a single embedding,” they report results for SVM- and ff-based models.
+
+6. The authors should provide some information on how the textual information (e.g., Word2Vec, RoBERTa) is combined with the conversational features in the models architecture.
+
+7. It would be nice if the authors reported whether the improvements mentioned in some cases (at least the ones mentioned in the discussion) are statistically significant.
+
+8. It would be beneficial if the authors provided some information on the fine-tuned models. On which specific data did the fine-tuning process take place?
+----------- Summary to support your recommendation -----------
+Although the proposed solution seems interesting, there are some issues that should be addressed before the paper is ready for publication (see Main Weaknesses).
+
+
+
+----------------------- REVIEW 2 ---------------------
+SUBMISSION: 2664
+TITLE: Osprey: A Reference Framework for Online Grooming Detection via Neural Models and Conversation Features
+AUTHORS: Hamed Waezi, Reza Barzegartorghabeh and Hossein Fani
+
+----------- Overall recommendation -----------
+SCORE: 1 (weak accept)
+----------- Relevance to CIKM -----------
+SCORE: 4 (good)
+----------- Originality of the Work -----------
+SCORE: 4 (good)
+----------- Technical Soundness -----------
+SCORE: 4 (good)
+----------- Quality of Presentation -----------
+SCORE: 4 (good)
+----------- Impact of Ideas or Results -----------
+SCORE: 3 (fair)
+----------- Paper Summary -----------
+The paper proposes a framework for detecting online grooming attempts using neural models and conversation features. The framework is open source and offers the possibility to embed utterances and entire conversations into sparse or dense, contextual or distributional representations. The most import element, which seems to improve performance, is incorporating conversational features into the classification task. The results seem encouraging, and the framework allows flexibility and extension. The authors also discuss the lack of proper datasets on this topic.
+----------- Main Strengths (at least 3) -----------
+- The framework is modular and extendible.
+- Authors propose conversation features to improve classification performance.
+- The authors release the code for reproducibility purposes.
+- The authors argue the importance of increasing recall for this type of task, whilst not hindering precision.
+----------- Main Weaknesses (at least 3) -----------
+- The authors should look into the conversational search literature in order to find insight for improving the framework. By using conversational models such as ChatGPT, for example, the implicit conversation features could be derived (without the need for engineering and computing them), and the classification could be further improved.
+- It would be interesting to attempt something like early detection, and not only classify the entire conversation but simulate an unfolding conversation, and see at which point the classifier can detect the grooming attempt.
+- We see several weaker baselines such as word2vec but no actual competitors are included in the evaluation.
+- We see that using newer approaches such as transformer based ones for contextual embeddings do not highly benefit from explicit feature engineering, since they are capable of capturing them implicitly, i.e. conversation features.
+----------- Summary to support your recommendation -----------
+The paper proposes a solution for the detection of online grooming and predatory behavior in chats. The authors propose an open-source framework for classifying conversations. The results seem encouraging. The framework could be further extended. Evaluation can also be improved by looking into other competitors and taking note of advancements in conversational search and how conversation can be represented in general.
+
+
+
+----------------------- REVIEW 3 ---------------------
+SUBMISSION: 2664
+TITLE: Osprey: A Reference Framework for Online Grooming Detection via Neural Models and Conversation Features
+AUTHORS: Hamed Waezi, Reza Barzegartorghabeh and Hossein Fani
+
+----------- Overall recommendation -----------
+SCORE: 3 (strong accept)
+----------- Relevance to CIKM -----------
+SCORE: 5 (excellent)
+----------- Originality of the Work -----------
+SCORE: 4 (good)
+----------- Technical Soundness -----------
+SCORE: 5 (excellent)
+----------- Quality of Presentation -----------
+SCORE: 5 (excellent)
+----------- Impact of Ideas or Results -----------
+SCORE: 5 (excellent)
+----------- Paper Summary -----------
+The authors presented research focused on grooming detection in online dialogues. The problem explored is actual and sound, suits the CIKM community well, and could be implemented and extended to many other similar issues.
+----------- Main Strengths (at least 3) -----------
+- Very well-written paper which is easy to follow, precise and actual research questions and detailed answers for each of them.
+
+- Strong technical background and high technical novelty of the proposed research
+
+The authors provided detailed and broad comparisons with similar models in the explored area. The obtained results proved the efficiency of the developed method.
+----------- Main Weaknesses (at least 3) -----------
+- Not clear how to process the false negative results of predatory detection in the dialogues
+
+- Not clear what is the reason for poor results on the fine-tuned embeddings (but it is probably a topic for future research)
+
+- It is challenging to find the appropriate datasets for such a sensitive research topic. Probably it is possible to generate it artificially using the LLMs?
+----------- Summary to support your recommendation -----------
+The proposed research focused on the actual and relevant problem for the CIKM community, paper is very clear and well-written. The provided code repository is very helpful and makes the results more reproducible for other researchers.

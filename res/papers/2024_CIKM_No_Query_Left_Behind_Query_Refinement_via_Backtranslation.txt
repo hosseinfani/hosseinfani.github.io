@@ -1,0 +1,186 @@
+Date: Tue, 16 Jul 2024 12:58:38 +0200
+From: Full Research Paper Track at CIKM 2024 <CIKM2024-pc@easychair.org>
+To: Hossein Fani <hosseinfani@gmail.com>
+Subject: CIKM 2024 Notification for Paper 1207
+Sender: CIKM2024-pc@easychair.org
+
+Dear Hossein,
+
+We are happy to inform you that the paper 1207 entitled "No Query Left Behind: Query Refinement via Backtranslation" has been accepted at the 33rd ACM International Conference on Information and Knowledge Management (CIKM 2024) for the Full Research Paper track. Congratulations!
+
+For the Full Research Paper track,  we received 1531 complete submissions. After a thorough vetting process, 1496 contributions were reviewed.  Based on a rigorous review process we have accepted 347 papers. This yields an overall acceptance rate of 23%.
+
+This year, the Full Research Paper track has been very competitive, with very high-quality submissions. Each paper received at least three reviews and was assigned one Senior PC member, who led discussions on the merits and weaknesses of each submission and gave a final recommendation. Based on the reviews, the SPC recommendations, and our analysis of the contributions, we curated a set of accepted papers showcasing the state-of-the-art in the different areas of interest for the CIKM community.
+
+We include below the reviews for your submission. Please take into consideration the reviewers’ comments, and try to adequately address them in the camera-ready version of your work.
+
+**Next Steps**.
+Carefully consider the information included below on the next steps as you prepare for the conference.
+
+*Camera-ready version of your contribution*
+The camera-ready version of your accepted contribution is due on or before August 8th, 2024. **This is a hard deadline**.
+
+Instructions on how to prepare the  camera-ready version of your contribution can be found here: http://www.scomminc.com/pp/acmsig/cikm2024.htm
+
+Over the next few days, you will receive two emails:  one from submissions@scomminc.com with the submission id# and a link to upload the final version. A second email from ACM Rightsreview will provide the ACM eform to be completed by the lead author only.
+
+As you prepare your camera-ready, keep in mind that there is a **9 Page Limit** + unlimited pages for references only. No presentation video.
+
+*Student support*
+There are several travel awards available (e.g., SIGWEB, NSF, and SIGIR) that will facilitate your participation at the conference. Please visit the conference website for all the information:
+
+https://cikm2024.org/cikm-2024-student-travel-awards-faq/
+
+Carefully consider the requirements to apply to the respective awards. The application deadline is July 31st, 2024.
+
+*Presentation*
+Early next month, we will email you details about your presentation at the main conference, e.g., presentation length, format, program, etc.
+
+*Registrations & Paper Fees*
+Remember that ACM CIKM 2024 is planned as an in-person conference (https://cikm2024.org/attendance-policy/).
+
+At least one author must be registered for the conference by **August 15, 2024**, for your contribution to be included in the conference proceedings. Further, each accepted contribution has a paper presentation fee associated with it.
+For authors with multiple accepted papers (regardless of the track), only one registration is required, but multiple paper presentation fees are required, i.e., one per accepted paper.
+
+For more information about the paper presentation and registration fee, please visit:
+https://cikm2024.org/registrations/
+
+Congratulations again!
+
+We look forward to seeing you in Boise, Idaho, USA in October
+
+Carlotta, Zhifeng, and Sole
+Full Research Papers Track Chairs
+cikm2024-pc@easychair.org
+
+SUBMISSION: 1207
+TITLE: No Query Left Behind: Query Refinement via Backtranslation
+
+-------------------------  METAREVIEW  ------------------------
+This is the meta review.
+
+The reviewers found considerable merit in the paper.
+They noted that the approach is innovative and that the evaluation is solid.
+Most of the reviewers' comments can be addressed in the camera ready version in case the paper is accepted.
+
+
+
+----------------------- REVIEW 1 ---------------------
+SUBMISSION: 1207
+TITLE: No Query Left Behind: Query Refinement via Backtranslation
+AUTHORS: Delaram Rajaei, Zahra Taheri and Hossein Fani
+
+----------- Overall recommendation -----------
+SCORE: 1 (weak accept)
+----------- Relevance to CIKM -----------
+SCORE: 5 (excellent)
+----------- Originality of the Work -----------
+SCORE: 4 (good)
+----------- Technical Soundness -----------
+SCORE: 4 (good)
+----------- Quality of Presentation -----------
+SCORE: 5 (excellent)
+----------- Impact of Ideas or Results -----------
+SCORE: 3 (fair)
+----------- Reproducibility of Methods -----------
+SCORE: 5 (excellent)
+----------- Detailed Comments to the Author(s) -----------
+The use of natural language backtranslation to generate query refinement datasets is innovative and scalable.
+
+The paper provides extensive experiments across multiple query sets and languages, demonstrating the versatility and effectiveness of the backtranslation method. The inclusion of 10 languages from 7 language families highlights the method's robustness across diverse linguistic contexts.
+
+The paper is very well written and easy to follow. The presentations are clear and neat
+
+Different components of the paper, such as the choice of translators and baseline methods, were fully studied.
+
+The claim of lower computational costs compared to other methods is made, but a detailed discussion and support for this claim is not available. Including a more thorough analysis of computational efficiency would strengthen the paper.
+
+Instead of just comparing with query refinement methods, the authors should have compared it against other benchmarking methods for creating query refinement gold standards, such as the one proposed by [8] The authors suggest that this method is not suitable for new queries, but many similar works have shown that generating queries from top-retrieved documents can be effective. The availability of implementations of DocT5Query is available for experimenting. Therefore, I am not convinced with the authors reasoning on why they did not make comparison with that benchmark.
+
+The provided GitHub repository is very well documented.
+
+One of the limitations of this work might be for domain-specific considerations when applying the method.
+While the authors claimed that their query sets encompass various domains, I guess the backtranslation approach would drop its efficacy when it comes to domain specific queries.
+
+I wish the authors also explored the performance of their refined queries with dense retrievers as well.
+----------- Summary to support your recommendation -----------
+This paper presents a novel approach to query refinement using natural language backtranslation, demonstrating both innovation and scalability. The proposed method effectively generates refined queries by translating the original queries into various languages and backs. Given the novelty, thorough evaluation, and potential impact of the proposed method, I recommend the acceptance of this paper.
+
+
+
+----------------------- REVIEW 2 ---------------------
+SUBMISSION: 1207
+TITLE: No Query Left Behind: Query Refinement via Backtranslation
+AUTHORS: Delaram Rajaei, Zahra Taheri and Hossein Fani
+
+----------- Overall recommendation -----------
+SCORE: 1 (weak accept)
+----------- Relevance to CIKM -----------
+SCORE: 4 (good)
+----------- Originality of the Work -----------
+SCORE: 3 (fair)
+----------- Technical Soundness -----------
+SCORE: 4 (good)
+----------- Quality of Presentation -----------
+SCORE: 4 (good)
+----------- Impact of Ideas or Results -----------
+SCORE: 3 (fair)
+----------- Reproducibility of Methods -----------
+SCORE: 3 (fair)
+----------- Detailed Comments to the Author(s) -----------
+This paper addresses the challenge of refining web search queries to improve the relevance of search results. It identifies the limitations of existing transformer-based query refinement models, which often suffer from topic drift due to their reliance on web query logs. The paper introduces a novel approach leveraging natural language backtranslation to create gold-standard datasets for query refinement. This method involves translating a query into multiple target languages and then back into the source language to generate refined versions that maintain the original semantic context without topic drift. The experiments try to demonstrate that backtranslation can effectively scale up the generation of high-quality query refinement datasets, improving information retrieval performance across various metrics and languages.
+
+Even though the article is relatively conventional in terms of novelty, the application of backtranslation in the proposed manner is interesting and the method seems promising.
+
+In terms of presentation quality, the article is generally well written. The ideas are easy to follow, and the flow is good.
+
+There are still some minor form errors. For instance, the keywords and the CCS concepts are missing. The language names should be written with capital letters (e.g., English, French). The space between the referenced term and the footnote reference number should be removed for footnote number 2. There is some overflowing text, which occurs twice in the introduction and once in section 3. Since Table 4 is wide, the numbers are quite small, making the table hard to read.
+
+The related work review is good, and the positioning with respect to existing research is also generally strong.
+
+It is beneficial that the authors have depicted the backtranslation flow in Figure 1. The same goes for the query examples presented in Table 1. It is also good that the authors clearly stated their contribution at the end of the introduction and listed the research questions in the experiment section. The notation table is useful to have.
+
+The authors have used TREC collections such as Robust04 and Gov2. What about WT10G? On the same note, what about the MS-MARCO query set as well?
+
+The results from Table 7 seem to have robustness issues in terms of the best or second-best performing models. The comparison in Table 9 is interesting.
+
+To sum up, the article is interesting enough and well presented to be published at the CIKM conference.
+----------- Summary to support your recommendation -----------
+The paper tackles the issue of refining web search queries to enhance relevance, introducing a novel backtranslation approach to create robust datasets. Despite minor formatting errors and the need for broader dataset comparisons, the method shows promise. The paper is well-written, with a clear structure, and effectively demonstrates the potential of backtranslation. Overall, it would deserve to be published at the CIKM conference.
+
+
+
+----------------------- REVIEW 3 ---------------------
+SUBMISSION: 1207
+TITLE: No Query Left Behind: Query Refinement via Backtranslation
+AUTHORS: Delaram Rajaei, Zahra Taheri and Hossein Fani
+
+----------- Overall recommendation -----------
+SCORE: 1 (weak accept)
+----------- Relevance to CIKM -----------
+SCORE: 4 (good)
+----------- Originality of the Work -----------
+SCORE: 4 (good)
+----------- Technical Soundness -----------
+SCORE: 3 (fair)
+----------- Quality of Presentation -----------
+SCORE: 4 (good)
+----------- Impact of Ideas or Results -----------
+SCORE: 4 (good)
+----------- Reproducibility of Methods -----------
+SCORE: 4 (good)
+----------- Detailed Comments to the Author(s) -----------
+The paper introduces a novel approach to query refinement utilizing natural language backtranslation. This method involves translating a query from a source language to one or more target languages and back, aiming to refine the original query by incorporating linguistic nuances and contextual synonyms gained through translation. The authors tested this approach using several query sets in different languages and evaluated its effectiveness against traditional methods using metrics such as MAP, NDCG, and MRR. The paper also details the generation of a gold-standard dataset for query refinement that leverages this backtranslation methodology.
+
+Strengths:
++ The use of backtranslation for query refinement is an interesting approach that leverages linguistic diversity to enhance query understanding and refinement.
++ The paper presents a comprehensive set of experiments across multiple query sets and languages, demonstrating the method’s effectiveness.
++ The paper is well-structured and articulates complex ideas clearly, making it accessible to readers.
+
+Weaknesses:
+- The method relies heavily on the capabilities of neural machine translation systems and the availability of multi-language resources, which might limit its applicability in environments where such resources are constrained.
+- The paper reports that the method shows limited generalization across different translators. It can only work well with NLLB but not Bing translator.
+- The method, while novel, might be seen as an oversimplified approach to the complex problem of query refinement, especially since it depends significantly on the quality and scope of the backtranslation process.
+- The idea of the paper is very simple. There is no need to involve many complex notations in the description of the paper.
+----------- Summary to support your recommendation -----------
+The paper proposes a simple yet effective method for query refinment. The experiments are sufficient and comprehensive. Therefore, I suggest a weak accept for this paper.
