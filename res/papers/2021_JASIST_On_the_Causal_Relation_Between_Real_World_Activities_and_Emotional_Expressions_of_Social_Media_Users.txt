@@ -1,0 +1,77 @@
+From: Javed Mostafa <onbehalfof@manuscriptcentral.com>
+Subject: Manuscript # JASIST-2020-06-0342 Decision - Journal of the Association for Information Science and Technology
+To: <ebrahim.bagheri@gmail.com>
+
+
+
+Dear Dr. Bagheri:
+
+Your manuscript # JASIST-2020-06-0342 entitled "On The Causal Relation Between Real World Activities and Emotional Expressions of Social Network Users" which you submitted to the Journal of the Association for Information Science and Technology, has been refereed.
+
+The referees' comments are appended to this letter and referees' attached comments (if any) are linked from Manuscript Central (http://mc.manuscriptcentral.com/jasist; from your Submitting Author Center, select "Manuscripts with Decisions" and click on "view decision letter").
+
+The referees recommended publication but suggest minor revisions to your manuscript. I invite you to respond to the referees' comments and submit a revised version of your manuscript.
+
+You can upload and submit your revised manuscript through Manuscript Central.  You will also be able to respond to the comments made by the referees and document any changes you make to the original manuscript.  Please make sure that you provide a detailed response to the referees' comments.
+
+IMPORTANT: We have your original files. When submitting (uploading) your revised manuscript, please delete the file(s) that you wish to replace and then upload the revised file(s).
+
+Once again, thank you for submitting your manuscript to the Journal of the Association for Information Science and Technology. I look forward to receiving your revision by 17-Sep-2020.
+
+Sincerely,
+
+Dr. Javed Mostafa
+Editor-in-Chief
+Journal of the Association for Information Science and Technology
+
+Comments from Review Editor
+
+Review Editor
+Comments to Author:
+Please attend to the comments about figures.
+
+Referees' Comments to Author:
+
+Reviewer: 1
+
+Comments to the Author
+This paper compares the use of emotion-related terms drawn from LIWC with FourSquare check-in patterns, investigating whether changes in check-in patterns associate with changes in the use of emotion-related terms, finding evidence of associations. This is an interesting study with relevant research questions and a novel research design. I also like the use of multiple sites in the analysis, and the use of a statistical approach to reduce the influence of covariates. The study is carefully designed and interestingly described.
+I would like to see a discussion of the face validity of the approaches to detect mood and emotion. A reliance on keywords is potentially problematic because the use of emotion words is not the same as the person feeling or even expressing the emotion. As an example, the word “happy” could occur in stock phrases like, “happy birthday”, “I was happy to see you yesterday”, “I would be happy to meet up at the door”, “would you be happy to see me there”. Some discussion of this would be helpful.
+
+Reviewer: 2
+
+Comments to the Author
+JASIST review
+
+This is a very interesting and generally well-presented study, using a substantial dataset and addressing important potential outcomes for managing health and well-being. With some caveats, the authors have made good arguments for the analysis and presented a very robust study.
+
+There are some areas that need further explanation as noted below, but one overall issue is in the way the authors tries to squeeze the paper into a medical RCT framework. This creates some oddities in the presentation of the study. The discussion of RCTs seems irrelevant. Terminology such as ‘treatment’ and RTE seems unnecessary and somewhat misleading – Yes, I understand you could consider it a ‘treatment’ but the study does not present an overall design, but instead looks at each combination separately. To talk of treatment, to me, suggests eventual statistical analysis of the 2 x 2 design. However, the study does not in the end compare conditions.
+
+Also odd, and misleading, is calling a data mining study an “observational study” – there is no human observer interpreting the data and classifying it. It is not, in my definition, an ‘observation’ study.
+
+Lit review is good, but could do with a bit more pulling together into themes, i.e., more than listing the studies. One issue is that there is a broad objective to systematically investigate whether the impact of people’s offline activities on their psychological health and emotional wellbeing, … can also be observed between users’ offline activities and their online affective expressions.” – However, the study does not have data on psychological health and emotional wellbeing. While it is clearly stated later that it is emotional expression and mood that are examined, there is the lingering idea of this being a proxy for psychological health and emotional wellbeing. What is not present is a strong discussion of how the how measure of 2 dimensions of emotion, and mood are sufficiently representative to assess the ‘psychological health and emotional wellbeing’ of individuals.
+
+Aside: I’m not that keen on the ‘@Pedro’ pseudonym.  can you go to a non-ethnic name
+
+The propensity stratification approach -- “a collective view on the behavior of users with similar offline activities placed in comparable strata would provide a more reliable basis for comparison across control and treatment groups.” – all seems good to me. “The propensity score is estimated using a voted perceptron learning algorithm” – follow up with what this does.
+
+What is the final ‘n’ following the matching? How many matched pairs are you examining in each condition.
+
+State more clearly how you classifying activities? Just using Foursquare categories? 10 or 914? At one point it is the 914 (for the stratification), and other places it is the 10 for the emotion and mood analyses.
+
+Method questions
+
+How do you know whether people work at these venues? How do you know the difference between work and other reasons from the Foursquare activities?
+
+How did you do the matching, i.e., what data did you use to validate that these were the same users:  “identify users who were active on both Twitter and Foursquare and to link their offline and online activities.”
+
+
+Suggestions
+
+“Each of the these two RQs are further broken down as shown in Table 1.” – discuss the quadrants, or skip the table
+
+Using ‘Type 1’ and ‘Type 2’ re events is confusing as it suggests statistical error types.
+
+I don’t understand Figure 3, nor Figure 5, 6,7, 9, 11. I am guessing some of these are coming from common use in medical research, e.g., with the RTE evaluation. It may be that you could add an explanation of how to read these figures. Figure 8 is understandable, but I don’t see the point of all the wheels and wedges, particularly since most are similar. Figures with colors are going to be very difficult to read. Personally, I’d like to see tables of results, even if you retain the figures.
+
+If there are referee comments attached, they can be accessed from your Submitting Author Dashboard by selecting "Manuscripts with Decisions" and clicking on "view decision letter."
