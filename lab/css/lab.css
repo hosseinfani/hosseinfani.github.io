@@ -545,14 +545,15 @@ h3 {
   font-size: 18px;
   font-weight: bold;
   margin-top: 0;
-  margin-bottom: 5px;
+  margin-bottom: 0;
   text-align: center;
 }
 
 .work-description {
   font-size: 14px;
   color: #666;
-  margin: 0;
+  margin: 0 5px 5px 5px;
+  padding: 0 0 10px 0;
   text-align: center;
 }
 
@@ -562,4 +563,27 @@ h3 {
   border-radius: 10px; /* Optional: Rounded corners */
   background-color: #fff; /* Optional: Background color inside the frame */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for scaling and shadow */
+}
+
+#img-poster:hover {
+    transform: scale(1.05); /* Scale the image slightly larger (5% increase) */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3); /* Darker, larger shadow on hover */
+}
+
+#a-btn {
+  border: solid 1px #015a9c;
+  color: #015a9c !important;
+  padding: 5px 5px;
+  margin: 0 3px;
+  border-radius: 3px;
+  font-size: 12px;
+  text-align: center;
+  background-color: transparent; /* Ensure the background is transparent by default */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+#a-btn:hover {
+  background-color: #015a9c; /* Change background to the border color */
+  color: #ffffff !important; /* Change text color to white */
 }
