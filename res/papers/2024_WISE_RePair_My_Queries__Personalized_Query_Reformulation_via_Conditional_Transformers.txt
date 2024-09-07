@@ -1,0 +1,96 @@
+Date: Tue, 3 Sep 2024 13:04:30 +0200
+From: WISE-2024 <wise2024-0@easychair.org>
+To: Hossein Fani <hosseinfani@gmail.com>
+Subject: WISE-2024 notification for paper 124
+Sender: wise2024-0@easychair.org
+
+Dear Hossein Fani
+
+We are glad to inform you that your paper "124 - RePair My Queries: Personalized Query Reformulation via Conditional Transformers" has been accepted for presentation at the WISE 2024 conference. Congratulations!
+
+We received 335 submissions this year. Due to space limitations, WISE 2024 was selective and we were only able to accept papers with a very high quality.
+
+Your paper is limited to (11) pages. We will send you shortly the camera-ready preparation steps.
+
+In the meanwhile, please visit the conference webpage and register. Please note that, it is compulsory to pay at least one author registration per paper in order for the paper to be included in the conference proceedings and presented at the conference.
+
+We take the occasion to inform you that WISE 2024 has 3 co-located workshops, a PhD symposium and a DEMO track and submission is still open: https://wise2024-qatar.com/
+
+
+
+
+Best regards,
+
+WISE-2024 Program Committee Co-Chairs
+
+SUBMISSION: 124
+TITLE: RePair My Queries: Personalized Query Reformulation via Conditional Transformers
+
+
+----------------------- REVIEW 1 ---------------------
+SUBMISSION: 124
+TITLE: RePair My Queries: Personalized Query Reformulation via Conditional Transformers
+AUTHORS: Yogeswar Lakshmi Narayanan and Hossein Fani
+
+----------- Overall evaluation -----------
+SCORE: 0 (Borderline paper (Indicative Meaning: The paper has some important limitations. However, the proposed ideas are still important and relevant to the conference and the scientific community.))
+----- TEXT:
+The paper proposes an approach for personalized query reformulation taking into account the set of relevant webpages per query per user and relying on conditional transformers for generating the reformulated query. The presented experimental results show the efficacy of the proposal on a specific case.
+
+The addressed problem is relevant and interesting and the proposed solution seems valid.
+From my point of view, the main limitation concerns the experimental results.
+Other weaknesses refer to presentation quality.
+
+More precisely:
+
+* No related work section is included
+* Many methods/approaches are cited without a clear explanation of their aim, reducing readability for non-expert readers
+* Table 1 and Figure 1 should be more clearly described in the introduction, they become clear only later in the paper
+
+* Experimental results look preliminary: they show the effectiveness of the proposal on a single dataset and using a single transformer. Additionally, no other personalization approach is considered for comparison (baseline is just defined by not considering the user click history, using the same transformer t5).
+----------- Up to 3 improvement recommendations -----------
+A1 Add a related work section, in which you describe in more detail the existing approaches to query reformulation
+A2 Briefly describe all the methods/approaches cited in the paper, to help the non-expert readers in understanding their aim
+A3 Extend the experimental results to consider at least another personalization approach among the existing ones, for comparison
+
+Since the paper is quite short (10 pages), enough space is available for implementing the proposed recommendations
+
+
+
+----------------------- REVIEW 2 ---------------------
+SUBMISSION: 124
+TITLE: RePair My Queries: Personalized Query Reformulation via Conditional Transformers
+AUTHORS: Yogeswar Lakshmi Narayanan and Hossein Fani
+
+----------- Overall evaluation -----------
+SCORE: -1 (Weak reject (Indicative Meaning: The paper has one critical issue in the design of the solution.))
+----- TEXT:
+This paper proposes to use conditional transformers to incorporate individual user information into the reformulation of user queries.  The approach adds user identification as a component of the training data to create a transformer that can generate personalized reformulated queries.  Results of an empirical study using the aol dataset are presented.  The personalized approach is demonstrated to have a better retrieval performance on average than the existing non-personalized approach.
+
+The paper is generally well written and easy to follow.  The presented approach is helpful to improve personalized query performance.  My concerns of the paper are in its relatively low originality and incomplete empirical study, which reduces my rating of the paper.
+
+First, I do not agree with the authors’ claim of contribution item 1 that personalized query reformulation that incorporates user context is a major contribution of the paper.  Personalized query reformulation is not new.  While I agree with the authors’ listed contribution items 2 and 3, the originality of the paper is not high.
+
+Second, while the results of the empirical study show that the authors’ proposed personalized approach does improve query results compared to the non-personalized counterpart, they are insufficient to demonstrate the superiority of the proposed approach.  The empirical study should also compare the proposed approach with existing approaches, such as the one presented in [33] in References.
+
+One smaller issue that I noticed is that, at the bottom of page 7, the authors claim that “a counter-intuitive observation is that the average mrr and map of reformulated queries when users are overlooked (−user) is higher than personalized reformulated queries in aol.title and aol.url.title.”  However, I did not get this observation from Table 2 on the same page.  I suggest that the authors double check data consistency in this case.
+
+
+
+----------------------- REVIEW 3 ---------------------
+SUBMISSION: 124
+TITLE: RePair My Queries: Personalized Query Reformulation via Conditional Transformers
+AUTHORS: Yogeswar Lakshmi Narayanan and Hossein Fani
+
+----------- Overall evaluation -----------
+SCORE: 2 (Accept (Indicative Meaning:  The paper addresses an important problem. The proposed solution is original and valid. The paper has some minor issues that can be easily fixed.))
+----- TEXT:
+This article presents a solution to improve search queries by adding pretext generated using conditional transformers, incorporating user context in the reformulation. The authors present an experiment in which their personalized approach is compared to a user-less variant.
+
+From the results, the approach looks promising in that it surpasses the alternative that doesn’t consider the user. Even if there’s not a related work section, the relevant literature is covered, and the presented background explains very clearly what the current approaches do, and how this proposal improves on them. The experiment is sound, and uses known datasets from earlier works. The article is also generally well written and structured, in my opinion. The only observation is that conclusions are rather limited and could offer more insights, since they only highlight the results and very briefly comment on future work.
+
+I also observed 2 small details:
+
+- In section 5.2 there is a paragraph in the sparse retrieval report that says “A counter-intuitive observation is that the average mrr and map of reformulated queries when users are overlooked (−user) is higher than personalized reformulated queries in aol.title and aol.url.title.”. However, there is no score in the table that’s higher in the -user columns (apart from the #words in lines 2 and 3, but these do not reflect average mrr and map, and don’t even  belong to the bm25 analysis).
+
+- The “aol.url.title” concatenation is not used consistently (perhaps the only “aol.title.url” - i.e. title first -  is the one in Table 2’s header, but check the full text)

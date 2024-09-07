@@ -1,0 +1,91 @@
+Date: Tue, 3 Sep 2024 12:57:42 +0200
+From: WISE-2024 <wise2024-0@easychair.org>
+To: Hossein Fani <hosseinfani@gmail.com>
+Subject: WISE-2024 notification for paper 356
+Sender: wise2024-0@easychair.org
+
+Dear Hossein Fani
+
+We are glad to inform you that your paper "356 - Skill Vector Representation Learning for Collaborative Team Recommendation: A Comparative Study" has been accepted for presentation at the WISE 2024 conference. Congratulations!
+
+356 - Skill Vector Representation Learning for Collaborative Team Recommendation: A Comparative Study
+
+We received 335 submissions this year. Due to space limitations, we were only able to accept 110 high-quality research papers.
+
+
+Your paper is limited to (15) pages. We will send you shortly the camera-ready preparation steps.
+
+
+In the meanwhile, please visit the conference webpage and register. Please note that, it is compulsory to pay at least one author registration per paper in order for the paper to be included in the conference proceedings and presented at the conference.
+
+
+We take the occasion to inform you that WISE 2024 has 3 co-located workshops, a PhD symposium and a DEMO track and submission is still open: https://wise2024-qatar.com/
+
+
+
+Best regards,
+
+WISE-2024 Program Committee Co-Chairs
+
+SUBMISSION: 356
+TITLE: Skill Vector Representation Learning for Collaborative Team Recommendation: A Comparative Study
+
+
+----------------------- REVIEW 1 ---------------------
+SUBMISSION: 356
+TITLE: Skill Vector Representation Learning for Collaborative Team Recommendation: A Comparative Study
+AUTHORS: Md Jamil Ahmed, Mahdis Saeedi and Hossein Fani
+
+----------- Overall evaluation -----------
+SCORE: 1 (Weak accept (Indicative Meaning: The paper addresses an interesting problem. The proposed solution seems to be valid.  The paper has some weaknesses that can be addressed without the need to rethink the whole solution.))
+----- TEXT:
+This paper presents a comprehensive comparative study on the impact of different collaboration graph structures, node representation learning techniques, and neural recommender architectures on team recommendation efficacy. The study offers a significant contribution to the field by systematically examining various components crucial for team recommendation systems.
+Strengths:
+1.The paper provides a thorough comparison of various graph representation learning techniques, shedding light on the strengths and weaknesses of different approaches in the context of team recommendation. This is valuable for researchers and practitioners looking to optimize their models.
+2.The paper conducts extensive experiments using multiple datasets from different fields, which provides a clear understanding of the performance of each method.
+3.The authors make their code available for reproduction, which is a strong point in favor of transparency and reproducibility in research.
+
+Weaknesses:
+1. This paper conducts experiments on five research questions, but only provides a simple description of the results without detailed analysis and exploration. For example, while the superiority of dense vector representations is established, the paper does not sufficiently explore cases where sparse vectors might still be advantageous, such as in scenarios with highly interpretable models or when computational resources are limited.
+2. Given the varying complexity of different network architectures, differentiated execution efficiency may be reflected in the face of large amounts of data, which to some extent affects the scalability of the model. I am concerned about whether execution efficiency should be included as one of the measurement indicators.
+3. This paper uses two different neural team recommenders for the experiment, and it is recommended to increase their number to further demonstrate the sufficient nature of the experiment.
+
+Questions for the Authors:
+1.Do you plan to conduct a more in-depth analysis of the experimental results?
+2. How do you envision the findings of this study being applied to domains not covered in your datasets, such as healthcare or education, where team dynamics might differ significantly?
+
+
+
+----------------------- REVIEW 2 ---------------------
+SUBMISSION: 356
+TITLE: Skill Vector Representation Learning for Collaborative Team Recommendation: A Comparative Study
+AUTHORS: Md Jamil Ahmed, Mahdis Saeedi and Hossein Fani
+
+----------- Overall evaluation -----------
+SCORE: 1 (Weak accept (Indicative Meaning: The paper addresses an interesting problem. The proposed solution seems to be valid.  The paper has some weaknesses that can be addressed without the need to rethink the whole solution.))
+----- TEXT:
+This manuscript mainly performed a comparative study of different graph structures, skill vector representations, and neural recommenders across datasets from varied domains, withholding different statistical distributions to seek the optimum team recommendation pipeline. It focuses on answering five important research questions. As a comparative study, this manuscript is well organized.
+
+
+
+----------------------- REVIEW 3 ---------------------
+SUBMISSION: 356
+TITLE: Skill Vector Representation Learning for Collaborative Team Recommendation: A Comparative Study
+AUTHORS: Md Jamil Ahmed, Mahdis Saeedi and Hossein Fani
+
+----------- Overall evaluation -----------
+SCORE: 1 (Weak accept (Indicative Meaning: The paper addresses an interesting problem. The proposed solution seems to be valid.  The paper has some weaknesses that can be addressed without the need to rethink the whole solution.))
+----- TEXT:
+This paper presents a comprehensive benchmark study on neural team recommendation models, focusing on the impact of collaboration graph structures, node representation learning techniques, and neural recommender architectures. The study compares two heterogeneous collaboration graphs and seven graph representation learning methods for generating skill vectors, which are then used in various neural team recommenders. The experiments, conducted on two large-scale datasets from different domains, evaluate the models using multiple classification and information retrieval metrics.
+
+Strengths:
+1. The study provides a systematic comparison of multiple aspects of neural team recommendation models, including graph structures, representation learning techniques, and recommender architectures. This holistic approach offers valuable insights into the interplay between these components, which is often overlooked in individual studies.
+
+2. The findings from this study have direct practical implications for designing more effective team recommendation systems. By identifying that attention-based graph neural networks on heterogeneous collaboration graphs consistently yield the best results, the research provides clear guidance for future implementations in real-world scenarios.
+
+3. While the paper compares two types of heterogeneous collaboration graphs, the inclusion of expert, team, and skill nodes in these structures represents an innovative approach to capturing complex relationships in team formation.
+
+Weaknesses:
+1. While two types of heterogeneous collaboration graphs are compared, the study could benefit from exploring a wider range of graph structures, including more complex or domain-specific configurations.
+
+2. The paper could benefit from a more in-depth analysis of cases where the models perform poorly, providing insights into the limitations and potential areas for improvement in neural team recommendation systems.

@@ -1,0 +1,92 @@
+Date: Tue, 3 Sep 2024 12:57:41 +0200
+From: WISE-2024 <wise2024-0@easychair.org>
+To: Hossein Fani <hosseinfani@gmail.com>
+Subject: WISE-2024 notification for paper 286
+Sender: wise2024-0@easychair.org
+
+Dear Hossein Fani
+
+We are glad to inform you that your paper "286 - Enhancing RAG’s Retrieval via Query Backtranslations" has been accepted for presentation at the WISE 2024 conference. Congratulations!
+
+286 - Enhancing RAG’s Retrieval via Query Backtranslations
+
+We received 335 submissions this year. Due to space limitations, we were only able to accept 110 high-quality research papers.
+
+
+Your paper is limited to (15) pages. We will send you shortly the camera-ready preparation steps.
+
+
+In the meanwhile, please visit the conference webpage and register. Please note that, it is compulsory to pay at least one author registration per paper in order for the paper to be included in the conference proceedings and presented at the conference.
+
+
+We take the occasion to inform you that WISE 2024 has 3 co-located workshops, a PhD symposium and a DEMO track and submission is still open: https://wise2024-qatar.com/
+
+
+
+Best regards,
+
+WISE-2024 Program Committee Co-Chairs
+
+SUBMISSION: 286
+TITLE: Enhancing RAG’s Retrieval via Query Backtranslations
+
+
+----------------------- REVIEW 1 ---------------------
+SUBMISSION: 286
+TITLE: Enhancing RAG’s Retrieval via Query Backtranslations
+AUTHORS: Delaram Rajaei, Zahra Taheri and Hossein Fani
+
+----------- Overall evaluation -----------
+SCORE: 2 (Accept (Indicative Meaning:  The paper addresses an important problem. The proposed solution is original and valid. The paper has some minor issues that can be easily fixed.))
+----- TEXT:
+The paper presents a novel methodology for improving the retrieval phase of RAG by backtranslating the original query in different languages. Although simple, the proposed technique is effective given the thorough evaluation analysis presented by the authors.
+
+The authors present their methodology thoroughly and provide different sets of experiments to prove its effectiveness. They include different analyses for each component of the proposed technique, including different query sets, languages, and translators. Given the number of possible experiments, the authors open-sourced their project, which is a very appreciated move to ensure the reproducibility of the results. The linked repository is incredibly detailed, making it easier for researchers to develop future works on the project.
+
+Although already satisfactory, the paper could include some additional details or new experiments to perform. One example is the ground truth: in Table 1, the authors use the metrics $m$ introduced in Section 4.2 to evaluate the quality of the queries, but query sets can use different ways to map this (e.g., DBpedia [28] use "highly relevant", "relevant", and "irrelevant"). More details on this mapping process from the original dataset can further clarify this. Another clarification the authors can make on the experiments is the overhead of the backtranslation. The authors consider only a specific subset of languages to experiment with, but specify that nllb can translate in 200 languages and bing in 128. Is there any benefit in using different or more languages? In that case, what is the overhead in the retrieval process? Finally, the authors might want to consider "chained backtranslation" to evaluate its effectiveness of degradation on the original query (i.e., performing
+backtranslation more than one time on the same query).
+
+The writing of the paper is good but could benefit from some improvements. Given how convoluted the methodology can be, it would be valuable to use shorter sentences. Instead, the paper often contains long sentences that can be difficult for less experienced readers to read (e.g., abstract). The abstract could also include additional details on the evaluation to strengthen further the contribution (e.g., numeric values for the evaluation w.r.t. the current state-of-the-art). The authors also use acronyms such as RAG and LLMs but keep introducing them in different sections. After their first introduction, they can use only the abbreviated form. LaTeX packages such as glossaries-extra can automatically take care of that.
+----------- Up to 3 improvement recommendations -----------
+- Improve writing quality
+- Provide additional details on specific parts of the methodology
+
+
+
+----------------------- REVIEW 2 ---------------------
+SUBMISSION: 286
+TITLE: Enhancing RAG’s Retrieval via Query Backtranslations
+AUTHORS: Delaram Rajaei, Zahra Taheri and Hossein Fani
+
+----------- Overall evaluation -----------
+SCORE: 1 (Weak accept (Indicative Meaning: The paper addresses an interesting problem. The proposed solution seems to be valid.  The paper has some weaknesses that can be addressed without the need to rethink the whole solution.))
+----- TEXT:
+This paper proposes a novel method that first employs backtranslation to refine queries and then fuses the retrieved documents to obtain more relevant information. The approach is both innovative and practical, offering a significant improvement over existing techniques. The extensive experimental results presented the superiority of the proposed method compared to SOTA methods.
+----------- Up to 3 improvement recommendations -----------
+1) The three datasets used in the experiment (i.e.., robust04, gov2, clueweb09b) each have an average query length of 3. Does this mean that the query sentences have an average of 3 words? If the query sentences are too short, they contain less information, which implies that even using backtranslation method, it is unlikely to generate many semantically identical sentences.
+
+2) This paper leverages existing open-source tools, such as nllb, to implement backtranslation as key techniques. Has there been any experimental validation of the semantic consistency between the original query sentences and the generated query sentences after two rounds of translation? The validation is crucial, as it directly impacts the effectiveness of the subsequent document retrieval stage.
+
+
+
+----------------------- REVIEW 3 ---------------------
+SUBMISSION: 286
+TITLE: Enhancing RAG’s Retrieval via Query Backtranslations
+AUTHORS: Delaram Rajaei, Zahra Taheri and Hossein Fani
+
+----------- Overall evaluation -----------
+SCORE: 0 (Borderline paper (Indicative Meaning: The paper has some important limitations. However, the proposed ideas are still important and relevant to the conference and the scientific community.))
+----- TEXT:
+Strong points:
+1)The author says this approach is the first one to apply backtranslation to the retrieved documents.
+2)This approach, based on the fusion and re-ranking process, rrf, is a mature approach. The translation method used, 'no language left behind', is also a simple and effective one.
+3)The article has good readability.
+
+Weak points:
+1)This approach relies solely on backtranslation for retrieval-augmented generation, making it relatively simple and lacking in innovation.
+2)The principle of the effectiveness of backtranslation for retrieval-augmented generation has not been explained in detail.
+3)In the experimental section, this approach is not the optimal solution for certain datasets.
+----------- Up to 3 improvement recommendations -----------
+1)The chart is too far from the article, making it difficult to read.
+2)The choice of backtranslation and sorting methods is somewhat redundant.
+3)The author should study the effect of these improved retrieved documents on the generation phase.
