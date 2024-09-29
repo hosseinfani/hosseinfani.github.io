@@ -580,7 +580,7 @@ h3 {
   font-size: 12px;
   text-align: center;
   background-color: transparent; /* Ensure the background is transparent by default */
-  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+  transition: background-color 0.3s ease, color 0.3s ease;  /* Smooth transition */
 }
 
 #a-btn:hover {
