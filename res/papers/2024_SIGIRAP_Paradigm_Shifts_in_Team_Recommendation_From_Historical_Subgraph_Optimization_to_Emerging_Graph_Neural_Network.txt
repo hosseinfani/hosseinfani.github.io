@@ -1,0 +1,142 @@
+Date: Mon, 30 Sep 2024 16:50:17 +0200
+From: SIGIR-AP 2024 Tutorial <sigirap-tutorials2024@easychair.org>
+To: Hossein Fani <hosseinfani@gmail.com>
+Subject: SIGIR-AP 2024 notification for tutorial proposal 110
+Sender: sigirap-tutorials2024@easychair.org
+
+Dear Mahdis Saeedi, Christine Wong, Hossein Fani
+
+We are pleased to inform you that your tutorial proposal, 
+"Paradigm Shifts in Team Recommendation: From Historical Subgraph Optimization to Emerging Graph Neural Network"  
+has been accepted. 
+
+Please start to prepare for your tutorial according to the following schedule:  
+- Tutorial overview camera ready: October 13, 2024
+- Tutorial day: December 9, 2024
+
+Detailed information on the tutorial such as schedule, proceedings, and so on 
+will be announced later in a separate e-mail.
+
+We are looking forward to your tutorial in December! 
+
+
+Best regards,
+Kazunari Sugiyama and Masaharu Yoshioka
+SIGIR-AP 2024 tutorial co-chairs
+
+
+SUBMISSION: 110
+TITLE: Paradigm Shifts in Team Recommendation: From Historical Subgraph Optimization to Emerging Graph Neural Network
+
+
+----------------------- REVIEW 1 ---------------------
+SUBMISSION: 110
+TITLE: Paradigm Shifts in Team Recommendation: From Historical Subgraph Optimization to Emerging Graph Neural Network
+AUTHORS: Mahdis Saeedi, Christine Wong and Hossein Fani
+
+----------- Strengths -----------
+Interdisciplinary approach: The tutorial provides an interdisciplinary overview of team recommendations and combines insights from the fields of social information retrieval (social IR) and graph neural networks.
+
+Comprehensive taxonomy: The proposal introduces a novel taxonomy of computational methods for team recommendations, which provides a structured and clear understanding of different approaches.
+
+Practical engagement: The inclusion of practical exercises with open-source libraries such as OpeNTF and Adila enables participants to apply the concepts in a hands-on way.
+Focus on real-world applications: The tutorial goes beyond theoretical discussion by highlighting various real-world applications.
+----------- Weaknesses -----------
+Topic: While Graph Neural Networks (GNNs) are highlighted as an emerging field in the tutorial, it's important to recognize that GNNs have been explored for many years. Additionally, Large Language Model (LLM)-based approaches are gaining prominence alongside GNN-based methods. Including a discussion on how these approaches compare and complement each other in the context of team recommendation would be valuable.
+
+Lack of Focus on Evaluation: Although the tutorial mentions evaluation methods, it could benefit from a more in-depth discussion of the challenges and best practices for evaluating team recommendation methods. A detailed exploration of evaluation metrics and their implications for real-world applications would greatly strengthen the tutorial.
+
+Addressing Practical Challenges: The proposal could place more emphasis on practical challenges and limitations in implementing team recommendation systems, such as scalability, data scarcity, and computational complexity.
+
+Author Affiliation: All authors are from the same affiliation. Including contributors from various institutions would indicate that this topic is widely considered important and could bring a broader range of perspectives to the discussion.
+----------- Overall evaluation -----------
+SCORE: -1 (weak reject)
+----- TEXT:
+Originality of Work: The tutorial provides a thorough overview of team recommendation techniques, mainly consolidating existing research rather than presenting new concepts.
+
+Technical Soundness: It shows solid technical understanding, particularly in graph-based and learning-based methods.
+
+Impact: The tutorial could impact the IR community by offering a valuable resource on team recommendation, but the depth of impact remains vague.
+
+Quality of Presentation: The content is well-organized and clear. Adding more visual aids like diagrams could improve accessibility and engagement.
+
+Related Work: It covers related work comprehensively, but a deeper comparison of LLMs and GNNs would add more depth to the discussion.
+
+
+
+----------------------- REVIEW 2 ---------------------
+SUBMISSION: 110
+TITLE: Paradigm Shifts in Team Recommendation: From Historical Subgraph Optimization to Emerging Graph Neural Network
+AUTHORS: Mahdis Saeedi, Christine Wong and Hossein Fani
+
+----------- Strengths -----------
+1. This tutorial presents a novel taxonomy concerning research on team recommendation, and covers algorithms that have been published over the past few years, particularly those that are likely to interest SIGIR-AP participants.
+
+2. This tutorial not only covers the theoretical aspects but also explains how team recommendation can be applied in practical contexts such as group learning, reviewer assignment, and palliative care.
+
+3. The tutorial's structure is detailed and engaging. The prerequisite knowledge expected from participants is a basic understanding of graph theory and machine learning, which should pose no issue for SIGIR-AP participants.
+----------- Weaknesses -----------
+There are no particular weaknesses that need to be commented on.
+----------- Overall evaluation -----------
+SCORE: 2 (accept)
+----- TEXT:
+This tutorial explains both the theory and practice of team recommendation that is categorized social information retrieval for finding highly skilled experts. Additionally, the necessary theories of graph theory and machine learning required to understand the algorithms presented in this tutorial are adequately explained by the presenter. Given that the presenter has experience conducting tutorials at other premier venues and teaching graduate-level courses, it is expected that they will explain the content properly.
+
+Not only does the tutorial cover theoretical aspects, but it also includes a hands-on session using publicly available libraries including datasets and customizable method that can be utilized for future work in team recommendation.
+
+I believe this tutorial will provide valuable information for SIGIR-AP participants.
+
+
+
+----------------------- REVIEW 3 ---------------------
+SUBMISSION: 110
+TITLE: Paradigm Shifts in Team Recommendation: From Historical Subgraph Optimization to Emerging Graph Neural Network
+AUTHORS: Mahdis Saeedi, Christine Wong and Hossein Fani
+
+----------- Strengths -----------
+- The organizers address an interesting topic, an interdisciplinary topic between computer science and social science.   
+
+- The organizers plan to give a sufficient details of graph theory and machine learning so that audiences who are not familiar with these fields will be able to understand them.  
+
+- It is nice that the organizers' tutorial outline is planned in detail.
+----------- Weaknesses -----------
+- The organizers need to clearly differentiate between their tutorials held in UMAP'24 and this SIGIR-AP'24 tutorial. 
+
+- It would be much better if the organizers could provide knowledge about "people analytics" in social science. 
+
+- The authors should further enrich references.
+----------- Overall evaluation -----------
+SCORE: 1 (weak accept)
+----- TEXT:
+The organizers plan to provide a tutorial on team recommendation. They first perform a comprehensive study on graph-based approaches in team recommendation, and then cover state-of-the-art graph neural network-based approaches. They also plan to provide unifying definitions, formulations, and evaluation metrics. 
+
+The tutorial will be successful if the organizers improve the followings: 
+
+(1) Contents of the tutorial
+- The organizers need to highlight the difference between the former tutorial held in UMAP'24 and this SIGIR-AP'24 tutorial. It is nice that they have already provide a tutorial on the same topic at UMAP'24 as they can further extend it for SIGIR-AP'24 tutorial. But it would be much better to highlight the difference between the former UMAP'24 one held in UMAP'24 and this coming SIGIR-AP'24 one, 
+
+- It is better to provide evaluation metrics for team recommendation in detail as evaluation metrics are important in IR research community.  
+
+
+(2) References
+- It is better to enrich more references. For example, the organizers mention "team allocation", "team selection", "team composition", and "team formation" in Sec 1, which would be close to "people analytics" in social science. 
+
+- In Sec 2, the organizers just give the URL of their former tutorial at UMAP'24 at footnote. But they should cite the following tutorial summary in ACM DL as well as the tutorial URL:  
+
+Mahdis Saeedi, Christine Wong, Hossein Fani: 
+"Collaborative Team Recommendation for Skilled Users: Objectives, Techniques, and New Perspectives" (UMAP Adjunct Publication 2024), pages 1-4.  
+  
+- In Sec 4.1.3, the organizers mention "reviewer assignment". Many papers have been published in conferences on digital libraries such as JCDL and natural language processing such as ACL. It would be nice if the organizers survey in these conferences. 
+
+- The organizers mention "graph neural networks". In terms of this, recent works on recommender systems usually address simplification of graph structure. The following works would be helpful for the organizers:  
+
+Xiangnan He, Kuan Deng, Xiang Wang, Yan Li, Yong-Dong Zhang, Meng Wang:
+"LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation" (SIGIR 2020)
+
+Kelong Mao, Jieming Zhu, Xi Xiao, Biao Lu, Zhaowei Wang, and Xiuqiang He: 
+"UltraGCN: Ultra Simplification of Graph Convolutional Networks for Recommendation" (CIKM 2021)
+
+Shaowen Peng, Kazunari Sugiyama, and Tsunenori Mine: 
+"Less is More: Removing Redundancy of Graph Convolutional Networks for Recommendation,'' 
+ACM Transactions on Information Systems (TOIS), Vol. 42, Issue 3, pp. 85:1-85:26, 2024.
+
