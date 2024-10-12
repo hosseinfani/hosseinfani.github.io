@@ -558,11 +558,11 @@ h3 {
 }
 
 #img-poster {
-  border: 3px solid #ccc; /* Frame color and thickness */
+  /* border: 3px solid #ccc; /* Frame color and thickness */ */
   padding: 5px; /* Space between the image and the frame */
-  border-radius: 10px; /* Optional: Rounded corners */
+  /* border-radius: 10px; /* Optional: Rounded corners */ */
   background-color: #fff; /* Optional: Background color inside the frame */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
+  box-shadow: 0 0px 512px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for scaling and shadow */
 }
 
