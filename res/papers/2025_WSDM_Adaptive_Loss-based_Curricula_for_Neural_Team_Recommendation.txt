@@ -1,0 +1,114 @@
+WSDM2025 
+Hossein Fani 
+View Reviews
+Paper ID 608
+Paper Title Adaptive Loss-based Curricula for Neural Team Recommendation
+Track Name WSDM2025 Main
+
+Reviewer #1
+Questions
+1. Summary and contributions: Briefly summarize the paper and its contributions.
+The paper proposes curriculum-based learning strategies that provide an order between experts from the easy popular experts to the hard non-popular ones to overcome the neural models' popularity bias.
+2. Strong points. List three to five strong points about the paper. Please be precise and explicit. Clearly explain the value and nature of the contribution.
+* The authors address an important problem that arises frequently in practice in multiple settings - for e.g. optimal parameter settings selection in Bayesian Optimization (the space of potential parameter setting combinations could be exponential). So these techniques have broad applicability to practical problems in real-world settings.
+
+* The paper proposes two dynamic self-paced curricula that learn experts' difficulty level (easy popular vs difficult non-popular) in response to a neural model's loss during learning procedure.
+
+* In experiments on two large-scale benchmark datasets (dblp and imdb) with varied distributions of teams over skills, the authors demonstrate the efficacy of parametric-free curriculum in boosting the efficacy and efficiency of non-variation neural models.
+3. Weak points. List three to five weak points about the paper. Please clearly indicate whether the paper has any mistakes, missing related work, or results that cannot be considered as a contribution. Please be polite, specific, and constructive.
+* The addressed problem of selecting teams of experts seems related to multi-armed bandits and explore-exploit. Especially, explore-exploit focuses on identifying teams of experts who are difficult non-popular. There was no mention of multi-armed bandit in the related work section - I think it will be good for the authors to cover relevant references.
+
+* Am wondering if formulating the problem as a multi-label classification problem is right. First, the current problem formulation only leverages successful teams for training - what about teams that are unsuccessful? How are they leveraged? If you are not leveraging unsuccessful teams, then won't a solution with high positive values z[j] be a trivial solution that would end up being learned? Second, if there are many teams of experts who are successful for a particular skill, then won't all of the experts in those teams end up with high values of z[j] for the skill. This could be a problem because, in practice, only specific subsets of these experts with high z[j] values will be good for the skill.
+
+* In experimental results, there are no comparisons with strong baseline schemes. Shouldn't the authors compare their algorithms with previous work out there?
+
+* Should one also consider leveraging features of experts - for e.g. age, educational qualification, location, work experience, etc.
+4. Detailed Evaluation. Please provide detailed feedback about the strengths and the weaknesses of the paper and support your overall rating. You may talk about significance, technical depth, novelty, reproducibility, relevance to the community, and potential ethical considerations. Please be polite, specific, and constructive.
+See strengths and weaknesses above.
+5. Overall rating.
+Weak Accept (Probable accept, unless convinced otherwise)
+8. Reviewer confidence.
+Knowledgeable: I have read papers on this topic.
+
+Reviewer #2
+Questions
+1. Summary and contributions: Briefly summarize the paper and its contributions.
+The authors study the task of team recommendation, proposing three curriculum learning strategies: statis, parametric, non-parametric. The experiments confirm the utility of the proposed methods on two datasets, dblp and imdb.
+2. Strong points. List three to five strong points about the paper. Please be precise and explicit. Clearly explain the value and nature of the contribution.
+- The paper is generally well written and easy to follow.
+- The conclusions are based on a solid experimentation.
+- The application of curriculum learning for team recommendation is novel.
+3. Weak points. List three to five weak points about the paper. Please clearly indicate whether the paper has any mistakes, missing related work, or results that cannot be considered as a contribution. Please be polite, specific, and constructive.
+- The authors could ackowledge and even try to compare with generic curriculum learning methods, e.g. [A], which can be applied to any task, including team recommendation.
+
+[A] Croitoru, FA et al. Learning Rate Curriculum. Int J Comput Vis (2024). https://doi.org/10.1007/s11263-024-02186-5
+4. Detailed Evaluation. Please provide detailed feedback about the strengths and the weaknesses of the paper and support your overall rating. You may talk about significance, technical depth, novelty, reproducibility, relevance to the community, and potential ethical considerations. Please be polite, specific, and constructive.
+The novelty and experimentation influenced my decision towards acceptance.
+5. Overall rating.
+Weak Accept (Probable accept, unless convinced otherwise)
+8. Reviewer confidence.
+Knowledgeable: I have read papers on this topic.
+
+Reviewer #3
+Questions
+1. Summary and contributions: Briefly summarize the paper and its contributions.
+This paper presents a curriculum learning driven approach for team recommendation such that solving the popularity bias in the existing works. The approach is interesting in terms of exploring three types of curriculums. From concept perspective, I think this paper worth getting attention from the recommender system community, even the solution is such simple and probably obvious.
+2. Strong points. List three to five strong points about the paper. Please be precise and explicit. Clearly explain the value and nature of the contribution.
+Great motivation on combining curriculum learning and team recommendation.
+Experiments covers the comparison among the proposed alternatives that provide good insight.
+The paper is fairly well written.
+3. Weak points. List three to five weak points about the paper. Please clearly indicate whether the paper has any mistakes, missing related work, or results that cannot be considered as a contribution. Please be polite, specific, and constructive.
+The backbone model described in Equation 1-5 is way to simple that cannot reflect the realistic applications in recommendation tasks.
+
+The loss function in Equation 12 should be better described with explanations. It is way too concise.
+4. Detailed Evaluation. Please provide detailed feedback about the strengths and the weaknesses of the paper and support your overall rating. You may talk about significance, technical depth, novelty, reproducibility, relevance to the community, and potential ethical considerations. Please be polite, specific, and constructive.
+The details are given above. Overall, the paper is quite interesting in my opinion.
+5. Overall rating.
+Weak Accept (Probable accept, unless convinced otherwise)
+8. Reviewer confidence.
+Knowledgeable: I have read papers on this topic.
+
+Reviewer #4
+Questions
+1. Summary and contributions: Briefly summarize the paper and its contributions.
+Summary:
+The paper introduces curriculum-based learning strategies for neural team recommenders to address popularity bias and enhance recommendations of collaborative teams. Three strategies are proposed: a parametric curriculum for learnable difficulty levels, a parameter-free curriculum based on model feedback, and a static curriculum for comparison. Experimental results on benchmark datasets show the efficacy of the parameter-free curriculum in improving non-variational models across diverse domains.
+2. Strong points. List three to five strong points about the paper. Please be precise and explicit. Clearly explain the value and nature of the contribution.
+
+Advantages:
+1. Assigns learnable difficulty parameters to experts, enabling the model to adapt and learn expert difficulty levels during training, enhancing recommendation accuracy.
+2. Presumes worst-case difficulty for each expert based on model feedback, effectively addressing popularity bias and improving performance of non-variational models across various domains.
+3. Provides a baseline for comparison among curriculum-based learning strategies, offering insights into the effectiveness of dynamic ordering of experts based on difficulty levels.
+3. Weak points. List three to five weak points about the paper. Please clearly indicate whether the paper has any mistakes, missing related work, or results that cannot be considered as a contribution. Please be polite, specific, and constructive.
+Weakness：
+1.I have some questions about the motivation of the paper, why the need to raise the visibility of unpopular experts? Will this improve performance? The rationality of this motive does not seem to have been further verified in subsequent experiments
+2.The paper should add a method framework visualization or pseudo-code so that the reader can better understand the operation steps of the entire algorithm
+3.There are obvious problems in the drawing of some figures. On the right side of Figure 5 and on the right side of Figure 6, different curves overlap and are difficult to distinguish
+4.The parametric sensitivity analysis in Figure 4 is crude, the range of parameters investigated is too small, and the graph is not aligned
+4. Detailed Evaluation. Please provide detailed feedback about the strengths and the weaknesses of the paper and support your overall rating. You may talk about significance, technical depth, novelty, reproducibility, relevance to the community, and potential ethical considerations. Please be polite, specific, and constructive.
+See Strong points and Weak points
+5. Overall rating.
+Weak Reject (Probable reject, unless convinced otherwise)
+8. Reviewer confidence.
+Knowledgeable: I have read papers on this topic.
+© 2024 Microsoft Corporation
+About CMT | Docs | Terms of Use | Privacy & Cookies | Consumer Health Privacy | Request Free Site
+
+Select Your Role : Author WSDM2025 
+Hossein Fani 
+View Meta-Reviews
+Paper ID 608
+Paper Title Adaptive Loss-based Curricula for Neural Team Recommendation
+Track Name WSDM2025 Main
+Meta-Reviewer #1
+Meta-Review Questions
+1. Summary: Summarize the reviews, the discussion for the paper, and justify your recommendation.
+This paper introduces a novel method that integrates curriculum-based learning strategies into the team recommendation problem to mitigate the popularity bias present in neural models. The scores were split among the reviewers: one weak reject and three weak accepts.
+
+The paper has several clear strengths that excited reviewers, including (1) a novel approach of combining curriculum learning and team recommendation, as many reviewers mentioned; (2) effective evaluation demonstrated through experiments on large-scale datasets; and (3) a clear and well-written manuscript that is easy to follow.
+
+However, the reviewers also pointed out several weaknesses, as identified by the reviewers: (1) motivational gaps regarding the need to address popularity bias and the assumption that all experts need to be proficient in the same skill; (2) lack of comparison with existing methods, including methodological discussions on multi-armed bandits or exploration-exploitation methods, and missing experiments with curriculum-learning baselines; and (3) design concerns about the exclusive utilization of successful teams and the simplicity of the backbone model. Additionally, there were some minor comments on descriptions of equations and rough figures.
+2. Recommendation.
+Accept
+© 2024 Microsoft Corporation
+About CMT | Docs | Terms of Use | Privacy & Cookies | Consumer Health Privacy | Request Free Site
