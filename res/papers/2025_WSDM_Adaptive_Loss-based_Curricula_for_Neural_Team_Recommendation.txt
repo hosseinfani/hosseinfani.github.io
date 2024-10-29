@@ -1,5 +1,39 @@
-WSDM2025 
-Hossein Fani 
+From: Microsoft CMT <email@msr-cmt.org>
+Reply-To: Marc A Najork <marc@najork.org>
+To: Hossein Fani <hosseinfani@gmail.com>
+Subject: WSDM 2025 notification (revised)
+Date: Wed, 23 Oct 2024 17:34:47 -0700
+
+Dear Hossein Fani,
+
+We are pleased to inform you that your submission 608 titled "Adaptive Loss-based Curricula for Neural Team Recommendation" has been accepted by the 18th ACM International Conference on Web Search and Data Mining. The reviews for your paper are visible to you through the CMT author console at https://cmt3.research.microsoft.com/WSDM2025/Submission/Index
+
+We received 614 complete submissions.  Of these, 8 were desk-rejected for breach of anonymity, violation of the formatting requirements, or corrupted PDFs.  The remaining 606 submissions underwent a rigorous peer review process. Each submission was reviewed by three to five program committee members (the mode being five PC members and the mean 4.5) and further reviewed by a senior program committee member, who also coordinated the discussions amongst the reviewers of each submission. The chairs met with select SPC members to discuss submissions at the decision boundary. We accepted 106 submissions, for an acceptance rate of 17.3%.
+
+Here is an overview of the next steps:
+
+/1/ Please check immediately that the author names and affiliations for all authors are correct in CMT, as these will be the starting point for the author list communicated to the ACM and Sheridan Printing.
+
+/2/ Please make sure that each author has an ORCID identifier. ACM will not publish papers without them. For more information see https://authors.acm.org/author-resources/orcid-faqs
+
+/3/ Expect an email from ACM Rights Review to the lead author only, asking you to complete a licensing agreement that allows ACM to include your work into the ACM Digital Library. There are a variety of choices. We recommend that you choose the Creative Commons License CC-BY-4.0.  For more information see https://www.acm.org/publications/policies/publication-rights-and-licensing-policy
+
+/4/ Expect an email from submissions@scomminc.com (Sheridan Communications) containing a link to upload your camera-ready copy. Please consider the reviewers=E2=80=99 suggestions carefully when preparing that final copy!
+
+/5/ ACM is in the process of transitioning to an Open Access model, see more at https://www.acm.org/publications/openaccess. For WSDM 2025, you can choose between closed access (where authors pay no article processing charges, but non-subscribers pay to download your paper) and open access (where authors pay an article processing charge, or their institution enter an agreement with ACM covering all papers of corresponding authors from that institution). We encourage you to inquire with your institution whether they are members of ACM Open, and choose the open access option if they are.
+
+/6/ If the presenting author requires a visa to enter Germany, we encourage you to start the application process as soon as possible.
+
+Once again, congratulations! We look forward to connecting with you at WSDM 2025.
+
+Best regards,
+
+Meeyoung Cha, Sien Moens and Marc Najork
+WSDM 2025 program chairs
+
+
+WSDM2025
+Hossein Fani
 View Reviews
 Paper ID 608
 Paper Title Adaptive Loss-based Curricula for Neural Team Recommendation
@@ -94,8 +128,8 @@ Knowledgeable: I have read papers on this topic.
 © 2024 Microsoft Corporation
 About CMT | Docs | Terms of Use | Privacy & Cookies | Consumer Health Privacy | Request Free Site
 
-Select Your Role : Author WSDM2025 
-Hossein Fani 
+Select Your Role : Author WSDM2025
+Hossein Fani
 View Meta-Reviews
 Paper ID 608
 Paper Title Adaptive Loss-based Curricula for Neural Team Recommendation

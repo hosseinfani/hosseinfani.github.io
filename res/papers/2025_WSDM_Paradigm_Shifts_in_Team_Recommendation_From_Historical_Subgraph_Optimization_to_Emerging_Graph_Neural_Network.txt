@@ -1,0 +1,50 @@
+From: Microsoft CMT <email@msr-cmt.org>
+Reply-To: Gianluca Demartini <demartini@acm.org>
+To: Hossein Fani <hosseinfani@gmail.com>
+Subject: WSDM 2025 Tutorial submission notification
+Date: Sat, 26 Oct 2024 15:13:51 -0700
+
+Dear Hossein,
+
+we are pleased to inform you that your tutorial proposal 855: "Paradigm Shifts in Team Recommendation: From Historical Subgraph Optimization to Emerging Graph Neural Network" has been accepted for delivery at the WSDM 2025 conference.
+
+Out of 20 submissions, 9 were accepted. The full list of accepted tutorials will soon be available on the conference website: https://www.wsdm-conference.org/2025/
+
+Submissions were the subject of long discussions among tutorial chairs who contributed to this selection process.
+
+PLEASE READ THE IMPORTANT INFORMATION BELOW:
+
+Guidelines to help you prepare and submit your camera-ready version.
+
+1.       Submission Instructions: www.scomminc.com/pp/acmsig/wsdm.htm
+
+The website provides step-by-step preparation instructions for WSDM 2025 final submissions. Authors must strictly follow these instructions.
+
+Any deviation found will result in the corresponding/contact author having to repeat the process or, worse, the final submission being rejected by the=
+ ACM DL.
+
+2.       Submission Deadline: 18th December 2024 AoE (STRICT!)
+
+The authors must submit their camera-ready versions by this deadline. If the authors miss this deadline, their submission may be rejected by ACM DL in the worst case.
+
+3.       Submission Portal: The authors will receive an email from Sheridan Communications with their submission id# and a link to submit/upload the final submission of their camera-ready version.
+
+4.       Copyright Form: The lead contact author will receive an email from ACM Rightsreview to complete and submit the electronic copyright-permission forms.
+
+Looking forward to seeing you at WSDM2025!
+
+Sincerely,
+
+Gianluca Demartini and Noseong Park
+Tutorial Track Chairs of WSDM2025
+
+
+To stop receiving conference emails, you can check the 'Do not send me conf=
+erence email' box from your User Profile.
+
+Microsoft respects your privacy. To learn more, please read our <a href=3D'=
+https://go.microsoft.com/fwlink/?LinkId=3D521839'>Privacy Statement</a>.
+
+Microsoft Corporation
+One Microsoft Way
+Redmond, WA 98052
