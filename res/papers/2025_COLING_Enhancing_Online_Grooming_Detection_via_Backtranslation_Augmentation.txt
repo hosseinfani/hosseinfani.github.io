@@ -1,0 +1,565 @@
+To: hosseinfani@gmail.com
+Subject: Your COLING 2025 Submission (Number 562)
+Content-Type: multipart/alternative; boundary="834lfd0000beb0cbd07805783abbaf"
+
+--834lfd0000beb0cbd07805783abbaf
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: binary
+
+Dear Hossein Fani:
+
+On behalf of the COLING 2025 Program Committee, we are delighted to inform you that the following submission has been accepted to appear at the conference:
+
+Enhancing Online Grooming Detection via Backtranslation Augmentation
+
+The Program Committee (Senior Area Chairs, Area Chairs, and Reviewers) worked very hard to thoroughly review all the submitted papers. Please repay their efforts, by following their suggestions when you revise your paper. The reviews and comments are attached below.
+
+Additionally, the Ethics reviews chairs recommend some changes as well. Their recommended changes are inserted before the reviews below. Please make sure you include these recommended changes in your final version as well.
+
+Please follow the instructions below to upload your final paper and to inform us of your plans as concerns your attendance.
+
+IMPORTANT DEADLINES: Please fill in the attendance form by Dec 13, 2024.;  Ffinal version of your paper to be submitted by Dec 15, 2024 (all AOE)
+
+Uploading final version (deadline:  Dec 15, 2024, AOE)
+
+Please visit  https://softconf.com/coling2025/papers/
+
+You will be prompted to login to your START account. If you do not see your submission, you can access it with the following passcode: 562X-F6G2J7F5A6
+
+Alternatively, you can click on the following URL, which will take you directly to a form where you can to submit your final paper (after logging into your account): https://softconf.com/coling2025/papers/user/scmd.cgi?scmd=aLogin&passcode=562X-F6G2J7F5A6
+
+Completing attendance form   (Dec 13, 2024)Please complete the following form to confirm your attendance and to specify your preferences regarding the presentation format:
+
+Attendance form
+
+Please remember that the COLING 2025 Main Conference is in-person only, not hybrid. If none of the authors of the paper can attend in person, you will need to present your paper at the post-conference virtual poster presentation sessions, which will take place on January 27 and 28, 2025.
+
+Congratulations again on your fine work! .
+
+Best Regards,Program Chairs, COLING 2025COLING 2025
+
+--------------------
+
+Ethic chairs suggested changes:
+
+Developing models to detect predatory conversations is inherently social impactful and requires careful and explicit ethical consideration. While the ethics statement engages with the risk to researchers, we encourage you to also engage with the potential risks (e.g., misuse) of the work undertaken in the paper, including the use of the PAN 2012 dataset.
+
+============================================================================
+COLING 2025 Reviews for Submission #562
+============================================================================
+
+Title: Enhancing Online Grooming Detection via Backtranslation Augmentation
+Authors: Hamed Waezi and Hossein Fani
+============================================================================
+                            META-REVIEW
+============================================================================
+
+Comments: Reviewers agree that the submission tackles an important topic. The paper is well written and reviewers praise the thoroughness of the study and its coverage.
+Reviewers suggest minor improvements, particularly to the background of the paper, which the authors promise to add.
+Overall, this is a strong submission that should be considered for publication pending ethical review.
+
+============================================================================
+                            REVIEWER #1
+============================================================================
+
+Paper Summary*
+---------------------------------------------------------------------------
+The paper proposes a backtranslation-based augmentation methodology for detecting online grooming. It specifically aims to detect explicit and suggestive text from online content, which may have predatory intent towards minors. The authors model the task of grooming detection as a binary text classification problem, where they address data sparsity of the "predatory" class using automatic neural translation.
+---------------------------------------------------------------------------
+
+
+Summary of Strengths*
+---------------------------------------------------------------------------
+S1. The paper focuses on the socially pertinent problem of detecting online grooming targeted at minors, which is an increasing menace online.
+
+S2. The coverage of languages and language families, as well as the use of both low and high resource languages is appreciable.
+
+S3. The experimental setup is robust and the results are presented well.
+---------------------------------------------------------------------------
+
+
+Summary of Weaknesses*
+---------------------------------------------------------------------------
+W1. Although the application domain is very interesting and impactful, the technical contributions of the paper are not very novel.
+
+W2. In the introduction, the prior art discusses backtranslation literature well but does not go into depth on recent computational work on online grooming detection.
+---------------------------------------------------------------------------
+
+
+Comments, Suggestions and Typos*
+---------------------------------------------------------------------------
+C1. The article can do a better job of motivating the application domain of online grooming detection by covering recent NLP-based studies of the same. Although this material is covered in the appendix, I believe that the inclusion of more grooming detection-related works will strengthen the paper.
+
+C2. Experiments with architectures beyond the GRU and single layer LSTM would strengthen the paper.
+
+I recognize that the suggestion to include more architectures in the experimental setup may not be addressable in the current short paper form due to page limit constraints.
+---------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+                         Soundness (1-5): 4
+                Overall Assessment (1-5): 4
+
+
+============================================================================
+                            REVIEWER #2
+============================================================================
+
+Paper Summary*
+---------------------------------------------------------------------------
+This paper explores training data augmentation via round-trip translation, a.k.a backtranslation, in the task of English online grooming detection using pivot languages from different language families and 3 neural machines translation systems. 4 of the pivot language are high-resource languages and another 4 are low-resource languages. Furthermore, 2 architectures are explored for the classifier, based on GRU and LSTM, and results are presented for 3 different f-score metrics with different weighting of precision and recall.
+---------------------------------------------------------------------------
+
+
+Summary of Strengths*
+---------------------------------------------------------------------------
+(S1) Data augmentation can be important for online grooming as not much high-quality data is available
+
+(S2) The analysis includes augmentation configurations with individual pivot languages as well as 6 combinations of interest, such as low-resource languages only.
+---------------------------------------------------------------------------
+
+
+Summary of Weaknesses*
+---------------------------------------------------------------------------
+(W1) No statistical significance testing is performed
+
+(W2) It is not clear to what extend the large variation of results is due to the controlled variables as variance across cross-validation runs is not reported and runs are not repeated with different random initialisation and order of training items.
+
+(W3) It is not clear whether data augmentation is only applied to the predatory conversations or all conversations of the dataset. The shift in the precision-recall trade-off as measured with F0.5 vs F2 results suggests that the augmentation is restricted to predatory conversations.
+
+(W4) If only predatory conversations are augmented, we cannot tell whether it is the paraphrasing or just the weighting of labels that causes the observed effect. A comparison to simply duplicating these conversations in the training data should be included.
+
+(W5) Claims of the introductions (lines 062-082) such as that backtranslation can uncover hidden meanings ("latent terms") are neither marked as working hypothesis, supported with citations nor investigated in the remainder of the paper.
+
+(W6) While the paper presents interesting results, they are not linked to specific research questions set out at the start.
+---------------------------------------------------------------------------
+
+
+Comments, Suggestions and Typos*
+---------------------------------------------------------------------------
+061: withholding --> keeping / retaining / maintaining
+
+096-101: try it
+
+099: "fall short": is this an assumption of your work? is there evidence?
+
+104: smaller than or equal (otherwise, i only takes |c| - 2 values)
+
+109: the constraint i != j is not needed as the authors are trivially equal if i == j
+
+111: is this exactly the PAN 2012 task? Be more clear what are your modifications, e.g. point out that the original task did not use 3-fold cross-validation; can results be compared to other work?
+
+146-148: Why?
+
+151-: language names are capitalised in English; use the English names for languages, e.g. "deutsch" presumably is "German"
+
+169: A baseline is the setting in which you have a basic model, typically a version of your model without the new things you are adding in your work; the augmented models would then not be called baselines; suggestion for heading for this section: "Models"
+
+176-180: learning rate and learning rate schedule?
+
+178: How is the conversation converted to a string that is fed into the recurrent neural network? Are there (pseudo-) usernames, boundary markers, time stamps (and in which format) etc?
+
+197: "converge faster during less number of training epochs"
+--> converge faster
+OR
+--> converge in fewer training epochs
+OR
+--> converge more quickly
+
+199: "compared to the lack thereof" --> than without augmentation
+
+206: "baseline model": confusing as you introduced baselines in 4.3; suggestion: "translation model"
+
+What about performance differences due to variation in neural network training, e.g. due to random initialisation?
+
+218: "poor backtranslations": evidence? did you check the quality of paraphrases?
+
+230: not for LSTM with F1 and F2; it seems to only benefit F0.5, suggesting the main effect is that the precision-recall trade-off is changed
+
+232: "we see": how? explain
+---------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+                         Soundness (1-5): 3
+                Overall Assessment (1-5): 4
+
+Ethical Concerns
+---------------------------------------------------------------------------
+The PAN 2012 dataset used in this research has partially been sourced from the Perverted Justice Foundations that collected data using questionable methods and with questionable motives.
+---------------------------------------------------------------------------
+
+
+
+============================================================================
+                            REVIEWER #3
+============================================================================
+
+Paper Summary*
+---------------------------------------------------------------------------
+The paper focuses on enhancing the detection of online grooming / predatory conversations for multiple languages by translating English dataset into other languages and backtranslating into English. The authors report on overall positive results of the method, which is consistent with previous studies.
+---------------------------------------------------------------------------
+
+
+Summary of Strengths*
+---------------------------------------------------------------------------
+- Well written paper
+- Important topic
+- Diligent study with a well designed experiment setup
+---------------------------------------------------------------------------
+
+
+Summary of Weaknesses*
+---------------------------------------------------------------------------
+The authors use the method of translating (and backtranslating) English dataset, which is an outdated method. Recent approaches focus more on using multilingual language models in cross-lingual transfer learning. It would be interesting for the authors to check the applicability of such multilingual models on their machine-translated datasets as well.
+---------------------------------------------------------------------------
+
+
+Comments, Suggestions and Typos*
+---------------------------------------------------------------------------
+This paper is in fact a long paper, with many of the important elements moved to Appendices. This strategy is recently seen too often in *CL-related publications and is a bad practice, focused on giving the authors higher chance for acceptance (with assumption that short papers are reviewed more lightly), rather then on producing a coherent self-contained publication. If this paper is accepted it should be accepted as a long paper and the authors should move all Appendices to the main paper. It is a good paper. There is no need to use submission tricks to have it accepted.
+
+"In this paper, we proposed to bridge the gap 046 by natural language backtranslation augmentation 047 to enrich training datasets with more predatory 048 conversations."
+Apart from just doing a research no a socially important topic, what is exact merit for the task of grooming detection specifically, to use backtranslation over, for example, cross-lingual transfer learning? Using MT only introduces an additional step (which also introduces additional point of failure), while training on multilingual models solves this in one step. Compare the results with multilingual models, like XLM-Roberta, etc.
+Also, it is well known that MT introduces mistranslations, semantic errors, etc. and, there will always be a part of the data, which will not be learnable this way due to cultural differences, etc.
+
+"english, to a target language, e.g., 051 french"
+What is the reason for writing names of languages with an orthographical error (lowercase) and in a different font? Why not just write it correctly? The paper does not look or read any better when you randomly mix styles.
+
+"using an off-the-shelf neural transla- 053 tor, e.g., meta's nllb (Team et al., 2022), to gener- 054 ate new synthetic predatory conversations"
+Calculate information loss for MT translated and back-translated samples.
+
+"Table 1"
+It must be specified, that the backtranslation is a free translation, not word-to-word translation. This makes it more like a summary than a translation.
+
+"095 few lines of code, have already set off a surge of
+096 interest."
+No, translating samples to other languages for augmentation (including backtranslaiton) did not "set off a surge of interest". This is literally the oldest trick in the book, and has been used even before the popularity of neural language models.
+
+"icelandic, catalan, 154 pashto, and myanmarese are low-resource lan- 155"
+Farsi is also a low resource langauge
+
+"and google's translator. These translators 159"
+You put too many terms in different font. Highlighting terms like this should be systematic, for example, one type of terms should be highlighted in one type of style. Here, you mix applied languages and types of tools, which is confusing. Reduce highlighting and use it sparsely and meaningfully.
+
+"low-resource languages 209 individually have shown an overall better perfor- 210 mance like catalan (ca), pashto (pa), and 211 myanmarese (my), which can be attributed to their 212 better paraphrasing (Appendix C). Low-resource 213 languages have shown relatively higher seman- 214 tic similarities for the relatively low bleu scores. 215"
+It would be a good idea to check the recent overwhelming survey on offensive/abusive langauge detection in low resource langauges. There are some good hints on potential improvement methods for research in this field:
+- Mahmud, T., Ptaszynski, M., Eronen, J., & Masui, F. (2023). Cyberbullying detection for low-resource languages and dialects: Review of the state of the art. Information Processing & Management, 60(5), 103454.
+
+"In this paper, we proposed backtranslation augmen- 256 tation of predatory conversations for online groom- 257 ing detection. "
+Especially in research on such delicate topics like this, it is important to do more than hsow the numbers from ML experiments. For example, what does it take for a conversation to be predatory? What are the predatory techniques used in such conversations? How should a user spot if they are in a predatory conversation? A discussion on this should also be included in a paper like this.
+
+
+Minor comments:
+"less number of training epochs" (grammatical mistake that occurs many times in the paper)
+fewer number of training epochs
+
+"Figure 1"
+As a sidenote comment: It is stunning and depressing at the same time to see that plain Google translate is more than suffcient as a translation tool, despite so much being done in MT.
+---------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+                         Soundness (1-5): 4
+                Overall Assessment (1-5): 3
+
+
+<!-- Softconf MailTool -->
+
+--
+COLING 2025 - https://softconf.com/coling2025/papers
+
+
+--834lfd0000beb0cbd07805783abbaf
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: binary
+
+
+<p id="docs-internal-guid-ab370112-7fff-66eb-a783-828acdb81c1e" dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 12pt;"><span style="font-size: 11pt; font-family: Arial,sans-serif; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Dear Hossein Fani:</span></p>
+
+<p dir="ltr" style="line-height: 1.38; margin-top: 12pt; margin-bottom: 12pt;"><span style="font-size: 11pt; font-family: Arial,sans-serif; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">On behalf of the COLING 2025 Program Committee, we are delighted to inform you that the following submission has been accepted to appear at the conference:</span></p>
+
+<p dir="ltr" style="line-height: 1.38; margin-top: 12pt; margin-bottom: 12pt; padding: 0pt 0pt 0pt 22.5pt;"><span style="font-size: 11pt; font-family: Arial,sans-serif; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Enhancing Online Grooming Detection via Backtranslation Augmentation</span></p>
+
+<p dir="ltr" style="line-height: 1.38; margin-top: 12pt; margin-bottom: 12pt;"><span style="font-size: 11pt; font-family: Arial,sans-serif; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">The Program Committee </span><span style="font-size: 11pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">(Senior Area Chairs, Area Chairs, and Reviewers)</span><span style="font-size: 11pt; font-family: Arial,sans-serif; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"> worked very hard to thoroughly review all the submitted papers. Please repay their efforts, by f!
+ ollowing their suggestions when you revise your paper. The reviews and comments are attached below. </span></p>
+
+<p dir="ltr" style="line-height: 1.38; margin-top: 12pt; margin-bottom: 12pt;"><span style="font-size: 11pt; font-family: Arial,sans-serif; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Additionally, the Ethics reviews chairs recommend some changes as well. Their recommended changes are inserted <em>before</em> the reviews below. Please make sure you include these recommended changes in your final version as well. </span></p>
+
+<p dir="ltr" style="line-height: 1.38; margin-top: 12pt; margin-bottom: 12pt;"><span style="font-size: 11pt; font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Please follow the instructions below to upload your final paper and to inform us of your plans as concerns your attendance. </span></p>
+
+<p dir="ltr" style="line-height: 1.38; margin-top: 12pt; margin-bottom: 12pt;"><span style="color: rgb(0, 0, 0);"><span style="font-size: 11pt; font-family: Arial, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">IMPORTANT DEADLINES: Please fill in the attendance form by </span><span style="font-size: 11pt; font-family: Arial, sans-serif; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Dec 13, 2024</span><span style="font-size: 11pt; font-family: Arial, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">.;  Ffinal version of your paper to be submitted by Dec 15, 2024 (all AOE)</span></span></p>
+<ul style="margin-top: 0; margin-bottom: 0; padding-inline-start: 48px;">
+<li dir="ltr" style="list-style-type: disc; font-size: 11pt; font-family: Arial,sans-serif; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre;" aria-level="1">
+
+<p dir="ltr" style="line-height: 1.38; margin-top: 12pt; margin-bottom: 12pt;" role="presentation"><span style="font-size: 11pt; font-family: Arial,sans-serif; color: #000000; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Uploading final version (deadline:  Dec 15, 2024, AOE)</span></p>
+</li>
+</ul>
+
+<p dir="ltr" style="line-height: 1.38; margin-left: 36pt; margin-top: 12pt; margin-bottom: 12pt;"><span style="font-size: 11pt; font-family: Arial,sans-serif; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Please visit  <a style="color: rgb(0, 0, 0);" href="https://softconf.com/coling2025/papers/">https://softconf.com/coling2025/papers/</a></span></p>
+
+<p dir="ltr" style="line-height: 1.38; margin-left: 36pt; margin-top: 12pt; margin-bottom: 12pt;"><span style="font-size: 11pt; font-family: Arial,sans-serif; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">You will be prompted to login to your START account. If you do not see your submission, you can access it with the following passcode: 562X-F6G2J7F5A6</span></p>
+
+<p dir="ltr" style="line-height: 1.38; margin-left: 36pt; margin-top: 12pt; margin-bottom: 12pt;"><span style="font-size: 11pt; font-family: Arial,sans-serif; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Alternatively, you can click on the following URL, which will take you directly to a form where you can to submit your final paper (after logging into your account): <a style="color: rgb(0, 0, 0);" href="https://softconf.com/coling2025/papers/user/scmd.cgi?scmd=aLogin&passcode=562X-F6G2J7F5A6">https://softconf.com/coling2025/papers/user/scmd.cgi?scmd=aLogin&passcode=562X-F6G2J7F5A6</a></span></p>
+<ul>
+<li dir="ltr" style="line-height: 1.38;" role="presentation"><span style="color: rgb(0, 0, 0);"><span style="font-size: 11pt; font-family: Arial, sans-serif; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Completing attendance form   (Dec 13, 2024)</span><span style="font-size: 11pt; font-family: Arial, sans-serif; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">
+<br></span><span style="font-size: 11pt; font-family: Arial, sans-serif; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">
+<br></span><span style="font-size: 11pt; font-family: Arial, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Please complete the following form to confirm your attendance and to specify your preferences regarding the presentation format:</span></span></li>
+</ul>
+
+<p dir="ltr" style="line-height: 1.38; margin-left: 36pt; margin-top: 12pt; margin-bottom: 12pt;"><a href="https://forms.gle/XmFUFFDrEUmNvJZL8">Attendance form</a></p>
+
+<p dir="ltr" style="line-height: 1.38; margin-left: 36pt; margin-top: 12pt; margin-bottom: 12pt;"><span style="color: rgb(0, 0, 0);"><span style="font-size: 11pt; font-family: Arial, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Please remember that the COLING 2025 </span><span style="font-size: 11pt; font-family: Arial, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Main Conference </span><span style="font-size: 11pt; font-family: Arial, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">is in-person only, not hybrid. If none of the authors of the paper can attend in person, you will need to prese!
+ nt your paper at the post-conference </span><span style="font-size: 11pt; font-family: Arial, sans-serif; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">virtual poster presentation sessions</span><span style="font-size: 11pt; font-family: Arial, sans-serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">, which will take place on </span><span style="font-size: 11pt; font-family: Arial, sans-serif; background-color: transparent; font-weight: bold; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">January 27 and 28, 2025.</span></span></p>
+
+<p dir="ltr" style="line-height: 1.38; margin-top: 12pt; margin-bottom: 12pt;"><span style="font-size: 11pt; font-family: Arial,sans-serif; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Congratulations again on your fine work! . </span></p>
+
+<p dir="ltr" style="line-height: 1.38; margin-top: 12pt; margin-bottom: 12pt;"><span style="font-size: 11pt; font-family: Arial,sans-serif; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Best Regards,</span><span style="font-size: 11pt; font-family: Arial,sans-serif; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">
+<br></span><span style="font-size: 11pt; font-family: Arial,sans-serif; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Program Chairs, COLING 2025</span><span style="font-size: 11pt; font-family: Arial,sans-serif; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">
+<br></span><span style="font-size: 11pt; font-family: Arial,sans-serif; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">COLING 2025</span></p>
+
+<p dir="ltr" style="line-height: 1.38; margin-top: 12pt; margin-bottom: 12pt;"><span style="font-size: 11pt; font-family: Arial,sans-serif; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">--------------------</span></p>
+
+<p dir="ltr" style="line-height: 1.38; margin-top: 12pt; margin-bottom: 12pt;"><span style="font-size: 11pt; font-family: Arial,sans-serif; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Ethic chairs suggested changes: </span></p>
+
+<p><span style="font-size: 12pt;" data-sheets-formula-bar-text-style="font-size:16px;color:#000000;font-weight:normal;text-decoration:none;font-family:'Arial';font-style:normal;text-decoration-skip-ink:none;">Developing models to detect predatory conversations is inherently social impactful and requires careful and explicit ethical consideration. While the ethics statement engages with the risk to researchers, we encourage you to also engage with the potential risks (e.g., misuse) of the work undertaken in the paper, including the use of the PAN 2012 dataset.</span></p>
+
+<p dir="ltr" style="line-height: 1.38; margin-top: 12pt; margin-bottom: 12pt;"><span style="font-size: 11pt; font-family: Arial,sans-serif; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">
+<pre>============================================================================
+COLING 2025 Reviews for Submission #562
+============================================================================
+
+Title: Enhancing Online Grooming Detection via Backtranslation Augmentation
+Authors: Hamed Waezi and Hossein Fani
+============================================================================
+                            META-REVIEW
+============================================================================
+
+Comments: Reviewers agree that the submission tackles an important topic. The paper is well written and reviewers praise the thoroughness of the study and its coverage.
+Reviewers suggest minor improvements, particularly to the background of the paper, which the authors promise to add.
+Overall, this is a strong submission that should be considered for publication pending ethical review.
+
+============================================================================
+                            REVIEWER #1
+============================================================================
+
+Paper Summary*
+---------------------------------------------------------------------------
+The paper proposes a backtranslation-based augmentation methodology for detecting online grooming. It specifically aims to detect explicit and suggestive text from online content, which may have predatory intent towards minors. The authors model the task of grooming detection as a binary text classification problem, where they address data sparsity of the "predatory" class using automatic neural translation.
+---------------------------------------------------------------------------
+
+
+Summary of Strengths*
+---------------------------------------------------------------------------
+S1. The paper focuses on the socially pertinent problem of detecting online grooming targeted at minors, which is an increasing menace online.
+
+S2. The coverage of languages and language families, as well as the use of both low and high resource languages is appreciable.
+
+S3. The experimental setup is robust and the results are presented well.
+---------------------------------------------------------------------------
+
+
+Summary of Weaknesses*
+---------------------------------------------------------------------------
+W1. Although the application domain is very interesting and impactful, the technical contributions of the paper are not very novel.
+
+W2. In the introduction, the prior art discusses backtranslation literature well but does not go into depth on recent computational work on online grooming detection.
+---------------------------------------------------------------------------
+
+
+Comments, Suggestions and Typos*
+---------------------------------------------------------------------------
+C1. The article can do a better job of motivating the application domain of online grooming detection by covering recent NLP-based studies of the same. Although this material is covered in the appendix, I believe that the inclusion of more grooming detection-related works will strengthen the paper.
+
+C2. Experiments with architectures beyond the GRU and single layer LSTM would strengthen the paper.
+
+I recognize that the suggestion to include more architectures in the experimental setup may not be addressable in the current short paper form due to page limit constraints.
+---------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+                         Soundness (1-5): 4
+                Overall Assessment (1-5): 4
+
+
+============================================================================
+                            REVIEWER #2
+============================================================================
+
+Paper Summary*
+---------------------------------------------------------------------------
+This paper explores training data augmentation via round-trip translation, a.k.a backtranslation, in the task of English online grooming detection using pivot languages from different language families and 3 neural machines translation systems. 4 of the pivot language are high-resource languages and another 4 are low-resource languages. Furthermore, 2 architectures are explored for the classifier, based on GRU and LSTM, and results are presented for 3 different f-score metrics with different weighting of precision and recall.
+---------------------------------------------------------------------------
+
+
+Summary of Strengths*
+---------------------------------------------------------------------------
+(S1) Data augmentation can be important for online grooming as not much high-quality data is available
+
+(S2) The analysis includes augmentation configurations with individual pivot languages as well as 6 combinations of interest, such as low-resource languages only.
+---------------------------------------------------------------------------
+
+
+Summary of Weaknesses*
+---------------------------------------------------------------------------
+(W1) No statistical significance testing is performed
+
+(W2) It is not clear to what extend the large variation of results is due to the controlled variables as variance across cross-validation runs is not reported and runs are not repeated with different random initialisation and order of training items.
+
+(W3) It is not clear whether data augmentation is only applied to the predatory conversations or all conversations of the dataset. The shift in the precision-recall trade-off as measured with F0.5 vs F2 results suggests that the augmentation is restricted to predatory conversations.
+
+(W4) If only predatory conversations are augmented, we cannot tell whether it is the paraphrasing or just the weighting of labels that causes the observed effect. A comparison to simply duplicating these conversations in the training data should be included.
+
+(W5) Claims of the introductions (lines 062-082) such as that backtranslation can uncover hidden meanings ("latent terms") are neither marked as working hypothesis, supported with citations nor investigated in the remainder of the paper.
+
+(W6) While the paper presents interesting results, they are not linked to specific research questions set out at the start.
+---------------------------------------------------------------------------
+
+
+Comments, Suggestions and Typos*
+---------------------------------------------------------------------------
+061: withholding --> keeping / retaining / maintaining
+
+096-101: try it
+
+099: "fall short": is this an assumption of your work? is there evidence?
+
+104: smaller than or equal (otherwise, i only takes |c| - 2 values)
+
+109: the constraint i != j is not needed as the authors are trivially equal if i == j
+
+111: is this exactly the PAN 2012 task? Be more clear what are your modifications, e.g. point out that the original task did not use 3-fold cross-validation; can results be compared to other work?
+
+146-148: Why?
+
+151-: language names are capitalised in English; use the English names for languages, e.g. "deutsch" presumably is "German"
+
+169: A baseline is the setting in which you have a basic model, typically a version of your model without the new things you are adding in your work; the augmented models would then not be called baselines; suggestion for heading for this section: "Models"
+
+176-180: learning rate and learning rate schedule?
+
+178: How is the conversation converted to a string that is fed into the recurrent neural network? Are there (pseudo-) usernames, boundary markers, time stamps (and in which format) etc?
+
+197: "converge faster during less number of training epochs"
+--> converge faster
+OR
+--> converge in fewer training epochs
+OR
+--> converge more quickly
+
+199: "compared to the lack thereof" --> than without augmentation
+
+206: "baseline model": confusing as you introduced baselines in 4.3; suggestion: "translation model"
+
+What about performance differences due to variation in neural network training, e.g. due to random initialisation?
+
+218: "poor backtranslations": evidence? did you check the quality of paraphrases?
+
+230: not for LSTM with F1 and F2; it seems to only benefit F0.5, suggesting the main effect is that the precision-recall trade-off is changed
+
+232: "we see": how? explain
+---------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+                         Soundness (1-5): 3
+                Overall Assessment (1-5): 4
+
+Ethical Concerns
+---------------------------------------------------------------------------
+The PAN 2012 dataset used in this research has partially been sourced from the Perverted Justice Foundations that collected data using questionable methods and with questionable motives.
+---------------------------------------------------------------------------
+
+
+
+============================================================================
+                            REVIEWER #3
+============================================================================
+
+Paper Summary*
+---------------------------------------------------------------------------
+The paper focuses on enhancing the detection of online grooming / predatory conversations for multiple languages by translating English dataset into other languages and backtranslating into English. The authors report on overall positive results of the method, which is consistent with previous studies.
+---------------------------------------------------------------------------
+
+
+Summary of Strengths*
+---------------------------------------------------------------------------
+- Well written paper
+- Important topic
+- Diligent study with a well designed experiment setup
+---------------------------------------------------------------------------
+
+
+Summary of Weaknesses*
+---------------------------------------------------------------------------
+The authors use the method of translating (and backtranslating) English dataset, which is an outdated method. Recent approaches focus more on using multilingual language models in cross-lingual transfer learning. It would be interesting for the authors to check the applicability of such multilingual models on their machine-translated datasets as well.
+---------------------------------------------------------------------------
+
+
+Comments, Suggestions and Typos*
+---------------------------------------------------------------------------
+This paper is in fact a long paper, with many of the important elements moved to Appendices. This strategy is recently seen too often in *CL-related publications and is a bad practice, focused on giving the authors higher chance for acceptance (with assumption that short papers are reviewed more lightly), rather then on producing a coherent self-contained publication. If this paper is accepted it should be accepted as a long paper and the authors should move all Appendices to the main paper. It is a good paper. There is no need to use submission tricks to have it accepted.
+
+"In this paper, we proposed to bridge the gap 046 by natural language backtranslation augmentation 047 to enrich training datasets with more predatory 048 conversations."
+Apart from just doing a research no a socially important topic, what is exact merit for the task of grooming detection specifically, to use backtranslation over, for example, cross-lingual transfer learning? Using MT only introduces an additional step (which also introduces additional point of failure), while training on multilingual models solves this in one step. Compare the results with multilingual models, like XLM-Roberta, etc.
+Also, it is well known that MT introduces mistranslations, semantic errors, etc. and, there will always be a part of the data, which will not be learnable this way due to cultural differences, etc.
+
+"english, to a target language, e.g., 051 french"
+What is the reason for writing names of languages with an orthographical error (lowercase) and in a different font? Why not just write it correctly? The paper does not look or read any better when you randomly mix styles.
+
+"using an off-the-shelf neural transla- 053 tor, e.g., meta's nllb (Team et al., 2022), to gener- 054 ate new synthetic predatory conversations"
+Calculate information loss for MT translated and back-translated samples.
+
+"Table 1"
+It must be specified, that the backtranslation is a free translation, not word-to-word translation. This makes it more like a summary than a translation.
+
+"095 few lines of code, have already set off a surge of
+096 interest."
+No, translating samples to other languages for augmentation (including backtranslaiton) did not "set off a surge of interest". This is literally the oldest trick in the book, and has been used even before the popularity of neural language models.
+
+"icelandic, catalan, 154 pashto, and myanmarese are low-resource lan- 155"
+Farsi is also a low resource langauge
+
+"and google's translator. These translators 159"
+You put too many terms in different font. Highlighting terms like this should be systematic, for example, one type of terms should be highlighted in one type of style. Here, you mix applied languages and types of tools, which is confusing. Reduce highlighting and use it sparsely and meaningfully.
+
+"low-resource languages 209 individually have shown an overall better perfor- 210 mance like catalan (ca), pashto (pa), and 211 myanmarese (my), which can be attributed to their 212 better paraphrasing (Appendix C). Low-resource 213 languages have shown relatively higher seman- 214 tic similarities for the relatively low bleu scores. 215"
+It would be a good idea to check the recent overwhelming survey on offensive/abusive langauge detection in low resource langauges. There are some good hints on potential improvement methods for research in this field:
+- Mahmud, T., Ptaszynski, M., Eronen, J., & Masui, F. (2023). Cyberbullying detection for low-resource languages and dialects: Review of the state of the art. Information Processing & Management, 60(5), 103454.
+
+"In this paper, we proposed backtranslation augmen- 256 tation of predatory conversations for online groom- 257 ing detection. "
+Especially in research on such delicate topics like this, it is important to do more than hsow the numbers from ML experiments. For example, what does it take for a conversation to be predatory? What are the predatory techniques used in such conversations? How should a user spot if they are in a predatory conversation? A discussion on this should also be included in a paper like this.
+
+
+Minor comments:
+"less number of training epochs" (grammatical mistake that occurs many times in the paper)
+fewer number of training epochs
+
+"Figure 1"
+As a sidenote comment: It is stunning and depressing at the same time to see that plain Google translate is more than suffcient as a translation tool, despite so much being done in MT.
+---------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+                         Soundness (1-5): 4
+                Overall Assessment (1-5): 3
+
+</pre></span></p>
+<!-- Softconf MailTool -->
+<p>--
+<br>COLING 2025 - <a href="https://softconf.com/coling2025/papers">https://softconf.com/coling2025/papers</a>
+
+
+--834lfd0000beb0cbd07805783abbaf--
