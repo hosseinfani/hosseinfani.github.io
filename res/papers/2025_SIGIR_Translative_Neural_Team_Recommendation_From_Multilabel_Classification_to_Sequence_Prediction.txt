@@ -1,0 +1,255 @@
+Date: Fri, 4 Apr 2025 22:53:09 +0200
+From: SIGIR 2025 Short Papers <sigir2025-short@easychair.org>
+To: Hossein Fani <hosseinfani@gmail.com>
+Subject: SIGIR 2025 notification for paper 1910
+Sender: sigir2025-short@easychair.org
+
+Dear Hossein,
+
+We are delighted to inform you that your submission “Translative Neural Team Recommendation: From Multilabel Classification to Sequence Prediction” (paper ID 1910) has been accepted for presentation at the SIGIR 2025 Short Paper track. Congratulations!
+
+The reviews on your submission can be found at the end of this email. Please read them carefully and revise your paper accordingly. The deadline for your camera-ready paper is **April 30, 2025 (AoE)**. Please make sure that the information on the camera-ready paper and in EasyChair are consistent. If you believe that the information in EasyChair is not correct, please submit a request to sigir2025-proceedings@dei.unipd.it to revise it **no later than April 8 (AoE)**. See further information on the camera-ready preparation below.
+
+Please be reminded that the conference will be in-person. For more details, see the SIGIR 2025 in-person policy web page: https://sigir2025.dei.unipd.it/inpresence-policy.html More information about registration and visa letters will also be sent later in a separate email.
+
+
+INFORMATION ABOUT THE REVIEW PROCESS
+===
+The PC members worked very hard to review the papers within a tight schedule and provided at least 3 reviews for each submission. Reviews were moderated by a Senior PC member (SPC), who also provided a meta-review for the paper. Final decisions were taken based on discussions among reviewers, meta-reviewers, and PC chairs.
+
+All submissions were considered for their relevance to the field, technical quality and innovation, contribution to advancing knowledge in IR, and possibility to produce discussion and open up new directions of work. We paid particular attention to (i) discounting reviews of poor quality not to affect the final decision; and (ii) considering academic integrity violations (plagiarism, dual submissions, and conflicts of interest).
+
+
+SUBMISSION AND ACCEPTANCE STATISTICS
+===
+This year, we received a record number of 389 submissions for the short paper track. 107 submissions were accepted in the short paper track (27.5% acceptance rate).
+
+
+REGISTRATION
+===
+The organisers are currently setting up the registration system. SIGIR 2025 is an in-person conference. All accepted papers (including all tracks) to the main conference and workshops are expected to be presented in-person. Acceptance of your paper is conditional on that at least one of the authors registers to the conference by **April 30, 2025 (AoE)** and that one author of the paper presents it (oral/poster) at the conference, in person. This means that you should start making your travel arrangements, including visas (if you require them) as soon as possible. Failure to register or present the paper may result in the removal of your paper from the conference and its proceedings.
+
+
+ACCOMMODATION AND CHILD CARE
+===
+We strongly encourage you to book your hotel rooms as soon as possible! An Iron Maiden concert is scheduled in Padua for the first day of the conference (Sunday, July 13, 2025). Accommodations are expected to fill up quickly. Please see the SIGIR 2025 website for a list of hotels with conference discount (https://sigir2025.dei.unipd.it/recommended-hotels.html) and recommended hotels without conference discount (https://sigir2025.dei.unipd.it/accomodation.html). Also, please be informed of the child care service: https://sigir2025.dei.unipd.it/child-care.html
+
+
+SIGIR STUDENT TRAVEL GRANT
+===
+SIGIR is pleased to offer Student Travel Grants for students presenting their accepted contributions at SIGIR 2025.
+
+To be eligible, the student must: (1) be an author of an accepted contribution, (2) be the one presenting the accepted contribution, and (3) be a SIGIR member (SIGIR student travel grants are only open to SIGIR members).
+
+Please note that these awards are competitive, meaning not every applicant will receive a grant. We will give priority to students presenting accepted contributions during the doctoral consortium and on the main conference tracks, students from underrepresented countries, and students who have not received a grant in the past.
+
+To be considered for a grant, students must submit an application, and their academic advisor must complete a statement of support. A link to the advisor's statement will be sent directly as soon as the student provides all the necessary information in their application.
+
+For awardees, the grant will cover the cost of registration and also a stipend of USD1200 towards travel and accommodation costs.
+
+The application period is **April 4th to April 18th (AoE)**. The application and statement of support must be submitted before the end of the application period.
+
+Notifications will be sent by around April 28th. Please **do not register for the conference ahead of this date** as SIGIR Awards cannot reimburse you for the registration. If awarded a grant, you will receive a code for a registration fee waiver.
+
+Link to apply: https://tudelft.fra1.qualtrics.com/jfe/form/SV_aahnAsHqx90qUSO?conference=SIGIR2025
+
+
+CAMERA READY INSTRUCTIONS
+===
+The following are important steps you must follow in order to prepare your camera ready and meet publication requirements:
+
+A. The initial author information to be gathered for your ACM rights review form can be found at: https://www.scomminc.com/pp/acmsig/sigir2025.htm.
+
+B. The ACM SIG formatting and preparation instructions for your submission to be included in the proceedings can be found at: https://www.scomminc.com/pp/acmsig/sigir.htm.
+Please familiarize yourselves with the formatting and review in general for the helpful formatting hints included.
+
+C. The submission deadline for the camera-ready version is **April 30, 2025 (AoE)**. Papers not submitted on time will be dropped from the proceedings.
+
+D. We will use the paper title and author information (name, affiliation, email etc.) that you entered in EasyChair "as is" for publication purposes. Please make sure that the information on the camera-ready paper and in EasyChair are consistent. After the camera-ready deadline, we cannot accommodate corrections of paper titles. If you believe that the information in EasyChair is not correct, please submit a request to sigir2025-proceedings@dei.unipd.it to revise it **no later than April 8 (AoE)**. We remind you that according to this year's policy that authors cannot be added after paper submission.
+
+E. One email from ACM Rights Review (rightsreview@acm.org) to the designated contact author (at the time of acceptance) with a link to the electronic ACM copyright-permission form(s) to be completed. Upon completing the electronic form, you will receive a confirmation email containing the ACM copyright block, conference data, etc. specific for your submission and mandatory to appear on the first page. See https://www.scomminc.com/pp/acmsig/sigir2025.htm for further details.
+
+F. The authors will be contacted by one of the publication coordinators at Sheridan Communications within 10-30 days after the camera-ready submission deadline (as all rights, permissions, and data is checked). The coordinator will inform you of the following:
+(i) That everything is in order with your submission.
+--OR--
+(ii) That you must fix something before it is final. If this is true, you will receive specific information about how to revise your submission to meet requirements, and a new deadline will be given to submit the corrected material. You are required by the chairs to adhere to this NEW deadline so publication is not delayed.
+
+G. Promo video – optional: you can prepare a 2-minute promo video to be uploaded to the ACM DL. The video should highlight the essence of your work, and serve as a starting point for a discussion. The deadline for submitting the video is **June 1 (AoE)**.
+
+
+Sincerely,
+
+Faegheh Hasibi, Joel Mackenzie, Ebrahim Bagheri
+SIGIR 2025 Short Paper PC Co-Chairs
+
+SUBMISSION: 1910
+TITLE: Translative Neural Team Recommendation: From Multilabel Classification to Sequence Prediction
+
+-------------------------  METAREVIEW  ------------------------
+This is the metareview.
+
+The paper received mixed reviews, with referees agreeing that the work is relevant, interesting, and well written.
+
+The major weakness pointed out by R1 is that the task is modeled as a sequence, but there is no guarantee that skills will be ordered. So, how are these sequences constructed?
+
+The short paper program chairs had an extensive discussion about this. Ultimately, it was decided that although this point requires attention and discussion from the authors, it is not sufficient grounds to reject the work. Ultimately, the chairs decided that the benefits of accepting this work outweigh the negatives. However, the authors are urged to very carefully consider the detailed reviews, and incorporate fixes or additional discussion in the camera ready.
+
+
+
+----------------------- REVIEW 1 ---------------------
+SUBMISSION: 1910
+TITLE: Translative Neural Team Recommendation: From Multilabel Classification to Sequence Prediction
+AUTHORS: Kap Thang, Hawre Hosseini and Hossein Fani
+
+----------- Relevance to SIGIR -----------
+SCORE: 2 (excellent)
+----- TEXT:
+Team Formation is a relevant task for the SIGIR conference.
+----------- Novelty -----------
+SCORE: 0 (fair)
+----------- Technical soundness -----------
+SCORE: -1 (poor)
+----------- Quality of presentation -----------
+SCORE: 0 (fair)
+----------- Strengths -----------
+The paper introduces a sequence-to-sequence approach for team recommendation, moving beyond traditional multilabel classification methods. This perspective could potentially capture relationships between required skills and selected experts more effectively than previous methods.
+
+The paper benchmarks its proposed method against multiple feedforward neural networks and sequence-based models, such as Recurrent Neural Networks (RNNs), RNNs with attention, Convolutional Sequence-to-Sequence models, and Transformers. This allows for a fair comparison and helps highlight the strengths and weaknesses of each model.
+----------- Weaknesses -----------
+The paper claims to map a sequence of skills to a sequence of experts using sequence-to-sequence models (e.g., Transformers). However, it fails to explain how the sequences were created. In datasets like DBLP, the order of authors is explicit, but skills (keywords) are not inherently ordered, making it unclear how the input sequences were structured. If skills are arbitrarily ordered, the entire premise of using a sequence-based approach is questionable.
+
+The paper assumes that skills and experts follow a meaningful sequential relationship that can be effectively modeled using Transformers. However, it does not provide theoretical or empirical evidence to justify this assumption. Unlike natural language, where word order carries meaning, there is no clear sequence dependency between skills and experts in real-world team formation. Without proving this, the choice of a sequence-based model is unjustified.
+----------- Overall recommendation -----------
+SCORE: -2 (reject)
+----- TEXT:
+The paper presents a sequence-to-sequence approach to team recommendation, leveraging transformers to map a sequence of required skills to a sequence of recommended experts. The idea is novel and the empirical results suggest improvements over traditional multilabel classification. The paper benchmarks its proposed method against multiple feedforward neural networks and sequence-based models, such as Recurrent Neural Networks (RNNs), RNNs with attention, Convolutional Sequence-to-Sequence models, and Transformers.
+
+The core issue is that the authors do not provide a clear methodology for constructing a sequenced dataset. While they claim that transformers effectively model skill-to-expert mappings, they do not explain how the input sequences (skills) and output sequences (experts) are structured. In datasets like DBLP, where author sequences exist naturally, skill sequences do not.
+----------- Reviwer Expertise -----------
+SCORE: 5 (Expert: I have published papers in this area and am highly knowledgeable about the topic.)
+----------- Sharing review for Revise & Resubmit initiative -----------
+SCORE: 3 (I do NOT agree to share my review)
+
+
+
+----------------------- REVIEW 2 ---------------------
+SUBMISSION: 1910
+TITLE: Translative Neural Team Recommendation: From Multilabel Classification to Sequence Prediction
+AUTHORS: Kap Thang, Hawre Hosseini and Hossein Fani
+
+----------- Relevance to SIGIR -----------
+SCORE: 1 (good)
+----- TEXT:
+The topic studied in this work is relevant to SIGIR.
+----------- Novelty -----------
+SCORE: -1 (poor)
+----------- Technical soundness -----------
+SCORE: 0 (fair)
+----------- Quality of presentation -----------
+SCORE: 0 (fair)
+----------- Strengths -----------
+1. This work studies the team recommendation task, which is an interesting task and has potential applications in real-world scenarios.
+2. This work studies the team recommendation task by learning a sequence-to-sequence task rather than the multilabel classification problem.
+3. The authors conduct extensive experiments on our benchmark datasets.
+----------- Weaknesses -----------
+1. The proposed solution lacks technical contributions, and the description of the model is not clear enough.
+2. Does this task have similar meanings to the next basket recommendation? More discussions on this are expected.
+----------- Overall recommendation -----------
+SCORE: -1 (weak reject)
+----- TEXT:
+This work studies the team recommendation task by learning a sequence-to-sequence task rather than a multilabel classification problem. The team recommendation task is different from traditional recommendation tasks, and it has potential applications in real-world scenarios. The authors conduct extensive experiments on our benchmark datasets, but the proposed solution lacks technical contributions.
+
+Strong points
+1. This work studies the team recommendation task, which is an interesting task and has potential applications in real-world scenarios.
+2. This work studies the team recommendation task by learning a sequence-to-sequence task rather than the multilabel classification problem.
+3. The authors conduct extensive experiments on our benchmark datasets.
+
+Weak points
+1. The proposed solution lacks technical contributions, and the description of the model is not clear enough.
+2. Does this task have similar meanings to the next basket recommendation? More discussions on this are expected.
+----------- Reviwer Expertise -----------
+SCORE: 4 (Knowledgeable: I have read the literature in this area and have a solid understanding of the topic.)
+----------- Sharing review for Revise & Resubmit initiative -----------
+SCORE: 3 (I do NOT agree to share my review)
+
+
+
+----------------------- REVIEW 3 ---------------------
+SUBMISSION: 1910
+TITLE: Translative Neural Team Recommendation: From Multilabel Classification to Sequence Prediction
+AUTHORS: Kap Thang, Hawre Hosseini and Hossein Fani
+
+----------- Relevance to SIGIR -----------
+SCORE: 2 (excellent)
+----- TEXT:
+N/A
+----------- Novelty -----------
+SCORE: 1 (good)
+----------- Technical soundness -----------
+SCORE: 0 (fair)
+----------- Quality of presentation -----------
+SCORE: 1 (good)
+----------- Strengths -----------
+1. The authors study a useful problem for sequence-to-sequence-based neural team recommendation.
+2. The paper is well-organized and easy to follow.
+3. The proposed method is feasible and practical.
+----------- Weaknesses -----------
+1. The technical contribution of the paper appears to be limited. While the authors reformulate the team recommendation task as a sequence-to-sequence modeling problem, they do not propose any task-specific architectural innovations or methodological enhancements tailored to the sequence-to-sequence formulation.
+
+2. In the experiments, the authors compare sequence-to-sequence models with existing neural team recommenders and demonstrate improved performance. However, the comparison is restricted to two methods based on variational Bayesian feedforward neural networks. This selection does not comprehensively represent the spectrum of neural team recommendation approaches. The authors are encouraged to include a broader range of baselines, such as graph neural network-based methods and search-based methods, which are also discussed in the related work section.
+----------- Overall recommendation -----------
+SCORE: 1 (weak accept)
+----- TEXT:
+Overall, the paper tackles an important problem, is clearly written, and proposes a feasible sequence-to-sequence-based framework for team recommendation. However, the technical novelty appears limited, as the proposed method mainly relies on reformulating the task without introducing dedicated solutions for the new formulation. In addition, the experimental comparison lacks comprehensiveness, as it includes only a narrow subset of existing neural team recommendation methods.
+----------- Reviwer Expertise -----------
+SCORE: 4 (Knowledgeable: I have read the literature in this area and have a solid understanding of the topic.)
+----------- Sharing review for Revise & Resubmit initiative -----------
+SCORE: 2 (I agree to share my review anonymously)
+
+
+
+----------------------- REVIEW 4 ---------------------
+SUBMISSION: 1910
+TITLE: Translative Neural Team Recommendation: From Multilabel Classification to Sequence Prediction
+AUTHORS: Kap Thang, Hawre Hosseini and Hossein Fani
+
+----------- Relevance to SIGIR -----------
+SCORE: 2 (excellent)
+----- TEXT:
+The paper proposes a novel method for generating skill-based expert teams, a foundational concept in the information retrieval research community.
+----------- Novelty -----------
+SCORE: 2 (excellent)
+----------- Technical soundness -----------
+SCORE: 1 (good)
+----------- Quality of presentation -----------
+SCORE: 1 (good)
+----------- Strengths -----------
+1. The paper posits a novel solution to the team formation problem by modeling the task as a sequence prediction rather than the current state-of-the-art, a multi-label classification task which suffers from the sparsity of target expert vectors.
+
+2. The paper provides a clear introduction to the research motivation and covers a broad range of related conducted works, as well as explaining how and why it is relevant to the Information Retrieval community.
+
+3. The methodology provides precise mathematical formulation of the sequence-to-sequence approach to team recommendation, clearly defining how experts are selected conditionally based on required skills.
+
+4. The experimental design is robust, evaluating across four diverse datasets with distinct skill/expert distributions and comparing against established baselines using appropriate classification and IR metrics.
+
+5. The paper achieves a significantly higher performance compared to competitive baselines on key Information Retrieval metrics such as Precision, Recall, MAP, and NDCG.
+----------- Weaknesses -----------
+1. The related works section adequately presents previous baselines but lacks critical analysis of their strengths and limitations, missing an opportunity to more clearly position the papers' contribution against specific shortcomings of existing approaches.
+
+2. The methodology does not elaborate on the architectural details of the encoder and decoder used for their model. A more detailed diagram or thorough explanation of the mathematical transformation of skills to experts during training and inference would be beneficial to understanding how the results are achieved.
+
+3. Concerning discrepancies exist between baseline performance metrics reported here versus their original publications. For example, the original bnn_emb paper reports a Recall @10 of 5% for the DBLP dataset, whereas here it is reported to be 0.37%
+
+4. Given the quadratic scaling nature of transformers, efficiency considerations must be reported. A table or diagram for comparative analysis of inference time or computational requirements would help readers assess scalability against the multi-label classification approaches.
+----------- Overall recommendation -----------
+SCORE: 0 (borderline)
+----- TEXT:
+The paper introduces a fundamentally new approach to team recommendation that achieves substantial performance improvements through sequence modeling. The core contribution of reformulating the problem as sequence prediction instead of multi-label classification is clearly demonstrated and represents an important advance in the field.
+
+The sparse nature of the target expert vectors and underfitting in the multi-label classification approach is a familiar problem to the researchers of the field and the proposed approach by the authors posits a novel solution that, when combined with the improved performance metrics, encourages new avenues of research for members of the Information Retrieval community.
+
+The papers' main shortcomings are the lack of detail and rigor in the methodological shortcomings and the absence of efficiency metrics, which is crucial given that they use transformers as the backbone of the proposed approach. For a short paper, I expect less focus elaborating the results that can be briefly summarized by a table, and more focus on laying the technical foundation to support the work.
+----------- Reviwer Expertise -----------
+SCORE: 4 (Knowledgeable: I have read the literature in this area and have a solid understanding of the topic.)
+----------- Sharing review for Revise & Resubmit initiative -----------
+SCORE: 3 (I do NOT agree to share my review)
