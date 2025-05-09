@@ -1,0 +1,26 @@
+From: Computing Surveys <onbehalfof@manuscriptcentral.com>
+Sent: May 8, 2025 09:53
+To: Hossein Fani <Hossein.Fani@uwindsor.ca>
+Cc: Mahdis Saeedi <msaeedi@uwindsor.ca>; hawre.hosseini@thomsonreuters.com <hawre.hosseini@thomsonreuters.com>; Christine Wong <wong93@uwindsor.ca>; Hossein Fani <Hossein.Fani@uwindsor.ca>; michela.milano@unibo.it <michela.milano@unibo.it>; csur-admin@kwglobal.com <csur-admin@kwglobal.com>; Clarissa.Nemeth@kwglobal.com <Clarissa.Nemeth@kwglobal.com>
+Subject: Computing Surveys - CSUR-2023-0992.R2
+
+08-May-2025
+
+Dear Dr. Hossein Fani:
+
+Congratulations! Your manuscript, "A Survey of Subgraph Optimization for Expert Team Formation," has been accepted for publication in ACM Computing Surveys.  The comments of the Associate Editor and reviewer(s) who reviewed your manuscript are included at the foot of this letter.
+
+Your paper will be returned to your Author Center.  Instructions for uploading your final files will be sent in a subsequent communication.
+
+Thank you for your contribution.  On behalf of the Editors of Computing Surveys, we look forward to your continued submissions to the Journal.
+
+Sincerely,
+Dr. Michela Milano
+Editor-in-Chief
+ACM Computing Surveys
+
+Here are the editor comments, if any:
+The authors have satisfactorily addressed the reviewers' comments in the first round of review. The manuscript can now be accepted for publication.
+
+
+Reviewer(s)' Comments to Author:
