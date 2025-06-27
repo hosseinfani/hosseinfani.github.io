@@ -517,7 +517,7 @@ a:focus {
 .des-p p{
 	margin: 0;
 	/* line-height: 20px; */
-	color: #fff;
+	color: darkgray;
 }
 .name-title{font-weight: bold;}
 

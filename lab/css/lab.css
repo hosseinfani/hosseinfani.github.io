@@ -434,14 +434,15 @@ h3 {
   margin-bottom: 7rem;
 }
 .address {
-  color: white;
+  color: #21a0ff !important; 
   position: absolute;
   top: 5px;
   right: 12px;
-  width: 250px;
+  width: 350px;
   text-align: right;
-  font-weight: bold;
+
 }
+
 .section-one {
   position: relative;
 }
