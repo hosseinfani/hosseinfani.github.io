@@ -1,0 +1,20 @@
+Date: Fri, 4 Jul 2025 10:25:15 +0200
+From: Tutorials <cikm2025-tutorial@easychair.org>
+To: Hossein Fani <hosseinfani@gmail.com>
+Subject: [CIKM2025] Notification for Tutorial Track
+Sender: cikm2025-tutorial@easychair.org
+
+Dear Authors,
+
+We are delighted to inform you that your tutorial proposal with id 0201 has been accepted for ACM CIKM 2025.
+
+We received many competitive proposals this year, and yours stood out.
+We believe the topic is of high interest and will be a valuable contribution that the CIKM community will greatly benefit from.
+
+We will follow up with information regarding the schedule and any other necessary arrangements in the coming weeks.
+
+Best regards,
+
+Giulia, Ee-Peng, Matteo
+CIKM'25 Tutorial Co-Chairs
+cikm2025-tutorial@easychair.org
