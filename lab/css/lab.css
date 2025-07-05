@@ -543,10 +543,10 @@ h3 {
 }
 
 .work-title {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: -10px;
+  margin-bottom: -10px;
   text-align: center;
 }
 
@@ -575,9 +575,9 @@ h3 {
 #a-btn {
   border: solid 1px #015a9c;
   color: #015a9c !important;
-  padding: 5px 5px;
-  margin: 0 3px;
-  border-radius: 3px;
+  padding: 1px 3px;
+  margin: 0 1px;
+  border-radius: 10px;
   font-size: 12px;
   text-align: center;
   background-color: transparent; /* Ensure the background is transparent by default */
