@@ -1,0 +1,40 @@
+Sender: Editor IJCA <editor@ijcaonline.org>
+From: Editor IJCA <editor@ijcaonline.org>
+Date: Mon, 22 Sep 2025 16:22:08 -0400
+Subject: IJCA September 2025 Edition: Publication Updates
+To: Taherik <taherik@uwindsor.ca>, Msaeedi <msaeedi@uwindsor.ca>, Kobti <kobti@uwindsor.ca>, Hfani <hfani@uwindsor.ca>
+Return-Path: editor@ijcaonline.org
+
+Dear Zahra Taheri, Mahdis Saeedi, Ziad Kobti and Hossein Fani,
+
+
+The board of International Journal of Computer Applications is pleased to inform you that your manuscript is published in IJCA *September 2025* Edition with effect from *September 22**, *2025.
+
+
+*Manuscript Title* : A Survey of Query Refinement Techniques: From Neural Architectures to Practical Applications
+*Digital Library URI* : https://www.ijcaonline.org/archives/volume187/number36/a-survey-of-query-refinement-techniques-from-neural-architectures-to-practical-applications/
+
+
+The letter is a testimony of the fact that the concepts proposed by the authors in the published paper will be deemed as an invention by the
+authors in effect from the mentioned date. The testimony will be valid until any individual/ organization furnishes tangible proofs of copyright
+infringements. Any reports of copyright allegations will be conveyed to the authors for reciprocal actions.
+
+*IMPORTANT: Please note that IJCA is in collaboration with ResearchGate*.
+The papers published in IJCA are automatically crawled and listed at ResearchGate index; which makes the google scholar indexing process streamlined.
+
+
+*We too strongly recommend authors to upload their published papers on ResearchGate*.
+
+The published research manuscript will be available on the digital library of IJCA permanently and can be accessed via the URI mentioned and have unique CrossRef DOI reference. The volume series number is uniquely identified by an ISBN number.
+
+The article will be available in Google Scholar platform, CiteSeer, UlrichsWeb and CSA Technology Research Database, ProQuest for citation purposes and NASA ADS (Hosted at Harvard University). The IJCA articles are also available with University of Karlsruhe, Germany and Georgetown University, USA. IJCA articles being indexed with Scientific Commons Index supported by University of St. Gallen, Switzerland. We are working with other universities for inclusion of the contents as well. Updates for the same will be available on the IJCA Journal website.
+
+We once again take the opportunity to congratulate you on this occasion.
+
+Best regards,
+Editorial Support Team,
+International Journal of
+Computer Applications,
+Foundation of Computer Science,
+New York, USA.
+www.ijcaonline.org

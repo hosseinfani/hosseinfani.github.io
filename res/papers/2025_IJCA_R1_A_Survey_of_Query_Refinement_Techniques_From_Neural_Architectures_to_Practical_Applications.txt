@@ -1,0 +1,52 @@
+From: IJCA Editorial <editor@ijcaonline.org>
+Sent: August 9, 2025 08:09
+To: Ziad Kobti <kobti@uwindsor.ca>; Hossein Fani <Hossein.Fani@uwindsor.ca>; Mahdis Saeedi <msaeedi@uwindsor.ca>; Zahra Taherikhonakdar <taherik@uwindsor.ca>
+Subject: IJCA August 2025 Edition: Letter of Acceptance
+
+You don't often get email from editor@ijcaonline.org. Learn why this is important<https://aka.ms/LearnAboutSenderIdentification>
+
+Dear Zahra Taheri, Mahdis Saeedi, Hossein Fani, Ziad Kobti,
+
+We are delighted to inform you that your research paper has been Accepted for publication with minor revisions in International Journal of Computer Applications (IJCA) August 2025 Edition.
+
+Paper Title : A Survey of Query Refinement Techniques: From Neural Architectures to Practical Applications
+Paper Reference ID : 33fe2a67-42d7-4acf-a7d3-25ac16532525
+
+The important deadlines regarding publication are as follows:
+
+** Camera ready paper submission:       Aug. 16, 2025, 11:59 p.m.
+** Copyright transfer:  Aug. 16, 2025, 11:59 p.m. (IJCA Copyright Form<https://www.ijcaonline.org/ip/IJCACopyrightForm.pdf>)
+** Publication fees transfer:   Aug. 16, 2025, 11:59 p.m.
+
+The research article will be published in IJCA Digital Library on Aug. 20, 2025, 11:59 p.m.
+
+All the selected papers will be published in IJCA Digital Library with initial indexing with Google Scholar, CiteSeer, Ulrichs Web and Scientific Commons Index, University of St. Gallen, Switzerland. The articles are also indexed with SAO/NASA ADS Physics Abstract Service supported by Harvard Univer=
+sity and NASA, Informatics and ProQuest CSA Technology Research Database. International Journal of Computer Applications is a voting member of CrossRef, USA and each of its research articles is allotted a unique DOI reference.
+
+Article Processing Fees
+
+** Processing charge for each research paper : USD 63.00
+
+The charges include open-access publication, indexing, maintenance of link resolvers and journal infrastructures.
+
+Payment via PhDFocus: Please visit the secure online payment page<https://ijca.phdfocus.com/order_checkout/books/checkout/93d6bb1d-129c-448b-a76f-45da1460c41d/> to transfer the processing fee. Alternatively, the charges can be transferred using wire facility via banks. The Payment Instructions<https://ijca.phdfocus.com/order_checkout/books/payment_instructions/> will have further information.
+
+The invoice/ receipt will be delivered to you on subject to realization of the payment.
+
+IMPORTANT: You are requested to visit your paper at https://ijca.phdfocus.com and resubmit in DOC/DOCX and/or Latex file format conforming to the prescribed IJCA Paper Template on or before Aug. 16, 2025, 11:59 p.m.. Kindly refer the Review Report<https://ijca.phdfocus.com/mtsAuthor/review/report/3542a9b2-28cd-4d0e-a506-5e0d7d369c4a/> and the IJCA template (DOCX<https://www.ijcaonline.org/ip/template.docx>). The LaTex template can be downloaded from the Call for Paper page<https://ijcaonline.org/calls-/> of IJCA.
+
+Conformance to IJCA template is mandatory for inclusion and citation with Google Scholar, CiteSeer, UlrichsWeb, NASA ADS and ProQuest CSA Technology Research Database.
+
+Thank you for your association with IJCA.
+
+Best regards,
+Editorial Support Team,
+International Journal of Computer Applications,
+Foundation of Computer Science,
+New York, USA.
+https://ijcaonline.org
+
+________________________________
+
+IJCA notification email
+This email is intended for Zahra Taheri, coauthors and related parties. Learn why we included this.<https://ijca.phdfocus.com/services/email_intended_for/>
