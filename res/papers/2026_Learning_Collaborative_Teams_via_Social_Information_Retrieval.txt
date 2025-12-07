@@ -1,0 +1,21 @@
+Date: Fri, 5 Dec 2025 09:42:45 +0100
+From: WWW2026-tracks <www2026tracks@easychair.org>
+To: Hossein Fani <hosseinfani@gmail.com>
+Subject: The Web conference 2026: Notification for tutorial proposal 183
+Sender: www2026tracks@easychair.org
+
+Dear Hossein Fani,
+
+We are pleased to inform you that your tutorial proposal,
+Learning Collaborative Teams via Social Information Retrieval (Lecture-style Tutorial),
+has been accepted for presentation at The Web Conference 2026. Congratulations!
+
+Details regarding camera-ready formatting for the proceedings and the presentation format will be shared shortly.
+
+You can find additional information about the conference and your tutorial time slot at: https://www2026.thewebconf.org/index.html.
+
+We look forward to welcoming you in Dubai, UAE, April 13–17, 2026.
+Best regards,
+
+David and Ricardo,
+Tutorial chairs
