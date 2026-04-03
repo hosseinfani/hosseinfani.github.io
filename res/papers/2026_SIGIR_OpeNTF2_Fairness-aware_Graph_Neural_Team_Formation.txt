@@ -1,0 +1,148 @@
+Date: Thu, 2 Apr 2026 21:50:04 +0200
+From: SIGIR 2026 Resources Papers Track <resources-sigir2026@easychair.org>
+To: Hossein Fani <hosseinfani@gmail.com>
+Subject: SIGIR 2026 notification for paper 214
+Sender: resources-sigir2026@easychair.org
+
+Dear Hossein Fani,
+
+We are delighted to inform you that your submission
+
+214  OpeNTF2: Fairness-aware Graph Neural Team Formation
+
+has been accepted for presentation at the SIGIR 2026 Resource Track.
+
+This year, we received 143 papers and accepted 61 (43%) of them.  For all papers, we assigned at least three PC members, who spent considerable time on reading and discussing your submission and provided detailed suggestions for improvement in the attached reviews. What we expect from you in return, is to incorporate their feedback to improve your final paper.
+
+Instructions for preparing your camera ready version can be found in the attachment. Please read this document carefully and retain it for future reference; it contains a lot of important instructions.
+
+The deadline to submit the final version of your paper is April 29, AoE time.
+
+
+Congratulations, we look forward to meeting you at SIGIR 2026!
+
+Lorraine Goeuriot and Joel Mackenzie, SIGIR Resource Track chairs
+
+----------------------
+
+SUBMISSION: 214
+TITLE: OpeNTF2: Fairness-aware Graph Neural Team Formation
+
+-------------------------  METAREVIEW  ------------------------
+There is no metareview for this paper.
+
+----------------------- REVIEW 1 ---------------------
+
+SUBMISSION: 214
+TITLE: OpeNTF2: Fairness-aware Graph Neural Team Formation
+
+----------- Novelty -----------
+SCORE: 5 (excellent)
+----- TEXT:
+This resource represents a significant advance. By unifying four critical research directions: fairness-aware debiasing, end-to-end graph neural network-based team formation, sequence-to-sequence transformer architectures, and temporal training strategies, OpeNTF2 addresses a major gap in the Information Retrieval field. It transitions from a simple model benchmark to a comprehensive, fairness-conscious framework for neural team formation.
+----------- Availability -----------
+SCORE: 5 (excellent)
+----- TEXT:
+The resource is highly accessible. The authors provide a clear GitHub link with an open-source license. The inclusion of installation instructions, execution guidelines, and Colab scripts ensures that the pipeline is reproducible and immediately usable by both academic and industry researchers.
+----------- Utility -----------
+SCORE: 4 (good)
+----- TEXT:
+The framework is well-documented. The shift to a component-based design, managed by Hydra, is a standout feature that facilitates modularity and extensive ablation studies. The inclusion of diverse graph structures and ready-to-use case studies makes the resource highly practical. The provenance of the data and the preprocessing stages are clearly explained, and the toolset is designed for both ease of use and extensibility.
+----------- Potential Impact -----------
+SCORE: 4 (good)
+----- TEXT:
+OpeNTF2 can have an important impact on the IR research community. By democratizing access to complex, fairness-aware team formation models, it enables researchers to investigate systemic biases (gender and popularity) more effectively. This library will likely become a standard tool in the field, with a growing user base expected in the coming years.
+----------- Overall Recommendation -----------
+SCORE: 1 (Lean to Accept)
+----------- Detailed Comments to Authors -----------
++Integrates fairness-aware reranking with both deterministic and probabilistic methods into a neural team formation pipeline, supporting multiple fairness notions.
++Recasts team formation as a sequence prediction problem and incorporates encoder–decoder models and transformers for large output spaces.
++Evaluates multiple modeling paradigms (classifiers, GNNs, seq2seq, temporal) and fairness rerankers across several datasets with both utility and fairness metrics.
+
+-Limited discussion on broader fairness-aware ranking methods in IR beyond the cited LinkedIn and fa-ir approaches, and no in-process/pre-process comparisons in this release (noted as future work).
+-The new GitHub dataset is introduced but lacks a detailed characterization and robust experimental validation; generalizability claims remain speculative.
+
+OpeNTF2 is a well-engineered and timely framework that unifies fairness-aware reranking, end-to-end GNNs, translative models, and temporal training for neural team formation. As a system/benchmark contribution, it has clear value for the SIGIR community, especially given the paucity of fairness-aware, temporally sensitive, and graph-based pipelines in this domain.
+----------- Scrutiny -----------
+SCORE: 4 (understood all details and double-checked the available resources)
+----------- Reviewer Expertise -----------
+SCORE: 4 (Knowledgeable: I have read the literature in this area and have a solid understanding of the topic.)
+
+
+----------------------- REVIEW 2 ---------------------
+
+SUBMISSION: 214
+TITLE: OpeNTF2: Fairness-aware Graph Neural Team Formation
+
+----------- Novelty -----------
+SCORE: 4 (good)
+----- TEXT:
+Integrates fairness-aware reranking, graph neural team formation, sequence-based modeling, and temporal training into one unified framework. The novelty is meaningful for a resource paper, though it is primarily integrative rather than a fundamentally new paradigm.
+----------- Availability -----------
+SCORE: 4 (good)
+----- TEXT:
+The paper states that the codebase is publicly released under a CC BY-NC-SA 4.0 license and provides installation/execution instructions, Colab examples, and quick-start guidance. This supports reproducibility well, although the non-commercial license slightly limits openness for industry use.
+----------- Utility -----------
+SCORE: 4 (good)
+----- TEXT:
+The framework appears practically useful thanks to its component-based design, Hydra configuration, CI/testing support, added metrics such as skill coverage, and support for multiple modeling paradigms in one testbed. It looks reusable for researchers who want a shared benchmark and extensible codebase.
+----------- Potential Impact -----------
+SCORE: 4 (good)
+----- TEXT:
+OpeNTF2 could become a useful shared platform for work on team formation, social IR, fairness-aware recommendation, and graph-based recommendation. Its impact is likely strongest in this specialized community rather than across all of IR, but within that area it seems valuable and sustainable.
+----------- Overall Recommendation -----------
+SCORE: 1 (Lean to Accept)
+----------- Detailed Comments to Authors -----------
+Strengths:
+OpeNTF2 provides a practically useful unified framework that brings together fairness-aware reranking, graph-based team formation, sequence-based modeling, and temporal training in one resource. The paper is also strong on reproducibility, with public code, execution guidance, modular design, Hydra configuration, and engineering support such as CI/testing and containerized execution.
+
+Weaknesses:
+The main limitation is that the novelty is mostly integrative rather than fundamentally new. In addition, the evaluation is somewhat more focused on summarizing included extensions than on demonstrating the resource itself through a fully self-contained adoption or extension scenario. The discussion of fairness-related assumptions and the implications of the non-commercial license could also be clearer.
+
+Suggestions for improvement:
+The paper should more clearly surface in the manuscript the practical reuse support already available in the repository, including setup, quickstart, and feature documentation. It would also help to sharpen the distinction between OpeNTF and OpeNTF2, and to expand the discussion of fairness assumptions and license-related reuse limitations.
+----------- Scrutiny -----------
+SCORE: 4 (understood all details and double-checked the available resources)
+----------- Reviewer Expertise -----------
+SCORE: 3 (Familiar: I am somewhat familiar with this topic but do not have in-depth expertise.)
+
+
+----------------------- REVIEW 3 ---------------------
+
+SUBMISSION: 214
+TITLE: OpeNTF2: Fairness-aware Graph Neural Team Formation
+
+----------- Novelty -----------
+SCORE: 4 (good)
+----- TEXT:
+The resource extends the previously released OpeNTF framework with several new capabilities, including fairness-aware reranking, graph neural network–based team formation, sequence-to-sequence modeling, and temporal training strategies. These capabilities are not individually novel algorithms, but integrating them into a single modular framework for neural team formation research is useful.
+----------- Availability -----------
+SCORE: 4 (good)
+----- TEXT:
+The resource is publicly available via a GitHub repository, with installation instructions, configuration files, and example scripts. The licensing terms (CC BY-NC-SA) allow academic use, and the repository appears consistent with what is described in the paper. The paper also provides example commands and links to notebooks demonstrating different components of the framework.
+----------- Utility -----------
+SCORE: 4 (good)
+----- TEXT:
+The framework appears reasonably well engineered and includes several useful features for researchers, like, modular architecture for integrating different models, support for multiple datasets, configuration management, evaluation metrics, example commands and notebooks.
+----------- Potential Impact -----------
+SCORE: 4 (good)
+----- TEXT:
+The framework supports research on team formation, expert recommendation, and social information retrieval, which is an established but specialized area of IR research. The paper provides a unified platform that integrates multiple modeling paradigms and fairness-aware evaluation, thus, the resource could facilitate comparative experiments and reproducibility in this area.
+
+The impact will likely be concentrated within the team formation and social IR community, but within that community the framework could become a useful benchmark environment.
+----------- Overall Recommendation -----------
+SCORE: 2 (Accept)
+----------- Detailed Comments to Authors -----------
+This paper presents OpeNTF2, an extension of the previously released OpeNTF framework for neural team formation that integrates several modeling paradigms—including fairness-aware reranking, graph neural networks, sequence-to-sequence modeling, and temporal training strategies—within a single modular platform.
+
+The main strength of the submission is the engineering and integration effort. The framework combines multiple modeling approaches and datasets within a unified toolkit and appears to provide useful infrastructure for experimentation in team formation and expert recommendation. The inclusion of fairness-aware reranking and fairness evaluation metrics is also a valuable addition, as fairness considerations are not commonly supported in existing team formation libraries.
+
+Given the 6-page limit of the resource track, it is understandable that the paper cannot provide extensive evaluation or full documentation within the paper itself. In this context, the concise presentation of the architecture, supported models, and example usage commands is appropriate. The availability of the code repository and example scripts further strengthens the resource.
+
+One suggestion would be to clarify the main novelty of this release relative to the earlier OpeNTF framework and highlight the specific capabilities that distinguish OpeNTF2. Emphasising the intended research workflows and typical use cases could also help readers understand how the toolkit supports future work in this area.
+
+Overall, the framework appears to be a useful resource for researchers studying neural team formation.
+----------- Scrutiny -----------
+SCORE: 3 (carefully, but haven't checked all details)
+----------- Reviewer Expertise -----------
+SCORE: 3 (Familiar: I am somewhat familiar with this topic but do not have in-depth expertise.)
