@@ -1,0 +1,22 @@
+Date: Thu, 14 May 2026 10:29:54 +0200
+From: "RecSys 2026" <recsys2026@easychair.org>
+To: Hossein Fani <hosseinfani@gmail.com>
+Subject: Your RecSys 2026 tutorial proposal 873 has been accepted
+Sender: recsys2026@easychair.org
+
+Dear Mahdis Saeedi, Hossein Fani,
+
+We are happy to inform you that your tutorial proposal titled Beyond Searching a Village: Learning to Recommend Diverse and Successful Collaborative Teams has been accepted to be presented at RecSys 2026!
+
+We will contact you soon with several emails covering more details about:
+- The text (summary and organizers) to be included on the conference website
+- The preparation of tutorial materials and an online tutorial page
+- The official tutorial abstract (to be published in the proceedings)
+- Conference registration requirements
+- Your tutorial time slot (we aim to grant each tutorial the amount of time they requested)
+
+Please do not hesitate to reach out if you have questions!
+
+Best wishes and congratulations,
+Maurizio Ferrari Dacrema and Kim Falk
+Tutorial Co-Chairs
