@@ -459,7 +459,7 @@ h3 {
   margin-left: 3rem;
 }
 .icon {
-  width: 130px;
+  width: 100px;
   position: absolute;
   top: -54px;
 }
@@ -467,7 +467,7 @@ h3 {
   width: 45%;
   position: absolute;
   right: 0;
-  top: 50px;
+  top: 15px;
 }
 .text-one p {
   width: 397px;
